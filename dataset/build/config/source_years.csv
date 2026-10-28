@@ -1,0 +1,159 @@
+source_folder,base_year,year_used,latest_available,on_box,note
+classifications,2022,n/a,n/a,yes,classification lists (region and sector sets are fixed across base years)
+classifications,2017,n/a,n/a,yes,same sets as 2022 (validation build uses the 2022 region and sector lists)
+unsd_hs_correlation,2022,n/a,n/a,yes,classification (HS2022->HS2017 conversion)
+unsd_hs_correlation,2017,n/a,n/a,yes,classification; HS22 route not needed for 2017 (BACI HS17 2017 file)
+gtap_hs_concordance,2022,n/a,n/a,yes,classification (GTAP HS->GSEC3)
+gtap_hs_concordance,2017,n/a,n/a,yes,classification
+baci,2022,2022,2022,yes,BACI_HS17_Y2022_V202601.csv in BACI_HS17_V202601.zip
+baci,2017,2017,2017,yes,BACI_HS17_Y2017_V202601.csv in the same zip
+oecd_wto_batis,2022,2022,2022,yes,ebops2022.csv
+oecd_wto_batis,2017,2017,2017,NO,BaTIS covers 2005-2023 at source (Aguiar et al. 2025 p.13) but only ebops2022.csv is on disk: fetch ebops2017
+oecd_itic,2022,2022,2022,yes,ITIC_total_2022.csv (holds 2021 and 2022)
+oecd_itic,2017,2017,2017,NO,only 2021-2022 on disk: fetch ITIC 2017
+oecd_icio,2022,2022,2022,yes,2022_SML.csv
+oecd_icio,2017,2017,2017,yes,2017_SML.csv
+unsd_ama,2022,2022,2022,yes,expenditure_2022.csv; gva_gdp_current_usd.csv (1970-2022)
+unsd_ama,2017,2017,2017,NO,expenditure components only for 2022 on disk (GDP and per-capita GDP 1970-2022 are on disk): fetch AMA expenditure 2017
+wto_tismos,2022,2022,2022,yes,TiSMoS 2005-2022
+wto_tismos,2017,2017,2017,yes,TiSMoS 2005-2022
+wdi,2022,2022,2022,yes,wdi_2017_2022_extract.csv; wdi_accounts.csv (2017 and 2022)
+wdi,2017,2017,2017,yes,same files
+pwt,2022,2022,2022,yes,pwt110_ky_labsh.csv (2017-2022)
+pwt,2017,2017,2017,yes,same file
+imf_icsd,2022,2019,2019,yes,ICSD 2021 release: data to 2019; rolled forward to 2022 (PLAN (h) step 2)
+imf_icsd,2017,2017,2017,yes,data to 2019 covers 2017 directly
+dgbas_twn,2022,2022,2022,yes,dgbas_gdp_expenditure_2022_extract.csv; na8102a5a XML (TWN capital roll 2019-2022, David 22:31); dgbas_twn_gni_2021.csv (prior-year rate for the parity check)
+dgbas_twn,2017,2017,2017,NO,raw XML na8102a5a (1981-2025) is on disk but the 2017 extract and the 2016 GNI/rate file are not: re-extract
+unsd_ama_nc,2022,2022,2022,yes,AMA national currency 1970-2024 (ARE GFCF for the capital roll 2019-2022; David 22:31)
+unsd_ama_nc,2017,2017,2017,yes,same files
+cbc_twn_fx,2022,2022,2022,yes,BP01Y01 1960-latest
+cbc_twn_fx,2017,2017,2017,yes,same file
+kosis_lalfs,2022,2022,2022,yes,DT_1ES3B33S: mean of 2022 H1 and H2 (shares; EAPS/ILOSTAT totals as controls)
+kosis_lalfs,2017,2017,2017,yes,same file: 2017 H1 and H2
+twn_manpower,2022,2022,2022,yes,DGBAS 2022 Table 49 (7 groups) and MoL c2100 totals
+twn_manpower,2017,2017,2017,NO,c2100 has annual averages 2011 onward; Table 49 is 2022 only: fetch the 2017 annual report table
+statcan_labour,2022,2021,2021,yes,98-10-0456 is the 2021 Census (latest at or before 2022); 14-10-0416 gives 2022 totals
+statcan_labour,2017,2016,2016,NO,98-10-0456 is 2021 only: the 2016 Census table is needed for 2017; 14-10-0416 covers 2017
+gastat_lms,2022,2022,2022,yes,register-based LMS Q4 2022 (margins only)
+gastat_lms,2017,2017,2017,NO,only Q4 2022 on disk
+faostat_qv,2022,2022,2022,NO,Value_of_Production_E_All_Data_Normalized.zip element 57 (fetched on the VM)
+faostat_qv,2017,2017,2017,NO,same zip
+hk_trade_idds,2022,2022,2022,NO,C&SD Trade-IDDS 2022 annual re-exports (shares only; not copied as levels; fetched on the VM, not a committed box file)
+singstat,2022,2022,2022,NO,SingStat M451521 total exports and M451501 domestic exports, 2022 monthly, summed (fetched on the VM, not a committed box file)
+cbs_85429ned,2022,2022,2022,NO,CBS OData 85429NED cross-border goods, period 2022JJ00 (fetched on the VM, not a committed box file)
+restcountries,2022,n/a,n/a,NO,mledoze/countries name list for SingStat partner matching; not a vintage (fetched on the VM, not a committed box file)
+census_statehs_2022,2022,2022,2022,yes,US Census International Trade statehs CY2022 PR and VI, HS6, country rows, USD million (public extract; no API key stored)
+census_state_trade_2022,2022,2022,2022,yes,US Census International Trade statehs CY2022 PR and VI raw JSON, time=2022-12, HS6 (public extract; fetch script reads CENSUS_API_KEY from the environment and is not run by the stage)
+census_imports_hs_2022,2022,2022,2022,yes,US Census imports/hs time=2022-12 HS6 world and HS2 by CTY_CODE; public extract fetched 2026-10-21 (no API key stored)
+oecd_pse,2022,2022,2022,yes,OECD MONEVA 2022 USD; CPC_EX_TO budgetary transfers
+oecd_grs,2022,2022,2022,yes,DF_RSGLOBAL PT_B1GQ S13 2017-2022; stage uses the latest year at or before 2022
+imf_world,2022,2022,2022,yes,WoRLD 2017-2022 percent of GDP; refetched 2026-10-21 (sha 2d5f24a9)
+wto_export_subsidies,2022,2022,2022,yes,latest AG-IMS notification at or before 2022; earlier reporter years are flagged in the stage
+trains_internal,2022,2022,2022,yes,v3.8 parent and MFN archives; Libya 2021 and the Zambia 2021 AVE fallback sit in this 2022 folder
+customs_collected_internal,2022,2022,2022,yes,customs collections for 2022; WDI 2021 rows are flagged in the stage
+usitc_hts_2022,2022,2022,2022,yes,HTS 2022 revision 12
+census_imdb_2022,2022,2022,2022,yes,Census IMDB CY2022 HS6 summary; report only
+wits_trains_pref_2022,2022,2022,2022,yes,public WITS preference extract fetched 2026-10-21; each importer uses 2022 or the latest earlier year (preference_source_years.csv)
+trains_pref_2022_supp,2022,2022,2022,yes,WITS bulk job 3187139 Preferential Rates Including AVE fetched 2026-10-21; latest year per importer-partner, and the 2021 AVE file replaces the API simple average for ARE KWT and KHM
+panama_tpa_2022,2022,2022,2022,yes,US-Panama TPA year 11 (2022) and the BACI 2022 quota fill
+wits_trains_bulk_2017_2022,2022,2022,2022,yes,WITS TRAINS preferential and MFN AVE bulk 2017-2022; year used is 2022 else the latest earlier year inside the files
+wits_trains_ave_earlier,2022,2016,2016,yes,SDMX AVEs 2014-2016 for the class-A cross-check; latest file year is 2016
+wits_trains_sdmx,2022,2016,2016,yes,Tunisia TRAINS 2016 reported MFN refetched 2026-10-22; Finance Law 2018 art. 39 is applied in the rebuild
+tkm_resolution_9925,2022,2008,2008,yes,Public page of Resolution 9925; no rate table; named exception
+malaysia_fta_schedules,2022,n/a (legal text),n/a,yes,Malaysia preferential schedules (treaty and gazette text); the 2022 rate is read from each schedule's year columns (S10 mys_preference_schedules)
+ncl_customs_tariff,2022,n/a (legal text),n/a,yes,New Caledonia customs tariff consolidated 1 January 2023; no 2022 consolidation published (S10 ncl_schedule flags it)
+tunisia_turkey_fta,2022,n/a (legal text),n/a,yes,Türkiye–Tunisia FTA text and protocols (WTO RTA 35)
+eia_intl,2022,2022,2022,yes,"INTL bulk annual series for 2022 (INTL.txt from INTL.zip, SHA in MANIFEST)"
+eia_intl,2017,2017,2017,yes,same bulk file contains 2017; the energy prep builds 2022 only
+jodi,2022,2022,2022,yes,"JODI oil primary, oil secondary and gas world files, months of 2022"
+jodi,2017,2017,2017,yes,same files contain 2017; the energy prep builds 2022 only
+ei_statistical_review,2022,2022,2022,yes,"EI Statistical Review 2025 workbook, 2022 columns (cross-check; S11 crude markers and refining margins)"
+ei_statistical_review,2017,2017,2017,yes,same workbook contains 2017
+unsd_energy,2022,2022,2022,yes,UNdata DF_UNDATA_ENERGY 2022 extract
+unsd_energy,2017,2017,2017,NO,only the 2022 extract is in the repo
+eia_prices,2022,2022,2022,yes,EIA spot price annual series (WTI/Brent hub check; Mont Belvieu propane for NGPL); 2022 annual row
+eia_prices,2017,2017,2017,yes,same annual series contain 2017
+wb_pinksheet,2022,2022,2022,yes,World Bank CMO historical annual; 2022 column (report-only price cross-check)
+wb_pinksheet,2017,2017,2017,yes,same workbook contains 2017
+eia_us_2022,2022,2022,2022,yes,EIA Monthly Energy Review annual rows 202213 (report-only US scrutiny)
+eia_us_2022,2017,2017,2017,NO,folder holds the 2022 fetch; MER tables carry 2017 too but the folder is named for 2022
+iea_subsidies,2022,2022,2022,yes,IEA fossil-fuel subsidies 2010-2024 file; 2022 column (cross-check ratio only)
+iea_subsidies,2017,2017,2017,yes,same file contains 2017
+eurostat_energy_prices,2022,2022,2022,yes,nrg_pc_203 gas and nrg_pc_205 electricity non-household; 2022-S1 and 2022-S2 (X_TAX = basic price)
+eurostat_energy_prices,2017,2017,2017,yes,same files hold 2017-S1 and 2017-S2
+eia_us_prices_2022,2022,2022,2022,yes,ACR 2022 coal prices (tables 28 and 31); EPA 2022 electricity prices; dnav gas prices by state (wellhead ends 2012)
+eia_us_prices_2022,2017,2017,2017,yes,dnav gas and avgprice_annual electricity carry 2017; ACR 2017 coal not fetched
+wdi_us_deflator,2022,2022,2022,yes,US GDP deflator and CPI 2015-2024; 2022 is the year used; the 2024 value is read only as the IEA real-2024 price base (ratio 2022/2024)
+wdi_us_deflator,2017,2017,2017,yes,same file contains 2017
+statcan_ng_distribution,2022,2022,2025,yes,StatCan 25-10-0059 gas distribution CAD and GJ by province and sector; delivered price not AECO-C (AECO-C hosts blocked)
+statcan_ng_distribution,2017,2017,2025,yes,same file contains 2017
+aer_st98_prices,2022,2022,2022,yes,AER ST98 Table S1.2 AECO-C annual average 5.10 Cdn$/GJ (actual); later years are forecasts
+aer_st98_prices,2017,n/a,2023,yes,2017 not in the 2023/2024 workbooks (earliest year 2021)
+ndrc_coal_contract_2022,2022,2022,2022,yes,NDRC Notice 303 contract thermal coal range (570-770 RMB/t 5500 kcal Qinhuangdao; mine-gate by province); a policy range not an observed average; effective 2022-05-01
+ndrc_coal_contract_2022,2017,n/a,2022,yes,policy introduced in 2022; no 2017 equivalent
+nbs_yearbook_2023_coal,2022,2022,2022,yes,NBS yearbook 2023 coal mining revenue 40729.4 (100m yuan) / raw coal 45.59 (100m t) = 893 RMB/t ex-VAT observed unit value
+nbs_yearbook_2023_coal,2017,2017,2022,NO,2017 needs the China Statistical Yearbook 2018 (not fetched)
+figaro_va,2022,2022,2022,yes,figaro_va_2022.json (NAIO_10_FCP_II4)
+figaro_va,2017,2017,2017,yes,figaro_va_2017.json (NAIO_10_FCP_II2)
+oecd_na_table6,2022,2022,2022,yes,oecd_table6_activity_2017_2022.csv.gz; S12 takes each country's latest year at or before 2022 with D1 and B2A3G (year per country in va_sources_s12.csv)
+oecd_na_table6,2017,2017,2017,yes,same file; latest year at or before 2017
+wdi_rents_2021,2022,2021,2021,yes,WDI natural-resource rents (% of GDP) end in 2021 at source (lastupdated 2026-10-08; no 2022 value for any country)
+wdi_rents_2021,2017,2017,2017,yes,same files hold 2011-2021
+wdi_ag_2022,2022,2022,2022,yes,arable land per person and GDP per capita 2011-2022 (ch.14A SUR regressors; fit on 2011-2020 means)
+wdi_ag_2022,2017,2017,2017,yes,same files
+ilostat,2022,2022,2022,yes,"S12 ch.14B windows per country: base year, else the three latest consecutive common years, else the two latest, never after 2022 (window per country in labour_countries_s12.csv)"
+ilostat,2017,2017,2017,yes,same files; windows never after 2017
+usda_ers,2022,2022,2022,yes,usda_ag_cost_shares.csv: Fuglie 2021-2030 decade cost shares stored as 2022 (2011-2020 stored as 2017)
+usda_ers,2017,2017,2017,yes,same file (2011-2020 decade)
+hk_csd_digest,2022,2022,2022,yes,"C&SD Annual Digest of Statistics 2023, Table 3.1: 2022 imports and retained imports (S07 retained-import step)"
+oecd_neer,2022,2021,2021,yes,"OECD DF_NEERS has 2018, 2021 and 2023; the latest at or before 2022 is 2021 (S10 energy_tax_year neer_2021). The 2023 rows in neers_2021_2023.csv are not used for the 2022 base (S10-Hneeryear)"
+oecd_neer,2017,n/a (no NEERS year at or before 2017 in the file),n/a,yes,"neers_2021_2023.csv holds 2021 and 2023 only; the 2017 validation build has no NEERS year"
+eurostat_energy_prices_households,2022,2022,2022,yes,nrg_pc_202 gas and nrg_pc_204 electricity households 2022-S1 and 2022-S2 (S10-Renergyeu report-only)
+eurostat_energy_prices_households,2017,n/a (folder holds 2022 only),n/a,NO,folder holds the 2022 fetch only
+wto_tpr,2022,n/a (legal text),n/a,yes,"WTO Trade Policy Review reports; each row of config/s10/export_tax_products_2022.csv cites the export duty in force in 2022 (report, table, page)"
+eia_us_motor_fuel_taxes,2022,2022,2022,yes,"PMM motor fuel tax sheets January 2022 and July 2022 (revised); MER T3.7c 2022 annual rows (S10 energy_tax_usa)"
+eia_us_motor_fuel_taxes,2017,2017,2017,NO,"the PMM file has January and July 2017 sheets and MER has 2017; not wired for the 2017 build"
+eia_foks,2022,2020,2020,yes,"EIA FOKS distillate sales by end use; survey suspended, 2020 is the last year published (on-highway share of transportation distillate, S10 energy_tax_usa)"
+eia_foks,2017,2017,2017,yes,same page holds 2015-2020
+bea_sut,2022,2022,2022,yes,bea_use_sut_summary_va_2017_2023.csv (BEA SUT 2024 comprehensive update); S12 uses the 2022 rows (USA D29X39)
+bea_sut,2017,2017,2017,yes,bea_use_sut_summary_va_2017_2023.csv; the 2017 rows for the 2017 base year
+oecd_nasec_table14,2022,2022,2022,yes,DF_TABLE14 S1 and S13 D21 D29 D3 D31 D39 2017-2022; S12 uses 2022 (D29X39 national totals)
+oecd_nasec_table14,2017,2017,2017,yes,DF_TABLE14 2017-2022; the 2017 rows for the 2017 base year
+imf_gfs,2022,2022,2022,yes,"IMF GFS_SOO, S13: G1152 taxes on exports (national currency; S10-Rxtaxrev, report only) and Gulf income taxes and social contributions (percent of GDP; S10 income_tax_source); 2017-2023 fetched, 2022 used, the latest at or before 2022"
+imf_gfs,2017,2017,2017,yes,same file holds 2017-2023; not wired for the 2017 build
+wto_agims_trq,2022,2022,2022,yes,"WTO AG-IMS Table MA:2 tariff-quota fills, implementation year 2022 (S10 trq_outside_kor_pan); 2019-2023 in the extract"
+wto_agims_trq,2017,n/a (not wired for the 2017 build),2023,yes,extract starts in 2019
+oecd_export_restrictions,2022,2022,2022,yes,"OECD Inventory of Export Restrictions on Industrial Raw Materials, 2022 records (CHN rates in config/s10/export_tax_rates_2022.csv)"
+oecd_export_restrictions,2017,n/a (folder holds 2022 only),n/a,NO,folder holds the 2022 fetch only
+export_duty_schedules_2022,2022,2022,2022,yes,"export-duty regimes in force in 2022 (RUS, IND, CHN) with legal basis and dates; derived_aves_2022.csv"
+export_duty_schedules_2022,2017,n/a (folder holds 2022 only),n/a,NO,2022 regimes only
+vat_statutory,2022,2022,2022,yes,"OECD CTT 2024 schedules with 2017 and 2022 rows for 38 countries; S10 product_tax_pattern takes each country's latest year at or before 2022"
+vat_statutory,2017,2017,2017,yes,same file holds the 2017 schedules
+eurostat_naio_product_taxes,2022,2022,2022,yes,"naio_10_cp15 D21X31 2015-2022; every country with a 2022 table uses 2022 (all EU-27, NOR, ALB, SRB, MKD); S10 product_tax_pattern control"
+eurostat_naio_product_taxes,2017,2017,2017,yes,same file holds 2017
+nbs_census_chn,2022,2020,2020,yes,"2020 Population Census long-form tables 4-4 and 4-6 (latest census at or before 2022); S12 B-02 CHN occupation and industry margins"
+nbs_census_chn,2017,2010,2010,NO,"the 2010 census tables are needed for 2017 (not fetched); S12 keeps the ILOSTAT/F16c rule"
+hk_censtatd,2022,2022,2022,yes,"C&SD 210-06308 annual 2022 (S12 B-02 HKG occupation x industry)"
+hk_censtatd,2017,2017,2017,yes,"same file: annual 2017"
+qatar_lfs,2022,2022,2022,yes,"PSA LFS economically active by occupation and activity, 2022 (S12 B-02 QAT)"
+qatar_lfs,2017,2017,2017,yes,"same file: 2017"
+eurostat_gas_trade,2022,2022,2022,yes,nrg_ti_gas and nrg_te_gas 2022 natural gas by partner (S11 gas_import_origin; Fable QA D-02)
+eurostat_gas_trade,2017,n/a (folder holds 2022 only),n/a,NO,folder holds the 2022 fetch only
+un_comtrade_rx_2022,2022,2022,2022,yes,UN Comtrade 2022 energy exports and re-exports to the world (S11 reexport_removal; Fable QA D-04)
+un_comtrade_rx_2022,2017,n/a (folder holds 2022 only),n/a,NO,folder holds the 2022 fetch only
+imf_weo,2022,2022,2022,yes,WEO October 2026 GDP current USD 2017-2023 (beta v5 Y: S02 GDP where WDI lacks the year and the UN AMA series is an imputation)
+imf_weo,2017,2017,2017,yes,same files
+unsd_sna_coicop,2022,2022,2022,yes,UN SNA table 3.2 ZAF HFCE by purpose 2022 (beta v5 H: S03 cap on household education and health)
+unsd_sna_coicop,2017,n/a,n/a,NO,2022 only on disk; a 2017 build runs H with household_employers_va = hfce_to_pq or off
+unsd_sna_official,2022,2022,2022,yes,UN SNA table 1.1 CUB 2021-2024 (beta v5: S02 Cuba GDP at the official rate)
+unsd_sna_official,2017,n/a,n/a,NO,2021-2024 only on disk; a 2017 build runs gdp_lcu_official_rate = off
+un_comtrade_metals_2022,2022,2022,2022,yes,UN Comtrade 2022 HS 7108 and 7403 exports to World by reporter (S07 gold_reexport metal re-export; beta v5 G)
+un_comtrade_metals_2022,2017,n/a (folder holds 2022 only),n/a,NO,folder holds the 2022 fetch only
+un_comtrade_import_floor_2022,2022,2022,2022,yes,UN Comtrade 2022 imports by partner and HS2 reported by CHN and MEX (S07 importer_floor; beta v5 B)
+un_comtrade_import_floor_2022,2017,n/a (folder holds 2022 only),n/a,NO,folder holds the 2022 fetch only
+nbb_bel_trade_2022,2022,2022,2022,NO,NBB 2022 goods exports by HS2 on the national and community concepts (S07 reexport_rx_usa_bel = usa_bel_nbb; beta v5 T2); not on disk yet (the switch stays off until it arrives)
+un_comtrade_partner_x_2022,2022,2022,2022,yes,UN Comtrade 2022 total exports to World by reporter (S07 importer_floor_partner_cap; beta v5 B follow-up)
+un_comtrade_partner_x_2022,2017,n/a (folder holds 2022 only),n/a,NO,folder holds the 2022 fetch only
+wdi_bop,2022,2022,2022,yes,WDI BoP goods and services exports/imports 2022 (BX/BM.GSR.MRCH.CD and NFSV.CD; lastupdated 2026-10-08); S16 trade-check comparison only (beta v5 TC)
+wdi_bop,2017,n/a (folder holds 2022 only),n/a,NO,folder holds the 2022 fetch only

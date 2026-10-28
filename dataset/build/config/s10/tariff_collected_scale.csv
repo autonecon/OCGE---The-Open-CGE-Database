@@ -1,0 +1,5 @@
+importer,sector,reason,source
+CHE,crp,"Swiss agricultural tariff quotas: out-of-quota MFN rates booked on all trade, while most imports enter in quota or duty free (booked 3.78 bn against 1.28 bn collected in v4; crp and fbt are 95% of the booked duty)",OECD GRS T_5123 2022 (data/customs_collected_internal/customs_collected_2022.csv)
+CHE,fbt,"as CHE crp",OECD GRS T_5123 2022
+TUR,crp,"Turkish cereal and feed tariff quotas and inward-processing (DIIB) duty-free imports: booked 12.05 bn against 4.78 bn collected in v4; crp and fbt are 47% of the booked duty",OECD GRS T_5123 2022
+TUR,fbt,"as TUR crp",OECD GRS T_5123 2022

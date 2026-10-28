@@ -1,0 +1,11 @@
+source: OECD International Transport and Insurance Costs of merchandise trade (ITIC)
+license: OECD data terms, commercial reuse with attribution. OECD's default data licence from 1 July 2024 is CC BY 4.0. The ITIC dataset page states no further restriction.
+license_url: https://www.oecd.org/en/about/terms-conditions.html
+dataset_url: https://www.oecd.org/en/data/datasets/international-transport-and-insurance-costs-of-merchandise-trade-itic.html
+query_2709: https://sdmx.oecd.org/sti-public/rest/data/OECD.SDD.TPS,DSD_ITIC@DF_ITIC,1.1/..C_F.C.HS17_2709.A.PT_IM_CIF
+query_2711: https://sdmx.oecd.org/sti-public/rest/data/OECD.SDD.TPS,DSD_ITIC@DF_ITIC,1.1/..C_F.C.HS17_2711.A.PT_IM_CIF
+accessed: 2026-10-19
+attribution: OECD (2026), International transport and insurance costs of merchandise trade (ITIC), https://www.oecd.org/en/data/datasets/international-transport-and-insurance-costs-of-merchandise-trade-itic.html (accessed 2026-10-19).
+file: itic_hs_energy_margin.csv
+contents: importer, exporter, year, hs, margin_cif. margin_cif is (CIF-FOB)/CIF as a fraction. The SDMX OBS_VALUE is that ratio in percent (KOR from SAU, 2022, total merchandise 6.92347397502685, matching itic_total_margin.csv 0.0692347397502685). This file divides by 100. hs 2709 is HS17_2709, petroleum oils, crude. hs 2711 is HS17_2711, petroleum gases and other gaseous hydrocarbons. Years 2017 and 2022 only. PRODUCT_TYPE=C, UNIT_MEASURE=PT_IM_CIF, MEASURE=C_F. The pair-total file is not applied to these two commodities. A pair with no HS row is left without a margin rather than filled from the total-merchandise rate.
+codelist: OECD CL_PRODUCT_HS2017, codes HS17_2709 and HS17_2711, confirmed in DSD_ITIC 1.1.

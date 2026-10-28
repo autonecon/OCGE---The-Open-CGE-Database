@@ -1,0 +1,38 @@
+United Nations Statistics Division, National Accounts Main Aggregates Database.
+GDP and gross value added by kind of economic activity, current prices, US dollars.
+Retrieved 2026-10-19 from the AMA API:
+  https://unstats.un.org/unsd/amaapi/api/Data/basic/2
+  https://unstats.un.org/unsd/amaapi/api/Data/basic/5
+  https://unstats.un.org/unsd/amaapi/api/Data/basic/22
+Database home: https://unstats.un.org/unsd/snaama/
+Series: GDP at current prices in US dollars (serie 2); per capita GDP in US dollars
+(serie 5); value added by economic activity at current prices in US dollars (serie 22).
+
+The activity items are the AMA labels, which use ISIC Rev. 3 section letters:
+  10 Agriculture, hunting, forestry, fishing (ISIC A-B)
+  11 Mining, Manufacturing, Utilities (ISIC C-E)
+  12 Manufacturing (ISIC D)
+  13 Construction (ISIC F)
+  14 Wholesale, retail trade, restaurants and hotels (ISIC G-H)
+  15 Transport, storage and communication (ISIC I)
+  16 Other Activities (ISIC J-P)
+  17 Total Value Added
+Item 12 is inside item 11. A blank cell was not published for that country-year.
+It is not stored as zero.
+
+Country codes are ISO3 as used in EXIOBASE 3rx, joined to AMA M49 codes from the
+UNSD M49 overview (https://unstats.un.org/unsd/methodology/m49/overview), except:
+  KSV Kosovo, AMA 412 (no ISO3 on the M49 table)
+  ANT Former Netherlands Antilles, AMA 530, last year 2009
+  PAL State of Palestine, AMA 275
+  TZA United Republic of Tanzania: Mainland, AMA 835
+  EAZ Zanzibar, AMA 836
+Taiwan (TWN) is not on the AMA country list. It is an OECD ICIO country, so the
+rest-of-world opening does not size it from this file.
+
+match_region is the 15-region grouping in Corong, GTAP 10 Data Base Documentation,
+Chapter 8.E, section 8.E.3 and Table 8.E.3. Iran is listed there under both
+Southern Asia and Western Asia; the file keeps the first listing, Southern Asia.
+South Sudan, Montenegro, Kosovo, Curaçao, and Sint Maarten are not in that table;
+they sit with Sudan, Serbia and Montenegro, and the former Netherlands Antilles.
+File: gva_gdp_current_usd.csv. Values are US dollars, not millions.

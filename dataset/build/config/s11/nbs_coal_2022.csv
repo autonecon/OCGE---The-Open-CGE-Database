@@ -1,0 +1,3 @@
+item,table,row,value,unit,decided_by,decided_at,basis
+revenue,13-2,煤炭开采和洗选业 营业收入,40729.4,100 million RMB,Claude (S11 thread),2026-10-23,"China Statistical Yearbook 2023 table 13-2 (2022, industrial enterprises above designated size), data/nbs_yearbook_2023_coal/C13-02.jpg. NBS publishes the table only as an image; transcribed by the download helper and checked against the image by the S11 thread."
+raw_coal_output,13-12,原煤,45.59,100 million t,Claude (S11 thread),2026-10-23,"China Statistical Yearbook 2023 table 13-12 (2022 column), data/nbs_yearbook_2023_coal/C13-12.jpg. Transcribed by the download helper and checked against the image by the S11 thread."

@@ -1,0 +1,5 @@
+code,parent,reason,reference
+EAZ,TZA,"WDI TZA is the United Republic (mainland + Zanzibar); UNSD AMA reports TZA as Mainland and Zanzibar separately (AMA TZA 74,172 + EAZ 2,345 = 76,517 vs WDI TZA 75,749 USD m). Using WDI TZA and AMA EAZ would count Zanzibar twice, so EAZ macro is zero (contained in TZA). GTAP Table 9.10 has no separate Zanzibar.","GTAP 12 ch.9D Table 9.10; UNSD AMA expenditure_2022.csv; WDI NY.GDP.MKTP.CD"
+ANT,CUW,"Netherlands Antilles was dissolved in 2010; no 2022 accounts",rest_of_notes.md
+GGY,CHI,WDI reports the Channel Islands combined (CHI = Guernsey + Jersey); GGY accounts are zero to avoid double counting,WDI country metadata (CHI); GTAP 12 ch.9D Table 9.10
+JEY,CHI,WDI reports the Channel Islands combined (CHI = Guernsey + Jersey); JEY accounts are zero to avoid double counting,WDI country metadata (CHI); GTAP 12 ch.9D Table 9.10

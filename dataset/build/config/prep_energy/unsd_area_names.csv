@@ -1,0 +1,11 @@
+code,name,note
+251,France incl. Monaco,CL_AREA_NRG combination. Not added on top of FRA.
+382,Italy and San Marino,CL_AREA_NRG combination. Not added on top of ITA.
+412,Kosovo,CL_AREA_NRG. S01 uses KSV, which is not an ISO numeric code, so this UNSD area is not joined. EIA Kosovo is XKS, mapped to KSV.
+579,Norway including Svalbard and Jan Mayen Islands,CL_AREA_NRG combination. Not added on top of NOR.
+663,Saint Martin (French Part),CL_AREA_NRG. Not in the S01 map as this numeric code.
+757,Switzerland-Liechtenstein,CL_AREA_NRG combination. Not added on top of CHE.
+831,Guernsey,CL_AREA_NRG territory.
+832,Jersey,CL_AREA_NRG territory.
+833,Isle of Man,CL_AREA_NRG territory.
+850,United States Virgin Islands,CL_AREA_NRG. Same hold-out as EIA VIR.

@@ -1,0 +1,9 @@
+source: OECD International Transport and Insurance Costs of merchandise trade (ITIC)
+license: OECD data terms, commercial reuse with attribution. OECD's default data licence from 1 July 2024 is CC BY 4.0. The ITIC dataset page states no further restriction.
+license_url: https://www.oecd.org/en/about/terms-conditions.html
+dataset_url: https://www.oecd.org/en/data/datasets/international-transport-and-insurance-costs-of-merchandise-trade-itic.html
+query: https://sdmx.oecd.org/sti-public/rest/data/OECD.SDD.TPS,DSD_ITIC@DF_ITIC,1.1/..C_F.C._T.A.PT_IM_CIF
+accessed: 2026-10-15
+attribution: OECD (2026), International transport and insurance costs of merchandise trade (ITIC), https://www.oecd.org/en/data/datasets/international-transport-and-insurance-costs-of-merchandise-trade-itic.html (accessed 2026-10-15).
+file: itic_total_margin.csv
+contents: importer, exporter, year, margin_cif. margin_cif is (CIF-FOB)/CIF as a fraction, for total merchandise (COMM_HS2017=_T, PRODUCT_TYPE=C, UNIT_MEASURE=PT_IM_CIF), years 2017 and 2022. The OECD series mixes reported observations and OECD model estimates; the methodology code is not copied into this extract. The full HS bulk file was not stored.

@@ -1,0 +1,5 @@
+# The independent HAR reader the S15 checks run in their own environment (S15_HARPY_PYTHON):
+#   python3 -m venv <dir> && <dir>/bin/pip install -r requirements-s15-reader.txt
+# harpy uses numpy.chararray, which numpy 2.3 removed, so numpy is pinned below the build's 2.5.3.
+harpy3==0.3.1
+numpy==2.2.6

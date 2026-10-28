@@ -1,0 +1,240 @@
+source,dim,source_code,target,basis
+dgbas_table49,occ,"Legislators, Senior Officials & Managers",1,SOC Rev.6 major group 1 = ISCO-08 1 (DGBAS Table 49 header; FETCH_NOTES)
+dgbas_table49,occ,Professionals,2,SOC Rev.6 major group 2 = ISCO-08 2
+dgbas_table49,occ,Technicians & Associate Professionals,3,SOC Rev.6 major group 3 = ISCO-08 3
+dgbas_table49,occ,Clerical Support Workers,4,SOC Rev.6 major group 4 = ISCO-08 4
+dgbas_table49,occ,Service & Sales Workers,5,SOC Rev.6 major group 5 = ISCO-08 5
+dgbas_table49,occ,"Skilled Agricultural, Forestry & Fishery Workers",6,SOC Rev.6 major group 6 = ISCO-08 6
+dgbas_table49,occ,Craft & Machine Operation Related Workers,7+8+9,"SOC Rev.6 publishes ISCO-08 7, 8 and 9 as one column; all three are in the ag_othlowsk group (Table 14.18), so only the wage prior uses the split"
+dgbas_table49,ind,"Agriculture, Forestry, Fishing & Animal Husbandry",A,SIC Rev.11 section A = ISIC Rev.4 A
+dgbas_table49,ind,Mining & Quarrying,B,SIC Rev.11 B = ISIC B
+dgbas_table49,ind,Manufacturing,C,SIC Rev.11 C = ISIC C
+dgbas_table49,ind,Electricity & Gas Supply,D,SIC Rev.11 D = ISIC D
+dgbas_table49,ind,Water Supply & Remediation Activities,E,SIC Rev.11 E = ISIC E
+dgbas_table49,ind,Construction,F,SIC Rev.11 F = ISIC F
+dgbas_table49,ind,Wholesale & Retail Trade,G,SIC Rev.11 G = ISIC G
+dgbas_table49,ind,Transportation & Storage,H,SIC Rev.11 H = ISIC H
+dgbas_table49,ind,Accommodation & Food Service Activities,I,SIC Rev.11 I = ISIC I
+dgbas_table49,ind,Information & Communication,J,SIC Rev.11 J = ISIC J
+dgbas_table49,ind,Financial & Insurance Activities,K,SIC Rev.11 K = ISIC K
+dgbas_table49,ind,Real Estate Activities,L,SIC Rev.11 L = ISIC L
+dgbas_table49,ind,"Professional, Scientific & Technical Activities",M,SIC Rev.11 M = ISIC M
+dgbas_table49,ind,Support Service Activities,N,SIC Rev.11 N = ISIC N
+dgbas_table49,ind,Public Administration & Defence; Compulsory Social Security,O,SIC Rev.11 O = ISIC O
+dgbas_table49,ind,Education,P,SIC Rev.11 P = ISIC P
+dgbas_table49,ind,Human Health & Social Work Activities,Q,SIC Rev.11 Q = ISIC Q
+dgbas_table49,ind,"Arts, Entertainment & Recreation",R,SIC Rev.11 R = ISIC R
+dgbas_table49,ind,Other Service Activities,S,SIC Rev.11 S = ISIC S
+dgbas_table49,ind,Total,,subtotal row
+dgbas_table49,ind,Industry,,subtotal row (B to F)
+dgbas_table49,ind,Services,,subtotal row (G to S)
+dgbas_table49,ind,nan,,blank label
+censtatd_210_06308,occ,1,1,C&SD occupations follow ISCO-08 (table note; enhanced from Q1 2022 and backcast to 2016)
+censtatd_210_06308,occ,2,2,ISCO-08 2
+censtatd_210_06308,occ,3,3,ISCO-08 3
+censtatd_210_06308,occ,4,4,ISCO-08 4
+censtatd_210_06308,occ,5,5,ISCO-08 5
+censtatd_210_06308,occ,6,7,C&SD 6 Craft and related trades workers = ISCO-08 7
+censtatd_210_06308,occ,7,8,C&SD 7 Plant and machine operators and assemblers = ISCO-08 8
+censtatd_210_06308,occ,8,9,C&SD 8 Elementary occupations = ISCO-08 9
+censtatd_210_06308,occ,9,6,"C&SD 9 Other occupations: skilled agricultural and fishery workers (ISCO-08 6) and others not elsewhere shown; ag_othlowsk either way"
+censtatd_210_06308,ind,1,C,HSIC V2.0 manufacturing = ISIC C
+censtatd_210_06308,ind,2,F,construction = ISIC F
+censtatd_210_06308,ind,3,G,import/export trade and wholesale = ISIC G (46)
+censtatd_210_06308,ind,4.1,G,retail = ISIC G (47); summed with 3
+censtatd_210_06308,ind,4.2,I,accommodation and food services = ISIC I
+censtatd_210_06308,ind,5,H+J,"transportation, storage, postal and courier services, information and communications = ISIC H and J; both sections take the group's occupation mix"
+censtatd_210_06308,ind,6.1,K,financing and insurance = ISIC K
+censtatd_210_06308,ind,6.2,L+M+N,"real estate and professional and business services = ISIC L, M, N; each takes the group's mix"
+censtatd_210_06308,ind,7,O+P+Q+R+S+T,"public administration, social and personal services = ISIC O to T (domestic helpers are in T); each takes the group's mix"
+censtatd_210_06308,ind,8,A+B+D+E,"other industries: agriculture and fishing, mining, electricity and gas, water and waste = ISIC A, B, D, E; each takes the group's mix"
+kosis_dt_1es3b33s,occ,1,1,KSCO 7th major group 1 managers = ISCO-08 1
+kosis_dt_1es3b33s,occ,2,2+3,"KSCO 7th group 2 'professionals and related workers' holds ISCO-08 2 and 3; shared by KOR's own ILOSTAT ISCO-08 employment in the base year"
+kosis_dt_1es3b33s,occ,3,4,KSCO 3 clerks = ISCO-08 4
+kosis_dt_1es3b33s,occ,4,5,KSCO 4 service workers = ISCO-08 5 (services)
+kosis_dt_1es3b33s,occ,5,5,KSCO 5 sales workers = ISCO-08 5 (sales)
+kosis_dt_1es3b33s,occ,6,6,KSCO 6 = ISCO-08 6
+kosis_dt_1es3b33s,occ,7,7,KSCO 7 = ISCO-08 7
+kosis_dt_1es3b33s,occ,8,8,KSCO 8 = ISCO-08 8
+kosis_dt_1es3b33s,occ,9,9,KSCO 9 = ISCO-08 9
+kosis_dt_1es3b33s,ind,A,A,KSIC 10th sections = ISIC Rev.4 sections
+kosis_dt_1es3b33s,ind,B,B,KSIC = ISIC
+kosis_dt_1es3b33s,ind,C,C,KSIC = ISIC
+kosis_dt_1es3b33s,ind,D,D,KSIC = ISIC
+kosis_dt_1es3b33s,ind,E,E,KSIC = ISIC
+kosis_dt_1es3b33s,ind,F,F,KSIC = ISIC
+kosis_dt_1es3b33s,ind,G,G,KSIC = ISIC
+kosis_dt_1es3b33s,ind,H,H,KSIC = ISIC
+kosis_dt_1es3b33s,ind,I,I,KSIC = ISIC
+kosis_dt_1es3b33s,ind,J,J,KSIC = ISIC
+kosis_dt_1es3b33s,ind,K,K,KSIC = ISIC
+kosis_dt_1es3b33s,ind,L,L,KSIC = ISIC
+kosis_dt_1es3b33s,ind,M,M,KSIC = ISIC
+kosis_dt_1es3b33s,ind,N,N,KSIC = ISIC
+kosis_dt_1es3b33s,ind,O,O,KSIC = ISIC
+kosis_dt_1es3b33s,ind,P,P,KSIC = ISIC
+kosis_dt_1es3b33s,ind,Q,Q,KSIC = ISIC
+kosis_dt_1es3b33s,ind,R,R,KSIC = ISIC
+kosis_dt_1es3b33s,ind,S,S,KSIC = ISIC
+kosis_dt_1es3b33s,ind,T,T,KSIC = ISIC
+kosis_dt_1es3b33s,ind,U,,extraterritorial organisations: no sector
+qatar_lfs,occ,"Legislators, Senior Officials and Managers",1,ISCO-88 major group 1 taken one to one (config isco88_harmonisation)
+qatar_lfs,occ,Professionals,2,ISCO-88 2
+qatar_lfs,occ,Technicians and Associate Professionals,3,ISCO-88 3
+qatar_lfs,occ,Clerks,4,ISCO-88 4
+qatar_lfs,occ,Service Workers and Shop and Market Sales Workers,5,ISCO-88 5
+qatar_lfs,occ,Skilled Agricultural and Fishery Workers,6,ISCO-88 6
+qatar_lfs,occ,Craft and Related Trades Workers,7,ISCO-88 7
+qatar_lfs,occ,Plant and Machine Operators and Assemblers,8,ISCO-88 8
+qatar_lfs,occ,Elementary Occupations,9,ISCO-88 9
+qatar_lfs,ind,"Agriculture, forestry and fishing",A,ISIC Rev.4 section name
+qatar_lfs,ind,Mining and quarrying,B,ISIC Rev.4
+qatar_lfs,ind,Manufacturing,C,ISIC Rev.4
+qatar_lfs,ind,"Electricity, gas, steam and air conditioning supply",D,ISIC Rev.4
+qatar_lfs,ind,"Water supply; sewerage, waste management and remediation activities",E,ISIC Rev.4
+qatar_lfs,ind,Construction,F,ISIC Rev.4
+qatar_lfs,ind,Wholesale and retail trade; repair of motor vehicles and motorcycles,G,ISIC Rev.4
+qatar_lfs,ind,Transportation and storage,H,ISIC Rev.4
+qatar_lfs,ind,Accommodation and food service activities,I,ISIC Rev.4
+qatar_lfs,ind,Information and communication,J,ISIC Rev.4
+qatar_lfs,ind,Financial and insurance activities,K,ISIC Rev.4
+qatar_lfs,ind,Real estate activities,L,ISIC Rev.4
+qatar_lfs,ind,"Professional, scientific and technical activities",M,ISIC Rev.4
+qatar_lfs,ind,Administrative and support service activities,N,ISIC Rev.4
+qatar_lfs,ind,Public administration and defence; compulsory social security,O,ISIC Rev.4
+qatar_lfs,ind,Education,P,ISIC Rev.4
+qatar_lfs,ind,Human health and social work activities,Q,ISIC Rev.4
+qatar_lfs,ind,"Arts, entertainment and recreation",R,ISIC Rev.4
+qatar_lfs,ind,Other service activities,S,ISIC Rev.4
+qatar_lfs,ind,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,T,ISIC Rev.4
+qatar_lfs,ind,Activities of extraterritorial organizations and bodies,,section U: no sector
+gastat_lms,occ,Managers,1,Saudi Occupation Classification is based on ISCO-08 (table 3-5 note)
+gastat_lms,occ,Professionals,2,ISCO-08 2
+gastat_lms,occ,Technicians and associate professionals,3,ISCO-08 3
+gastat_lms,occ,Clerical support workers,4,ISCO-08 4
+gastat_lms,occ,Service and sales workers,5,ISCO-08 5
+gastat_lms,occ,"Skilled agricultural, forestry and fishery workers",6,ISCO-08 6
+gastat_lms,occ,Craft and related trades workers,7,ISCO-08 7
+gastat_lms,occ,"Plant and machine operators, and assemblers",8,ISCO-08 8
+gastat_lms,occ,Elementary occupations,9,ISCO-08 9
+gastat_lms,occ,Other Occuption,,not classified: removed as ISCO X (ch.14B p.5)
+gastat_lms,occ,Total,,total row
+gastat_lms,ind,"Agriculture, forestry and fishing",A,Saudi classification based on ISIC Rev.4 (table 3-8 note)
+gastat_lms,ind,Mining and quarrying,B,ISIC Rev.4
+gastat_lms,ind,Manufacturing,C,ISIC Rev.4
+gastat_lms,ind,"Electricity, gas, steam and air conditioning supply",D,ISIC Rev.4
+gastat_lms,ind,"Water supply; sewerage, waste management and remediation activities",E,ISIC Rev.4
+gastat_lms,ind,Construction,F,ISIC Rev.4
+gastat_lms,ind,Wholesale and retail trade; repair of motor vehicles and motorcycles,G,ISIC Rev.4
+gastat_lms,ind,Transportation and storage,H,ISIC Rev.4
+gastat_lms,ind,Accommodation and food service activities,I,ISIC Rev.4
+gastat_lms,ind,Information and communication,J,ISIC Rev.4
+gastat_lms,ind,Financial and insurance activities,K,ISIC Rev.4
+gastat_lms,ind,Real estate activities,L,ISIC Rev.4
+gastat_lms,ind,"Professional, scientific and technical activities",M,ISIC Rev.4
+gastat_lms,ind,Administrative and support service activities,N,ISIC Rev.4
+gastat_lms,ind,Public administration and defence; compulsory social security,O,ISIC Rev.4
+gastat_lms,ind,Education,P,ISIC Rev.4
+gastat_lms,ind,Human health and social work activities,Q,ISIC Rev.4
+gastat_lms,ind,"Arts, entertainment and recreation",R,ISIC Rev.4
+gastat_lms,ind,Other service activities,S,ISIC Rev.4
+gastat_lms,ind,"Activities of households as employer Activities of extraterritorial organizations and bodiess; undifferentiated goods- and services-producing activities of households for own use",T,ISIC Rev.4 T (the GOSI label also names U; 94 persons)
+gastat_lms,ind,Activities of extraterritorial organizations and bodies,,section U: no sector
+gastat_lms,ind,Other activities,,not classified
+gastat_lms,ind,Total,,total row
+nbs_census_2020,occ,党的机关、国家机关、群众团体和社会组织、企事业单位负责人|小计,1,GB/T 6565-2015 major group 1 (heads of organisations) = ISCO-08 1
+nbs_census_2020,occ,专业技术人员|小计,2+3,"GB/T 6565-2015 major group 2 (professional and technical personnel) holds ISCO-08 2 and 3; shared by the EAAS geographic-region ILOSTAT employment profile (CHN has no ILOSTAT occupation employment)"
+nbs_census_2020,occ,办事人员和有关人员|小计,4,GB/T major group 3 (clerks and related; includes security and fire staff) = ISCO-08 4
+nbs_census_2020,occ,社会生产服务和生活服务人员|批发与零售服务人员,5,GB/T 4-01 wholesale and retail service staff = ISCO-08 5 (sales)
+nbs_census_2020,occ,社会生产服务和生活服务人员|交通运输、仓储和邮政业服务人员,8,GB/T 4-02 transport and postal service staff (mainly drivers) = ISCO-08 8
+nbs_census_2020,occ,社会生产服务和生活服务人员|住宿和餐饮服务人员,5,GB/T 4-03 accommodation and catering staff = ISCO-08 5
+nbs_census_2020,occ,社会生产服务和生活服务人员|信息传输、软件和信息技术服务人员,3,GB/T 4-04 information and software service staff = ISCO-08 3 (ICT technicians)
+nbs_census_2020,occ,社会生产服务和生活服务人员|金融服务人员,4,GB/T 4-05 financial service staff (tellers) = ISCO-08 4
+nbs_census_2020,occ,社会生产服务和生活服务人员|房地产服务人员,5,GB/T 4-06 real estate service staff (property service) = ISCO-08 5
+nbs_census_2020,occ,社会生产服务和生活服务人员|租赁和商务服务人员,4,GB/T 4-07 leasing and business service staff = ISCO-08 4
+nbs_census_2020,occ,社会生产服务和生活服务人员|技术辅助服务人员,3,GB/T 4-08 technical support service staff = ISCO-08 3
+nbs_census_2020,occ,社会生产服务和生活服务人员|水利、环境和公共设施管理服务人员,9,"GB/T 4-09 water, environment and public facility service staff (cleaners, sanitation) = ISCO-08 9"
+nbs_census_2020,occ,社会生产服务和生活服务人员|居民服务人员,5,GB/T 4-10 resident service staff = ISCO-08 5 (personal services)
+nbs_census_2020,occ,社会生产服务和生活服务人员|电力、燃气及水供应服务人员,7,"GB/T 4-11 electricity, gas and water supply service staff = ISCO-08 7"
+nbs_census_2020,occ,社会生产服务和生活服务人员|修理及制作服务人员,7,GB/T 4-12 repair service staff = ISCO-08 7
+nbs_census_2020,occ,社会生产服务和生活服务人员|文化、体育和娱乐服务人员,5,"GB/T 4-13 culture, sport and entertainment service staff = ISCO-08 5"
+nbs_census_2020,occ,社会生产服务和生活服务人员|健康服务人员,5,GB/T 4-14 health service staff (carers) = ISCO-08 5
+nbs_census_2020,occ,社会生产服务和生活服务人员|其他社会生产和生活服务人员,5,GB/T 4-99 other service staff = ISCO-08 5
+nbs_census_2020,occ,农、林、牧、渔业生产及辅助人员|小计,6,"GB/T major group 5 (agriculture, forestry, animal husbandry and fishery) = ISCO-08 6"
+nbs_census_2020,occ,生产制造及有关人员|小计,7+8+9,"GB/T major group 6 (production and manufacturing) = ISCO-08 7, 8 and 9 (all ag_othlowsk); shared by the EAAS profile"
+nbs_census_2020,ind,农、林、牧、渔业|小计,A,GB/T 4754-2017 section A = ISIC A
+nbs_census_2020,ind,采矿业|小计,B,GB/T B = ISIC B
+nbs_census_2020,ind,制造业|小计,C,GB/T C = ISIC C
+nbs_census_2020,ind,电力、热力、燃气及水生产和供应业|小计,D+E,"GB/T D holds electricity, heat, gas (ISIC D) and water supply (ISIC E 36)"
+nbs_census_2020,ind,建筑业|小计,F,GB/T E = ISIC F
+nbs_census_2020,ind,批发和零售业|小计,G,GB/T F = ISIC G
+nbs_census_2020,ind,交通运输、仓储和邮政业|小计,H,GB/T G = ISIC H
+nbs_census_2020,ind,住宿和餐饮业|小计,I,GB/T H = ISIC I
+nbs_census_2020,ind,信息传输、软件和信息技术服务业|小计,J,GB/T I = ISIC J
+nbs_census_2020,ind,金融业|小计,K,GB/T J = ISIC K
+nbs_census_2020,ind,房地产业|小计,L,GB/T K = ISIC L
+nbs_census_2020,ind,租赁和商务服务业|小计,N,GB/T L leasing and business services = ISIC N (and M 70)
+nbs_census_2020,ind,科学研究和技术服务业|小计,M,GB/T M = ISIC M
+nbs_census_2020,ind,水利、环境和公共设施管理业|小计,E,"GB/T N water conservancy, environment and public facilities = ISIC E (and parts of N, R)"
+nbs_census_2020,ind,居民服务、修理和其他服务业|小计,S,"GB/T O resident services, repair and other = ISIC S (and T)"
+nbs_census_2020,ind,教育|小计,P,GB/T P = ISIC P
+nbs_census_2020,ind,卫生和社会工作|小计,Q,GB/T Q = ISIC Q
+nbs_census_2020,ind,文化、体育和娱乐业|小计,R,GB/T R = ISIC R
+nbs_census_2020,ind,公共管理、社会保障和社会组织|小计,O,GB/T S = ISIC O
+nbs_census_2020,ind,国际组织|小计,,GB/T T international organisations = ISIC U: no sector
+statcan_census_lfs,occ,0,1,NOC 2021 0 legislative and senior management (TEER 0) = ISCO-08 1
+statcan_census_lfs,occ,10+20+30+40+50,1,NOC 2021 specialized middle management (TEER 0) = ISCO-08 1
+statcan_census_lfs,occ,60,1,NOC 2021 middle management in retail and customer services (TEER 0) = ISCO-08 1
+statcan_census_lfs,occ,70+80+90,1,"NOC 2021 middle management in trades, production and utilities (TEER 0) = ISCO-08 1"
+statcan_census_lfs,occ,11,2,NOC 11 professional occupations in finance and business (TEER 1) = ISCO-08 2
+statcan_census_lfs,occ,21,2,NOC 21 professional occupations in natural and applied sciences (TEER 1) = ISCO-08 2
+statcan_census_lfs,occ,31,2,NOC 31 professional occupations in health (TEER 1) = ISCO-08 2
+statcan_census_lfs,occ,41,2,"NOC 41 professional occupations in law, education, social and government services (TEER 1) = ISCO-08 2"
+statcan_census_lfs,occ,51,2,NOC 51 professional occupations in art and culture (TEER 1) = ISCO-08 2
+statcan_census_lfs,occ,12,3,NOC 12 administrative and financial supervisors and specialized administrative occupations (TEER 2) = ISCO-08 3 (33)
+statcan_census_lfs,occ,22,3,NOC 22 technical occupations in natural and applied sciences (TEER 2) = ISCO-08 3 (31)
+statcan_census_lfs,occ,32,3,NOC 32 technical occupations in health (TEER 2) = ISCO-08 3 (32)
+statcan_census_lfs,occ,42,3,"NOC 42 front-line public protection and paraprofessional occupations in legal, social and education services (TEER 2) = ISCO-08 3 (34)"
+statcan_census_lfs,occ,52,3,"NOC 52 technical occupations in art, culture and sport (TEER 2) = ISCO-08 3 (34)"
+statcan_census_lfs,occ,53,3,"NOC 53 occupations in art, culture and sport (TEER 3) = ISCO-08 3 (343)"
+statcan_census_lfs,occ,92+93,3,"NOC 92-93 supervisors and central control and process operators in manufacturing and utilities = ISCO-08 3 (312, 313)"
+statcan_census_lfs,occ,13,4,NOC 13 administrative occupations and transportation logistics (TEER 3) = ISCO-08 4
+statcan_census_lfs,occ,14,4,NOC 14 administrative and financial support and supply chain logistics (TEER 4) = ISCO-08 4
+statcan_census_lfs,occ,33,5,NOC 33 assisting occupations in support of health services = ISCO-08 5 (532)
+statcan_census_lfs,occ,43,5,"NOC 43 assisting occupations in education and in legal and public protection = ISCO-08 5 (53, 54)"
+statcan_census_lfs,occ,44+45,5,NOC 44-45 care providers and public protection support = ISCO-08 5 (53)
+statcan_census_lfs,occ,54+55,5,"NOC 54-55 support occupations in art, culture and sport = ISCO-08 5"
+statcan_census_lfs,occ,62,5,NOC 62 retail sales and service supervisors and specialized occupations in sales and services = ISCO-08 5 (522; chefs and technical sales are ISCO 3)
+statcan_census_lfs,occ,63,5,NOC 63 occupations in sales and services = ISCO-08 5
+statcan_census_lfs,occ,64,5,NOC 64 sales and service representatives and personal services = ISCO-08 5
+statcan_census_lfs,occ,65,9,"NOC 65 sales and service support occupations (TEER 5: cashiers, food counter attendants, cleaners) = ISCO-08 9 (cashiers are ISCO 5)"
+statcan_census_lfs,occ,72,7,NOC 72 technical trades and transportation officers = ISCO-08 7
+statcan_census_lfs,occ,73,7,NOC 73 general trades = ISCO-08 7
+statcan_census_lfs,occ,74,8,NOC 74 mail distribution and other transport equipment operators = ISCO-08 8
+statcan_census_lfs,occ,75,8,"NOC 75 helpers and labourers and other transport drivers, operators = ISCO-08 8 and 9 (all ag_othlowsk)"
+statcan_census_lfs,occ,82+83,6,"NOC 82-83 supervisors and occupations in natural resources, agriculture = ISCO-08 6"
+statcan_census_lfs,occ,84+85,9,"NOC 84-85 workers and labourers in natural resources, agriculture = ISCO-08 9 (921)"
+statcan_census_lfs,occ,94,8,"NOC 94 machine operators, assemblers and inspectors = ISCO-08 8"
+statcan_census_lfs,occ,95,9,"NOC 95 labourers in processing, manufacturing and utilities = ISCO-08 9"
+statcan_census_lfs,ind,11,A,NAICS 2017 11 = ISIC A
+statcan_census_lfs,ind,21,B,NAICS 21 = ISIC B
+statcan_census_lfs,ind,22,D+E,"NAICS 22 utilities: electricity and gas (ISIC D), water and sewage (ISIC E)"
+statcan_census_lfs,ind,23,F,NAICS 23 = ISIC F
+statcan_census_lfs,ind,31-33,C,NAICS 31-33 = ISIC C
+statcan_census_lfs,ind,41,G,NAICS 41 wholesale = ISIC G
+statcan_census_lfs,ind,44-45,G,NAICS 44-45 retail = ISIC G
+statcan_census_lfs,ind,48-49,H,NAICS 48-49 = ISIC H
+statcan_census_lfs,ind,51,J,NAICS 51 information and cultural industries = ISIC J
+statcan_census_lfs,ind,52,K,NAICS 52 = ISIC K
+statcan_census_lfs,ind,53,L,NAICS 53 real estate and rental and leasing = ISIC L (and N 77)
+statcan_census_lfs,ind,54,M,NAICS 54 = ISIC M
+statcan_census_lfs,ind,55,M,NAICS 55 management of companies = ISIC M (70)
+statcan_census_lfs,ind,56,N,"NAICS 56 administrative and support, waste management = ISIC N (and E 38)"
+statcan_census_lfs,ind,61,P,NAICS 61 = ISIC P
+statcan_census_lfs,ind,62,Q,NAICS 62 = ISIC Q
+statcan_census_lfs,ind,71,R,NAICS 71 = ISIC R
+statcan_census_lfs,ind,72,I,NAICS 72 = ISIC I
+statcan_census_lfs,ind,81,S+T,NAICS 81 other services (incl. private households) = ISIC S and T
+statcan_census_lfs,ind,91,O,NAICS 91 = ISIC O
+nbs_census_2020,occ,*,,"every other column (the middle groups of a major group mapped by its subtotal) is left out, so nothing is counted twice"
+nbs_census_2020,ind,*,,every other column (industry divisions inside the section subtotals) is left out

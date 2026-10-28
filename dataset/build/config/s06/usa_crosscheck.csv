@@ -1,0 +1,5 @@
+item,value_musd,source,url,note
+farm_sales_total,543087,USDA NASS Census of Agriculture 2022 Vol.1 US Table 2,"https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_US/st99_1_002_002.pdf",report-only R3
+farm_sales_crops,280628,USDA NASS Census of Agriculture 2022 Vol.1 US Table 2,"https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_US/st99_1_002_002.pdf",report-only R3
+farm_sales_livestock,262459,USDA NASS Census of Agriculture 2022 Vol.1 US Table 2,"https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_US/st99_1_002_002.pdf",report-only R3
+ag_support_services,59300,USDA ERS Chart of Note 109259 (2022 Economic Census),https://www.ers.usda.gov/data-products/charts-of-note/chart-detail?chartId=109259,report-only R3

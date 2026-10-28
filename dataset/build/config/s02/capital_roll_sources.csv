@@ -1,0 +1,5 @@
+iso3,variable,source_kind,file,selector,to_lcu_units,approved_by,approved_date_utc7,reason
+TWN,gdp_lcu,dgbas_xml,dgbas_twn/na8102a5a_gdp_by_expenditure_annual.xml,當期價格(新臺幣百萬元)、8.GDP,1000000,David,2026-10-20 22:31,Taiwan is not in WDI; DGBAS current-price GDP (NT$ million)
+TWN,gfcf_lcu,dgbas_xml,dgbas_twn/na8102a5a_gdp_by_expenditure_annual.xml,當期價格(新臺幣百萬元)、3.1固定資本形成,1000000,David,2026-10-20 22:31,Taiwan is not in WDI; DGBAS current-price GFCF (NT$ million)
+TWN,gdp_deflator,dgbas_xml,dgbas_twn/na8102a5a_gdp_by_expenditure_annual.xml,平減指數(2021年=100)、8.GDP,1,David,2026-10-20 22:31,Taiwan is not in WDI; DGBAS GDP deflator (2021=100)
+ARE,gfcf_lcu,unsd_ama_xlsx,unsd_ama_nc/Download-GDPcurrent-NCU-countries.xlsx,784|Gross fixed capital formation (including Acquisitions less disposals of valuables),1,David,2026-10-20 22:31,WDI has UAE GFCF only for 2001-2009; UN AMA current AED (equals the FCSC submission to UNSD for 2021-2022); GDP and deflator stay WDI (equal to AMA)

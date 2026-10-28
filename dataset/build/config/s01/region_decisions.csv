@@ -1,0 +1,9 @@
+code,action,from_group,into,decided_by,date_utc7,reference
+LBY,split_out,XNF,LBY,David,2026-10-20 18:46,"Approval of DECISION_PACK.md region changes (READINESS.md §4: priority oil exporter)"
+VEN,split_out,XSM,VEN,David,2026-10-20 18:46,"Approval of DECISION_PACK.md region changes (READINESS.md §4: priority oil exporter)"
+CUW,fold,,XCB,David,2026-10-20 18:46,"Approval: fold CUW into XCB"
+PYF,fold,,XOC,David,2026-10-20 18:46,"Approval: fold PYF into XOC"
+NCL,fold,,XOC,David,2026-10-20 18:46,"Approval: also fold NCL into XOC"
+PRK,keep_single_flagged,,PRK,David,2026-10-20 18:46,"Approval: PRK stays separate and flagged"
+ISL,keep_in_group,,XWE,David,2026-10-20 18:46,"Decision 6 (DECISION_PACK.md); CGE-QA3-17 2026-10-18"
+*,inherited_folds_approved,,,David,2026-10-20 18:46,"Approval: the other inherited folds are approved as they stand (rest_of_locked.csv, rest_of_notes.md)"

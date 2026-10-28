@@ -1,0 +1,42 @@
+ei_name,iso3,note
+Belgium,BEL,EI label; S01 name is Belgium-Luxembourg (...1998) but the region is Belgium
+Bolivia,BOL,EI label; S01 name is Bolivia (Plurinational State of); member of XSM
+Brunei,BRN,EI label; S01 name is Brunei Darussalam
+China Hong Kong SAR,HKG,EI label; not added to China
+China Macao SAR,MAC,EI label
+Macau,MAC,EI label
+Macao,MAC,EI label
+Curacao,CUW,EI label; member of XCB
+Czech Republic,CZE,EI label; S01 name is Czechia
+Germany,DEU,EI label; S01 name is Fed. Rep. of Germany (...1990)
+Republic of Congo,COG,EI label; S01 name is Congo
+South Korea,KOR,EI label; S01 name is Rep. of Korea
+Sudan,SDN,EI label; S01 folds Sudan (...2011) into XNF
+Trinidad & Tobago,TTO,EI label
+Turkey,TUR,EI label; S01 name is Türkiye
+US,USA,EI label; S01 name is USA. EI footnote: US excludes US territories
+Vietnam,VNM,EI label; S01 name is Viet Nam
+Taiwan,TWN,exact S01 name as well; listed so a footnote mark still matches
+South Sudan,SSD,member of XEF
+Slovakia,SVK,S01 name is Slovakia if exact; alias is harmless
+Luxembourg,LUX,separate from Belgium
+Laos,LAO,EI label
+Bosnia-Herzegovina,BIH,EI label
+North Macedonia,MKD,EI label
+Macedonia,MKD,older EI label if present
+Moldova,MDA,EI label
+Syria,SYR,EI label; S01 name is Syria so exact match also works
+Cote d'Ivoire,CIV,EI label
+Ivory Coast,CIV,EI label
+Democratic Republic of Congo,COD,EI label
+DR Congo,COD,EI label
+Cape Verde,CPV,EI label
+Eswatini,SWZ,EI label
+Swaziland,SWZ,older EI label
+Kyrgyzstan,KGZ,EI label
+East Timor,TLS,EI label
+Timor-Leste,TLS,EI label
+Netherlands Antilles,ANT,EI label; S01 folds ANT to CUW then XCB. 2022 throughput in this workbook is 0
+UAE,ARE,short label if present
+Russia,RUS,short label if present
+South Sudan,SSD,duplicate-safe

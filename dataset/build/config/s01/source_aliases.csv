@@ -1,0 +1,10 @@
+source,code,iso3,rule,reference
+BACI,S19,TWN,F6,"BACI country_codes: code 490 'Other Asia, nes' iso3 S19 = Chinese Taipei (READINESS.md F6; dataset/data/baci/README.md)"
+any,PSE,PAL,alias,"State of Palestine: region code PAL in countries_2022.csv; ISO3 PSE in most sources"
+BaTIS,XKV,KSV,alias,"BaTIS structure.xml code XKV = Kosovo; region list uses KSV"
+any,XKX,KSV,alias,"XKX = Kosovo user-assigned code (World Bank); region list uses KSV"
+any,KSV,KSV,alias,"Kosovo, region list code"
+TiSMoS,TiSMoS:TW,TWN,alias,"TiSMoS reporter TW 'Chinese Taipei'"
+TiSMoS,TiSMoS:888,KSV,alias,"TiSMoS reporter 888 'UNMIK/Kosovo'"
+TiSMoS,TiSMoS:FO,FRO,alias,"TiSMoS reporter FO 'Faeroe Islands' (ISO3 FRO)"
+TiSMoS,TiSMoS:NA,NAM,alias,"TiSMoS reporter NA = Namibia (BACI country_codes leaves the ISO2 for Namibia blank)"

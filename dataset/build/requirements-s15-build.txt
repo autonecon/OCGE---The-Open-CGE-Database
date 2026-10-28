@@ -1,0 +1,6 @@
+# Python packages the S15 build runs with (Grok QA N1: the JLS copy is Float64, so a different numpy or pandas
+# can move a last bit; the HAR files are Float32 and do not move). S15-Renv reports the versions in use.
+#   python3 -m pip install -r requirements-s15-build.txt
+# The independent HAR reader runs in its own environment (requirements-s15-reader.txt).
+numpy==2.5.3
+pandas==3.0.5

@@ -1,0 +1,2 @@
+rule,decided_by,decided_at,basis,note
+report_only,David,2026-10-21T04:50+07:00,"David chat 2026-10-21 04:50 (reconfirms decision 10, DECISION_PACK.md §5; PLAN_ERRATA E4; concepts.md C18); S06 handoff §1.2; GTAP 12 ch.9A §A.1 p.1, Table 9.1 p.2",FAO level is report-only. GTAP 12 ch.9A targets are computed and written to apt_targets.csv. No cell changes. Departure from ch.9A logged; 12-sector split logged as improvement.

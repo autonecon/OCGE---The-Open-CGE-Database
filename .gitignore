@@ -1,0 +1,31 @@
+# Raw source files are fetched from the publishers (dataset/data/MANIFEST.csv); never commit them.
+dataset/data/**/*
+!dataset/data/MANIFEST.csv
+!dataset/data/SPLIT_FILES.sha256
+!dataset/data/reassemble_split_files.sh
+!dataset/data/fetch_trade_prep_sources.py
+!dataset/data/**/
+!dataset/data/**/README.md
+!dataset/data/**/fetch*
+!dataset/data/**/PROVENANCE*
+# split pieces of large raw files are raw data too
+dataset/data/**/*.part[0-9]*
+
+# Build caches and downloaded data base copies. (Stage snapshots under dataset/stages/ are not ignored: the build
+# pins each stage to its committed upstream snapshot. They carry values from restricted sources, so rebuild in a
+# private fork and never push them here.)
+dataset/docs/literature/
+build_cache/
+internal_audit/
+/*.har
+/*.jls
+/*.jls.gz
+
+# Local environments and secrets
+__pycache__/
+*.pyc
+.venv/
+.env
+.netrc
+.secrets/
+*.pem

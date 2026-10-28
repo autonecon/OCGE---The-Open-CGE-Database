@@ -1,0 +1,6 @@
+source,key,iso3,reason
+SG,Mainland China,CHN,"SingStat M451521 rowText 'Mainland China'. Hong Kong, Macao and Taiwan are separate rows in the same table, so this row is China."
+SG,Guyana,GUY,"SingStat rowText 'Guyana' is ISO Guyana (GUY). countries.json also uses the bare word Guyana as a non-English name for French Guiana, so the automatic name match is ambiguous."
+SG,St. Vincent And The Grenadines,VCT,SingStat abbreviates Saint as St. ISO 3166-1 alpha-3 is VCT (Saint Vincent and the Grenadines).
+SG,Netherlands Antilles,ANT,"SingStat still publishes this former partner. S01 country_region_map assigns ANT to region XCB (status: territory fold -> CUW -> XCB). The row is not split across successor islands."
+CBS,XS,SRB,"CBS 85429NED Landen Title is Servië and the GEO code printed in Description is alfa2 XS. The table has no second Serbia row. XS is not ISO 3166 RS; the Dutch title identifies the country."

@@ -1,0 +1,2 @@
+region,commodity,rule,decided_by,decided_at,basis
+ITA,gas,same_propensity,Claude (beta v5 S10-S11 thread; David 2026-10-27 08:39 UTC package approval),2026-10-27,"Beta v5 I. Italy's Comtrade 2022 RX share for gas is 0, so the joint balance lifted its 0.19 bcm of IEA exports to all of production (3.06 bcm): ITA to CHE 2.0 and to AUT 0.7 bn are 2022 reverse-flow and transit gas, not Italian output. The same-propensity rule of GTAP 12 ch.12 §12.2.5 keeps domestic exports near the IEA volume and treats the rest as re-exports."

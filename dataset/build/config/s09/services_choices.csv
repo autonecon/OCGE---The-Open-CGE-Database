@@ -1,0 +1,24 @@
+choice,value,decided_by,decided_at,basis,gtap_status
+services_pair_source,batis_all_pairs,David,2026-10-21T10:21+07:00,GTAP 12 ch.10B §B.1 p.1 (BaTiS bilateral flows that do not need to be reconciled); ICIO pair values written to a compare file only; ICIO 2023 doc p.18 (ICIO goods exports at f.o.b. still include distribution margins); David chat 2026-10-21 10:21,gtap
+batis_source,oecd_wto_batis_df1.0_2022_X_adjB_usd,Timmy,2026-10-21,ch.10B p.1; year rule 2022,gtap
+batis_dropped_codes,"SA,SH",Timmy,2026-10-21,ch.10B p.2 §B.3,gtap
+batis_scaling,bmu_us_insurance_net_of_retrocession_rerouted_and_lbr_own_bop,"Claude (beta v5 M5; David approved the v5 package 2026-10-27 08:39 UTC); was bmu_keep_us_insurance_and_lbr_own_bop (David approved the S09-S15 rerun 2026-10-25 16:43 UTC (final-round S13-Hfactor fix, Bermuda precedent); was bmu_own_bop_keep_us_insurance_pass_through (David, Fable fix round 2026-10-25, Fable QA B-04), before that bmu_to_own_bop_wdi_nfsv (David decision card 2026-10-24 01:11 UTC+7))",2026-10-27,"GTAP 12 ch.10B §B.1 p.1 (BaTIS is the balanced bilateral source). Bermuda rows still scaled to its own BoP (WDI BX/BM.GSR.NFSV.CD 2022: X 1.41 M 1.00 bn) except the BaTIS SF row BMU to USA (30.74 bn, matching BEA US insurance imports), which is kept; the kept value is booked again as Bermuda SF imports (reinsurance ceded abroad, pass-through) spread over the economies BaTIS shows selling SF to Bermuda, so Bermuda net services stay at own BoP. Liberia rows scaled to its own BoP the same way (BaTIS X 11.29 M 1.51 bn, a fleet-register transport estimate, against WDI X 0.03 M 0.32 bn and GDP 4.0 bn): with the S07 open-registry ship imports dropped (trade D-01) the BaTIS exports made the S13 C, G and I factor negative (-0.378) Beta v5 M5 (region gates #5: XNA finance 71% of output, exports 31.4 bn and imports 31.3 bn): the kept BMU to USA insurance (SF) is recorded net of the retrocession. This is our pass-through attribution, as for goods re-exports, not a BPM6 rule (BPM6 10.111-10.117 records reinsurance by counterparty and does not net a reinsurer's retrocession): Bermuda keeps none of it, and the pass-through goes from each retrocessionaire to the USA directly, in BaTIS shares of sellers to Bermuda (a US share is domestic and leaves trade). Labelled departure; S09-H13 unchanged.",not_in_gtap_text
+ebops_concordance,s01_concord_ebops_to_sector,Timmy,2026-10-21,Table 10.2 (p.3) mapped to ICIO sectors; SJ32 → adm flagged (GTAP obs),gtap
+untraded_sectors,"wat,rle",Timmy,2026-10-21,"ch.10B p.2 ""assumed not to be traded""; Aguiar 2025 p.14",gtap
+energy_services_trade,ely_at_S11,Timmy,2026-10-21,"ch.10B p.2 (IEA, Chepeliev 2022); PLAN §3(e) N5",gtap
+tismos_source,wto_tismos_2024_release_2022_modes_1_2_4,Timmy,2026-10-21,"ch.10B p.3 ""all modes, except Mode 3""",gtap
+tismos_split_side,exporter_exports,Timmy,2026-10-21,ch.10B p.4 has VEXP and VIMP; side not stated,not_in_gtap_text
+tismos_missing,F8_geo_region_then_world,"Timmy (F8, PLAN §3(e) approved)",2026-10-21,READINESS F8; world fallback flagged,not_in_gtap_text
+whs_rule,table_10_2_SC13_SC23_SC33_to_whs,Timmy,2026-10-21,Table 10.2 p.3; the 20% sentence on p.3 is truncated,gtap
+travel_business_sda,host_household_dom_consumption_io_s08,Timmy,2026-10-21,"ch.10B p.3 ""private consumption""; host side not stated",not_in_gtap_text
+travel_personal_sdb,tismos_SDB1_hea_SDB2_edu_SDB3_hos,Timmy,2026-10-21,Table 10.2 p.3,gtap
+travel_commodities,all_incl_goods_and_ely_to_travel_file,Timmy,2026-10-21,ch.10B p.3 (water/electricity between distant countries),gtap
+travel_icio_pairs,icio_dpabr_block,Timmy (PLAN §3(e)),2026-10-21,C15; ICIO direct purchases,departure_logged
+row_split,batis_pair_shares_of_mapped_code_else_S,Timmy (Decision 1),2026-10-21,"PLAN §3(e) ""as in (c)""",not_in_gtap_text
+freight_removal,tismos_freight_share_of_exporter_transport,Timmy (E46),2026-10-21,"PLAN §3(e) ""the freight part goes to VST in (d)""; C03",not_in_gtap_text
+freight_vs_vst,report_only_no_mode_netting,Timmy,2026-10-21,S08 C3/W1 (rdt overstated for oil and gas),not_in_gtap_text
+freight_importer_side,record_for_S13,Timmy (E46),2026-10-21,ch.17A p.2 (FIT reconciles I-O to trade),not_in_gtap_text
+composite_diagonal,batis_member_pairs,Timmy,2026-10-21,as S07/S08,not_in_gtap_text
+services_margins,zero,Timmy (PLAN §3(e)),2026-10-21,PLAN §3(e),not_in_gtap_text
+us_benchmark,bea_ita_2022_trans422_X926.0_M680.3_report_only,Timmy,2026-10-21,"BEA ""U.S. International Transactions, 4th Quarter and Year 2022"" (bea.gov/sites/default/files/2023-03/trans422.pdf); report-only (C24 style)",not_in_gtap_text
+trade_identity,abs_gap_le_1e-9_float_rounding,Timmy,2026-10-21,S09R C1; one hea CAN to XCB cell differs by 1e-10 from BaTIS SDMX row order; S07 goods VXSB and S08 freight are not inputs to the three trade files,not_in_gtap_text

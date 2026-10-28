@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use the OCGE Data Base, please cite it as below."
+title: "OCGE Data Base, base year 2022"
+version: "beta v5.5 (work in progress)"
+date-released: "2026-10-28"
+authors:
+  - name: "Matra contributors"
+license: CC-BY-4.0
+type: dataset
+keywords:
+  - computable general equilibrium
+  - global data base
+  - input-output
+  - international trade

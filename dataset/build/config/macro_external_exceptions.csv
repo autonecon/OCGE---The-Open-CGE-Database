@@ -1,0 +1,5 @@
+region,measure,finding,basis,decided_by,decided_at
+GBR,trade,Fable QA D-01,"Trade balance -8.0% of GDP in the data base against WDI -1.1% (2022): hub re-export margins, asymmetric energy netting and the VST key (D-01, D-03); fix in the trade round (S07 to S09). Open finding, not accepted.","Claude (Fable fix round E-04), for David's review in S16",2026-10-25
+NLD,trade,Fable QA D-01,"Trade balance -7.3% of GDP against WDI +8.8%: hub re-export margins removed (NLD goods exports 0.44 of WDI); fix in the trade round. Open finding, not accepted.","Claude (Fable fix round E-04), for David's review in S16",2026-10-25
+NLD,saving,Fable QA D-01,"Gross saving follows the trade balance gap (SAVE = Y - C - G with C, G and I scaled by 1.21, S13 factor); fix with D-01. Open finding, not accepted.","Claude (Fable fix round E-04), for David's review in S16",2026-10-25
+RUS,trade,Fable QA D-01 and D-02,"Trade balance +19.7% of GDP against WDI +12.7%: energy exports repriced at one export price above BACI (D-02); fix in the S11 route table. Open finding, not accepted.","Claude (Fable fix round E-04), for David's review in S16",2026-10-25

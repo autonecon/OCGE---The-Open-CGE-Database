@@ -1,0 +1,14 @@
+sector,exporter,importer,pipeline_share,source,decided_by,decided_at,basis
+oil,CAN,USA,0.95,"Canada Energy Regulator, crude oil exports by mode 2022 (pipeline about 95 percent; rail and marine the rest)",Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,"Route mode, not a rate; reviewer knowledge, to be replaced by the CER table if fetched"
+oil,USA,CAN,0.7,"EIA and CER: US crude to Ontario and Quebec by Enbridge Lines 5 and 9; Atlantic refineries by tanker (estimate)",Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Estimate; route mode only
+oil,RUS,CHN,0.47,"China customs 2022 crude from Russia 86.2 Mt; ESPO spur Skovorodino-Mohe 30 Mt/yr and the Atasu-Alashankou transit 10 Mt/yr by pipeline; the rest by tanker from Kozmino and western ports",Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Pipeline capacity over customs volume; route mode only
+oil,KAZ,CHN,1.0,Kazakhstan-China pipeline (Atasu-Alashankou),Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Landlocked route
+oil,KAZ,RUS,1.0,Pipeline deliveries to Russian refineries (Orsk; Samara),Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Land route
+oil,RUS,BLR,1.0,Druzhba pipeline (Mozyr and Naftan refineries),Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Landlocked importer
+oil,RUS,HUN,1.0,Druzhba southern branch,Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Landlocked importer
+oil,RUS,SVK,1.0,Druzhba southern branch,Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Landlocked importer
+oil,RUS,CZE,1.0,Druzhba southern branch,Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Landlocked importer
+oil,RUS,POL,0.8,"Druzhba northern branch (PKN Orlen contract through early 2023); seaborne Urals to Gdansk the rest (estimate)",Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Estimate; route mode only
+oil,RUS,DEU,0.6,"Druzhba to Schwedt and Leuna until 31 Dec 2022; seaborne Urals to Rostock and Wilhelmshaven until the 5 Dec 2022 embargo (estimate)",Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Estimate; route mode only
+oil,IRQ,TUR,1.0,Kirkuk-Ceyhan pipeline,Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Land route
+oil,AZE,GEO,1.0,Baku-Tbilisi-Ceyhan and Baku-Supsa pipelines,Claude (Fable QA fix round C-05; David approved all fixes),2026-10-25 14:30 UTC,Land route

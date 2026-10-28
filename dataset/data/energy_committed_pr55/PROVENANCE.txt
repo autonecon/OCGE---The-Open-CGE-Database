@@ -1,0 +1,75 @@
+Physical output for crude, natural gas and refined products, 2022.
+
+The builder reads production_2022.csv through earlier-build/build/energy_physical.jl.
+Volumes are US EIA International Energy Statistics, bulk file INTL.zip
+(https://www.eia.gov/opendata/bulk/INTL.zip), downloaded 2026-10-20, zip last-modified
+2026-10-19. The bulk file is not committed.
+
+Oil volume: INTL.57-1 crude including lease condensate plus INTL.58-1 natural gas
+plant liquids, annual 2022, thousand barrels per day times 1000, stored as barrels
+per day. The price is not one Brent marker. It is the nearest of the four spot
+crudes in the Energy Institute Statistical Review of World Energy, 2025 edition,
+sheet "Spot crude prices", year 2022 (workbook downloaded 2026-10-20 from
+https://www.energyinst.org/__data/assets/excel_doc/0008/1656215/EI-Stats-Review-ALL-data.xlsx;
+the workbook is not committed):
+
+- Dubai dated 96.38 USD/bbl for the Middle East and Asia-Pacific
+- Brent dated 101.32 USD/bbl for Europe, Africa except Nigeria, and the former Soviet Union
+- Nigerian Forcados 101.40 USD/bbl for Nigeria
+- WTI Cushing spot 94.58 USD/bbl for the United States, Canada and Mexico
+
+The sheet's source line is S&P Global Commodity Insights, copyright 2025. Footnotes
+on that sheet: 1972-1985 Arabian Light, 1986-2024 Dubai dated; 1976-1983 Forties,
+1984-2024 Brent dated; Forcados FOB Nigeria; 1976-1983 posted WTI, 1984-2024 spot
+WTI (Cushing). The EIA volume includes NGPL. The EI sheet does not price NGPL, so
+the crude marker is applied to the combined barrel and the note on each oil row
+says so.
+
+Gas volume: INTL.26-1 dry natural gas, billion cubic metres. The United States is
+priced at the EIA Henry Hub annual 2022 price, 6.45 USD/MMBtu, series RNGWHHD,
+https://www.eia.gov/dnav/ng/hist_xls/RNGWHHDa.xls, annual row dated 2022-06-30.
+Every other gas row, including every Gulf producer, has no price. A Gulf price
+has to be an official regulated price (government decree, ministry or regulator
+notice, or national oil company annual report or prospectus) for 2022, or the
+latest earlier year still in force in 2022, with document, page and date. Those
+documents were not obtained with a page-level price. Export prices and Henry Hub
+were not copied onto the Gulf. The build stops on a missing price
+(ENERGY_PRICE_MISSING).
+
+The IEA Fossil Fuel Subsidies Database, 2025 edition (file "Subsidies 2010-2024.xlsx",
+updated 13/11/2025, CC BY 4.0) has no domestic price column. It is used only as
+the cross-check in gulf_gas_subsidy_crosscheck_2022.csv. See
+PROVENANCE_SUBSIDY_CROSSCHECK.txt. It does not fill a price.
+
+Refined volume: INTL.54-1 refined petroleum products, thousand barrels per day
+times 1000. The 2025 EI workbook does not publish Rotterdam, Singapore or US Gulf
+product spot prices (gasoline, gas oil, fuel oil). It publishes crude spots and
+regional refining margins. OPEC ASB was not available. Refined rows have no price.
+They are not valued at Brent. The build stops until a product price is added.
+
+Valuation method, when a price is present: McDougall and Chepeliev, Journal of
+Global Economic Analysis, 2021. The booking of a regulated price and a subsidy is
+energy_booking.jl. Aguiar, Chepeliev, Corong and van der Mensbrugghe, Journal of
+Global Economic Analysis 7(2), 2022, section 3.2.3, is the treatment of flaring
+(marketed gas excludes gas flared), not the price.
+
+Cross-check of 2022 crude and condensate, thousand barrels per day, EI sheet
+"Crude+cond production - barrels" against EIA INTL.57-1 (this file's crude
+component, not the NGPL add-on):
+
+- Saudi Arabia EI 10508.8, EIA crude 10616.7
+- United Arab Emirates EI 3463.8, EIA crude 3683.4
+- Qatar EI 1267.5, EIA crude 1269.8
+- Kuwait EI 2707.0, EIA crude 2795.1
+- Iraq EI 4445.6, EIA crude 4503.5
+- Oman EI 1064.2, EIA crude 1063.3
+- Iran EI 3312.0, EIA crude 3116.5
+
+The volumes in the CSV stay on the EIA series. The EI figures are the check,
+not a replacement. Iran differs by about 6 percent; that is reported and not
+averaged away.
+
+The gas unit conversion, used only when a row prices gas in USD per MMBtu and
+states volume in billion cubic metres, is the EIA thermal factor: 1 cubic metre
+is 35.3147 cubic feet and 1 thousand cubic feet of dry gas is 1.037 million Btu
+(EIA Energy Conversion Calculators).

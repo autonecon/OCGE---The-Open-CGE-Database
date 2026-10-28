@@ -1,0 +1,67 @@
+code,level,name,role,gtap_code,sectors,split_basis,reference
+S,batis,Services total,aggregate,,,,BaTIS codelist
+SOX,batis,Memo: commercial services,aggregate,,,,BaTIS codelist
+SOX1,batis,Memo: other commercial services,aggregate,,,,BaTIS codelist
+SPX1,batis,Memo grouping,aggregate,,,,BaTIS codelist
+SPX4,batis,Memo: goods-related services (SA+SB),aggregate,,,,BaTIS codelist
+SA,batis,Manufacturing services on inputs owned by others,dropped,(dropped),,,"GTAP 12 ch.10B Table 10.1 (p.1): SA not mapped"
+SB,batis,Maintenance and repair services n.i.e.,leaf,trd,trd,,"GTAP 12 ch.10B Table 10.1 (p.1): SB -> trd"
+SC,batis,Transport,aggregate,,,use SC1-SC4,BaTIS codelist
+SC1,batis,Sea transport,split,wtp;whs,sea;whs,"TiSMoS SC11+SC12 -> sea; SC13 -> whs (S09)","GTAP 12 ch.10B Table 10.2 (p.3)"
+SC2,batis,Air transport,split,atp;whs,air;whs,"TiSMoS SC21+SC22 -> air; SC23 -> whs (S09)","GTAP 12 ch.10B Table 10.2 (p.3)"
+SC3,batis,Other transport,split,otp;whs,rdt;whs,"TiSMoS SC31+SC32 -> rdt; SC33 -> whs (S09)","GTAP 12 ch.10B Table 10.2 (p.3)"
+SC4,batis,Postal and courier services,leaf,cmn,pst,,"GTAP 12 ch.10B Table 10.2 (p.3): SC4 -> cmn; ICIO H53"
+SD,batis,Travel,aggregate,,,use SDA/SDB,BaTIS codelist
+SDA,batis,Business travel,special,trvl,TRAVEL,"allocated over commodities by private-consumption pattern (S09)","GTAP 12 ch.10B p.3 and Table 10.2: trvl is not a sector"
+SDB,batis,Personal travel,split,hht;edu;afs,hea;edu;hos,"TiSMoS SDB1 -> hea; SDB2 -> edu; SDB3 -> hos (S09)","GTAP 12 ch.10B Table 10.2 (p.3)"
+SE,batis,Construction,leaf,cns,con,,"GTAP 12 ch.10B Table 10.1 (p.1)"
+SF,batis,Insurance and pension services,leaf,ins,fin,,"GTAP 12 ch.10B Table 10.1 (p.1); ICIO K covers ins+ofi"
+SG,batis,Financial services,leaf,ofi,fin,,"GTAP 12 ch.10B Table 10.1 (p.1)"
+SH,batis,Charges for the use of intellectual property,dropped,(dropped),,,"GTAP 12 ch.10B Table 10.1 (p.1): SH not mapped"
+SI,batis,Telecom computer and information,aggregate,,,use SI1-SI3,BaTIS codelist
+SI1,batis,Telecommunications services,leaf,cmn,tel,,"GTAP 12 ch.10B Table 10.1 (p.1) SI -> cmn; ICIO J61"
+SI2,batis,Computer services,leaf,cmn,its,,"GTAP 12 ch.10B Table 10.1 (p.1) SI -> cmn; ICIO J62_63"
+SI3,batis,Information services,leaf,cmn,its,,"GTAP 12 ch.10B Table 10.1 (p.1) SI -> cmn; news agencies and other information services are ISIC 63, inside ICIO J62_63"
+SJ,batis,Other business services,aggregate,,,use SJ1-SJ3,BaTIS codelist
+SJ1,batis,Research and development,leaf,obs,pro,,"GTAP 12 ch.10B Table 10.2 (p.3) SJ1 -> obs; ISIC 72 in ICIO M"
+SJ2,batis,Professional and management consulting,leaf,obs,pro,,"GTAP 12 ch.10B Table 10.2 (p.3) SJ2 -> obs; ISIC 69,70,73 in ICIO M"
+SJ3,batis,Technical trade-related and other business services,split,obs;rsa;trd,pro;adm;trd,"TiSMoS SJ31 -> pro; SJ32 -> adm (flag); SJ33 -> adm; SJ34 -> trd; SJ35 -> adm (S09)","GTAP 12 ch.10B Table 10.2 (p.3)"
+SK,batis,Personal cultural and recreational,aggregate,,,use SK1/SK2,BaTIS codelist
+SK1,batis,Audio-visual and related services,leaf,cmn,pub,,"GTAP 12 ch.10B Table 10.2 (p.3) SK1 -> cmn; ISIC 59-60 in ICIO J58T60"
+SK2,batis,Other personal cultural and recreational,split,hht;edu;ros,hea;edu;art;ots,"TiSMoS SK21 -> hea; SK22 -> edu; SK23 -> art; SK24 -> ots (S09)","GTAP 12 ch.10B Table 10.2 (p.3)"
+SL,batis,Government goods and services n.i.e.,leaf,osg,gov,,"GTAP 12 ch.10B Table 10.1 (p.1)"
+SC11,tismos,Sea passenger,leaf,wtp,sea,,GTAP 12 ch.10B Table 10.2 (p.3)
+SC12,tismos,Sea freight,leaf,wtp,sea,,GTAP 12 ch.10B Table 10.2 (p.3)
+SC13,tismos,Sea other,leaf,whs,whs,,GTAP 12 ch.10B Table 10.2 (p.3)
+SC21,tismos,Air passenger,leaf,atp,air,,GTAP 12 ch.10B Table 10.2 (p.3)
+SC22,tismos,Air freight,leaf,atp,air,,GTAP 12 ch.10B Table 10.2 (p.3)
+SC23,tismos,Air other,leaf,whs,whs,,GTAP 12 ch.10B Table 10.2 (p.3)
+SC31,tismos,Other transport passenger,leaf,otp,rdt,,GTAP 12 ch.10B Table 10.2 (p.3)
+SC32,tismos,Other transport freight,leaf,otp,rdt,,GTAP 12 ch.10B Table 10.2 (p.3)
+SC33,tismos,Other transport other,leaf,whs,whs,,"GTAP 12 ch.10B Table 10.2 (p.3); p.3 text: 20% of other transport to whs where no clear identification"
+SDB1,tismos,Health-related travel,leaf,hht,hea,,GTAP 12 ch.10B Table 10.2 (p.3)
+SDB2,tismos,Education-related travel,leaf,edu,edu,,GTAP 12 ch.10B Table 10.2 (p.3)
+SDB3,tismos,Other personal travel,leaf,afs,hos,,GTAP 12 ch.10B Table 10.2 (p.3)
+SJ21,tismos,Legal accounting consulting PR,leaf,obs,pro,,GTAP 12 ch.10B Table 10.2 (p.3)
+SJ22,tismos,Advertising market research,leaf,obs,pro,,GTAP 12 ch.10B Table 10.2 (p.3)
+SJ31,tismos,Architectural engineering scientific technical,leaf,obs,pro,,GTAP 12 ch.10B Table 10.2 (p.3)
+SJ311,tismos,Architectural,leaf,obs,pro,,GTAP 12 ch.10B Table 10.2 (p.3)
+SJ312,tismos,Engineering,leaf,obs,pro,,GTAP 12 ch.10B Table 10.2 (p.3)
+SJ313,tismos,Scientific and other technical,leaf,obs,pro,,GTAP 12 ch.10B Table 10.2 (p.3)
+SJ32,tismos,Waste treatment agricultural and mining services,leaf,obs,adm,,"GTAP 12 ch.10B Table 10.2 (p.3) -> obs. FLAG: GTAP obs spans ICIO M+N; by ISIC these services sit in E, A016 and B09. Kept with obs (adm) to follow GTAP"
+SJ33,tismos,Operating leasing,leaf,rsa,adm,,"GTAP 12 ch.10B Table 10.2 (p.3) -> rsa. FLAG: operating leasing is ISIC 77, inside ICIO N"
+SJ34,tismos,Trade-related services,leaf,trd,trd,,GTAP 12 ch.10B Table 10.2 (p.3)
+SJ35,tismos,Other business services n.i.e.,leaf,obs,adm,,GTAP 12 ch.10B Table 10.2 (p.3)
+SK21,tismos,Health services (personal),leaf,hht,hea,,GTAP 12 ch.10B Table 10.2 (p.3)
+SK22,tismos,Education services (personal),leaf,edu,edu,,GTAP 12 ch.10B Table 10.2 (p.3)
+SK23,tismos,Heritage and recreational,leaf,ros,art,,GTAP 12 ch.10B Table 10.2 (p.3)
+SK24,tismos,Other personal services,leaf,ros,ots,,GTAP 12 ch.10B Table 10.2 (p.3)
+SDASDB3,tismos,Tourism and business travel (memo),aggregate,,,,TiSMoS items file
+SDB1SK21,tismos,Health services (memo),aggregate,,,,TiSMoS items file
+SDB2SK22,tismos,Education services (memo),aggregate,,,,TiSMoS items file
+SFSG,tismos,Insurance and financial (memo),aggregate,,,,TiSMoS items file
+SISK1,tismos,Telecom computer info audiovisual (memo),aggregate,,,,TiSMoS items file
+SJXSJ34,tismos,Other business excl trade-related (memo),aggregate,,,,TiSMoS items file
+SOXSW,tismos,Total services (memo),aggregate,,,,TiSMoS items file
+SW,tismos,Trade margins of wholesalers and retailers (mode 3/5 memo),aggregate,,,,TiSMoS items file
+SWSJ34,tismos,Trade-related distribution (memo),aggregate,,,,TiSMoS items file

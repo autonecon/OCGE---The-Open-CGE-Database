@@ -1,0 +1,44 @@
+source: World Bank World Development Indicators
+license: CC BY 4.0
+license_url: https://datacatalog.worldbank.org/public-licenses
+dataset_url: https://datacatalog.worldbank.org/search/dataset/0037712/world-development-indicators
+api: https://api.worldbank.org/v2/en/indicator/<series>?downloadformat=csv
+accessed: 2026-10-15
+attribution: World Bank, World Development Indicators, CC BY 4.0. Accessed 2026-10-15.
+series:
+  SP.POP.TOTL        Population, total
+  NE.CON.PRVT.ZS     Households and NPISHs final consumption expenditure (% of GDP)
+  NE.CON.GOVT.ZS     General government final consumption expenditure (% of GDP)
+  NE.GDI.TOTL.ZS     Gross capital formation (% of GDP)
+  NY.GDP.PETR.RT.ZS  Oil rents (% of GDP)
+  NY.GDP.NGAS.RT.ZS  Natural gas rents (% of GDP)
+  NY.GDP.COAL.RT.ZS  Coal rents (% of GDP)
+  NY.GDP.MINR.RT.ZS  Mineral rents (% of GDP)
+  NY.GDP.FRST.RT.ZS  Forest rents (% of GDP)
+  NY.GDP.MKTP.CD     GDP (current US$)
+  NE.EXP.GNFS.CD     Exports of goods and services (current US$)
+  NE.IMP.GNFS.CD     Imports of goods and services (current US$)
+  NV.AGR.TOTL.CD     Agriculture, forestry and fishing, value added (current US$)
+  GC.TAX.TOTL.GD.ZS  Tax revenue (% of GDP)
+  GC.TAX.YPKG.ZS     Taxes on income, profits and capital gains (% of total taxes)
+  GC.TAX.YPKG.RV.ZS  Taxes on income, profits and capital gains (% of revenue)
+  NY.GNS.ICTR.ZS     Gross savings (% of GDP)
+  BN.CAB.XOKA.CD     Current account balance (current US$)
+  BN.GSR.FCTY.CD     Net primary income (current US$)
+  BN.TRF.CURR.CD     Net secondary income (current US$)
+file: wdi_accounts.csv
+contents: one row per country and year (2017 and 2022) extracted from the API CSV downloads of those series. Empty cells are unpublished, not zero. Aggregates such as WLD are kept so the population fallback can scale 2015 EXIOBASE levels by world population growth (WLD 2015 = 7441084771, 2017 = 7613788655, 2022 = 7988550201).
+code_aliases: KSV is read from XKX. PAL is read from PSE. No other code is renamed.
+rent_year: the 2022 extract has no NY.GDP.*.RT.ZS observations. For oil, gas and coal, a 2022 build uses sources/wdi/wdi_energy_rents_2021.csv (published 2021 rents, unscaled) and falls back to the 2017 share only where that file is blank. Mineral and forest rents still use the 2017 share. See PROVENANCE_ENERGY_RENTS_2021.txt.
+income_tax: income tax is the OECD Global Revenue Statistics general-government rate (sources/oecd/oecd_grs_revenue.csv); the WDI pair here is only the central-government fallback where OECD GRS has no observation. The fallback multiplies GC.TAX.YPKG.ZS (income tax as a share of total taxes) by GC.TAX.TOTL.GD.ZS (total taxes as a share of GDP); both share the "total taxes" denominator. GC.TAX.YPKG.RV.ZS ("% of revenue") is retained in the extract for provenance but is no longer read, because its denominator (total revenue) does not match the numerator.
+
+additional_series:
+  GC.REV.SOCL.CN     Social contributions (current LCU)
+  NY.GDP.MKTP.CN     GDP (current LCU)
+  NE.GDI.FTOT.CD     Gross fixed capital formation (current US$)
+
+file: wdi_social.csv
+contents: one row per country and year (countrycode, year, wdi_ssc_pct_gdp). wdi_ssc_pct_gdp is total social contributions as a percent of nominal GDP, computed as 100 * GC.REV.SOCL.CN / NY.GDP.MKTP.CN (both current LCU, so the ratio is unit-free). It is read by build/open_accounts.jl only where OECD Global Revenue Statistics has no social-contributions observation at all (e.g. Russia); the employer component is then the statutory share in sources/ssc/employer_share_statutory.csv when that country-year is listed (Russia is 1) and otherwise 0.575. GC.REV.SOCL.CN is the WDI mirror of IMF Government Finance Statistics general-government social contributions. Empty cells are unpublished, not zero.
+
+file: wdi_gfcf.csv
+contents: one row per country and year (countrycode, year, gfcf_million_usd) for 2016-2022 from NE.GDI.FTOT.CD (current US$, divided by 1e6). This series is not read by the build at run time; it is the investment input to the perpetual-inventory roll-forward that produced sources/pwt/pwt_pim_capital.csv (see that file's provenance). Where NE.GDI.FTOT.CD is unpublished the roll-forward falls back to gross capital formation NE.GDI.TOTL.ZS (already in wdi_accounts.csv) times GDP.

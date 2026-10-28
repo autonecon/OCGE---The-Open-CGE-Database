@@ -1,0 +1,9 @@
+sector,gtap_sector,target_class,eta_target,sigma_va,source,decided_by,decided_at
+for,frs,forestry,2.5,0.20,"GTAP 7 ch.12.A §12.A.2 p.3 (forestry target 2.5, Catimel 1996; imposed in every region); sigma_va GTAP 12 ch.16 Table 16.2 frs",David (card 2026-10-24 14:13 UTC),2026-10-24
+fsh,fsh,fisheries,0.525,0.20,"GTAP 7 ch.12.A §12.A.2 p.3 (fisheries target 0.525, the mean of Campbell 1996 open access 0.29 and private management 0.76); sigma_va GTAP 12 ch.16 Table 16.2 fsh",David (card 2026-10-24 14:13 UTC),2026-10-24
+coa,coa,fossil_fuels,0.5,0.20,"GTAP 7 ch.12.A §12.A.2 p.3 (fossil fuels target 0.5, Whalley and Wigle 1991 central case); sigma_va GTAP 12 ch.16 Table 16.2 coa",David (card 2026-10-24 14:13 UTC),2026-10-24
+oil,oil,fossil_fuels,0.5,0.20,"GTAP 7 ch.12.A §12.A.2 p.3 (fossil fuels target 0.5, Whalley and Wigle 1991 central case); sigma_va GTAP 12 ch.16 Table 16.2 oil",David (card 2026-10-24 14:13 UTC),2026-10-24
+gas,gas,fossil_fuels,0.5,0.20,"GTAP 7 ch.12.A §12.A.2 p.3 (fossil fuels target 0.5, Whalley and Wigle 1991 central case); sigma_va GTAP 12 ch.16 Table 16.2 gas",David (card 2026-10-24 14:13 UTC),2026-10-24
+ore,oxt,other_mining,2.5,0.20,"GTAP 7 ch.12.A §12.A.2 p.3 (other mining target 2.5, McDougall pers. comm.); S01 config/s01/gtap65_to_sector.csv OXT -> ore;min;msp; sigma_va GTAP 12 ch.16 Table 16.2 oxt",David (card 2026-10-24 14:13 UTC),2026-10-24
+min,oxt,other_mining,2.5,0.20,"GTAP 7 ch.12.A §12.A.2 p.3 (other mining target 2.5, McDougall pers. comm.); S01 config/s01/gtap65_to_sector.csv OXT -> ore;min;msp; sigma_va GTAP 12 ch.16 Table 16.2 oxt",David (card 2026-10-24 14:13 UTC),2026-10-24
+msp,oxt,other_mining,2.5,0.20,"GTAP 7 ch.12.A §12.A.2 p.3 (other mining target 2.5, McDougall pers. comm.); S01 config/s01/gtap65_to_sector.csv OXT -> ore;min;msp (mining support is part of GTAP oxt in our concordance); sigma_va GTAP 12 ch.16 Table 16.2 oxt",David (card 2026-10-24 14:13 UTC),2026-10-24

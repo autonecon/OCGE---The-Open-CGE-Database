@@ -1,0 +1,40 @@
+Cross-check of Gulf natural-gas subsidies. Not a price source.
+
+File: gulf_gas_subsidy_crosscheck_2022.csv
+Source workbook: IEA Fossil Fuel Subsidies Database, 2025 edition, "Subsidies
+2010-2024.xlsx", updated 13/11/2025, CC BY 4.0. Sheet "Subsidies by country",
+product Gas, column 2022. The unit printed on the sheet is "Real 2024 million
+USD". The workbook has no domestic price column and no 2022 price. It is not
+committed.
+
+Nominal 2022 dollars: real-2024 value times the US GDP implicit price deflator
+for 2022 divided by the deflator for 2024. Bureau of Economic Analysis, via
+FRED series A191RD3A086NBEA, index 2017=100, annual, not seasonally adjusted,
+downloaded 2026-10-20 from
+https://fred.stlouisfed.org/graph/fredgraph.csv?id=A191RD3A086NBEA.
+2022 = 118.026. 2024 = 125.587. Factor = 118.026 / 125.587 = 0.9397947.
+
+Consumption: Energy Institute Statistical Review of World Energy, 2025 edition,
+sheet "Gas Consumption - Bcm", billion cubic metres, 2022. Bahrain is not a
+separate row (it sits in Other Middle East), so no implied gap is computed.
+The United Arab Emirates has an EI consumption row and no row in the IEA
+subsidy file.
+
+Implied gap, USD per MMBtu = nominal 2022 subsidy million USD times 1e6,
+divided by consumption in MMBtu. The cubic-metre conversion is the EIA factor
+in PROVENANCE.txt: 1 bcm = 1e9 * 35.3147 / 1e3 * 1.037 MMBtu.
+
+Reference marker: the same EI workbook, sheet "Gas Prices", year 2022, Japan
+Korea Marker (Platts JKM) = 33.978904 USD per million Btu. Footnote 2: S&P
+Global Commodity Insights, copyright 2025. JKM is a delivered Northeast Asia
+spot price, the closest cited marker on that sheet for Gulf LNG sales. It is
+not a Gulf FOB netback. The IEA subsidy is a price-gap construct (subsidy
+approximately (reference price − domestic price) times consumption). The
+implied gap is subsidy divided by consumption. It is compared with
+(JKM − official regulated price) only where a regulated price with document,
+page and date has been entered. No Gulf regulated price met that test, so
+reference_minus_regulated is blank and no ratio is computed. Nothing in
+production_2022.csv was changed to match this table.
+
+Oman and Bahrain have a zero 2022 gas subsidy on the IEA sheet. Oman's implied
+gap is zero. That is the file, not a finding that the domestic price equals JKM.

@@ -1,0 +1,6 @@
+iso3,partner,decided_by,decided_at,basis
+GLP,FRA,Timmy (implementing E37),2026-10-21,Guadeloupe sits inside BACI France. The Census partner is FRA before the S01 region lookup.
+MTQ,FRA,Timmy (implementing E37),2026-10-21,Martinique sits inside BACI France. The Census partner is FRA before the S01 region lookup.
+GUF,FRA,Timmy (implementing E37),2026-10-21,French Guiana sits inside BACI France. The Census partner is FRA before the S01 region lookup.
+REU,FRA,Timmy (implementing E37),2026-10-21,Reunion sits inside BACI France. The Census partner is FRA before the S01 region lookup.
+VAT,ITA,Timmy (implementing E37),2026-10-21,The Holy See sits inside BACI Italy. The Census partner is ITA before the S01 region lookup.

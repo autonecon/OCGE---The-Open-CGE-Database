@@ -1,0 +1,3 @@
+region,decided_by,decided_at,basis
+MKD,"Claude (beta v4 fix thread); FIX_REGISTER P21, used only where choice no_seaport_sea_key is on",2026-10-26,"Landlocked (mledoze/countries landlocked flag, data/restcountries). In beta v3 the BaTIS SC1 key gives MKD 0.67 bn of sea VST (energy_routing_trace/TRACE_REPORT.md P21) from an imputed SC1 and a filled freight share. Its freight moves by road and rail to Thessaloniki."
+BIH,"Claude (beta v4 fix thread); FIX_REGISTER P21, used only where choice no_seaport_sea_key is on",2026-10-26,"Not landlocked in the flag (20 km of coast at Neum) but has no commercial seaport; its sea trade goes through Ploce (Croatia). In beta v3 the BaTIS SC1 key gives BIH 0.84 bn of sea VST (TRACE_REPORT.md P21)."

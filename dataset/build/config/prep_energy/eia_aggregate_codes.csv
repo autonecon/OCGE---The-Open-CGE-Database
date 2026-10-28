@@ -1,0 +1,46 @@
+code,name_in_bulk,why_not_used
+AFRC,Africa,regional aggregate
+ASOC,Asia & Oceania,regional aggregate
+CSAM,Central & South America,regional aggregate
+CSK,Former Czechoslovakia,historical aggregate; successors are in the file
+DDR,"Germany, East",historical; DEU is the 2022 country series
+DEUW,"Germany, West",historical; DEU is the 2022 country series
+EU27,European Union,regional aggregate
+EURA,Eurasia,regional aggregate
+EURO,Europe,regional aggregate
+HITZ,Hawaiian Trade Zone,not a country; Hawaii is inside the USA series. 2022 values in this bulk file are the missing marker
+MIDE,Middle East,regional aggregate
+NOAM,North America,regional aggregate
+NOEC,Non-OECD,regional aggregate
+OEAO,OECD - Asia And Oceania,regional aggregate
+OEEU,OECD - Europe,regional aggregate
+OENA,OECD - North America,regional aggregate
+OPAF,OPEC - Africa,regional aggregate
+OPEC,OPEC,regional aggregate
+OPNO,Non-OPEC,regional aggregate
+OPSA,OPEC - South America,regional aggregate
+PERG,Persian Gulf,regional aggregate; members are separate series
+SCG,Former Serbia and Montenegro,historical aggregate
+SUN,Former U.S.S.R.,historical aggregate
+USIQ,U.S. Pacific Islands,aggregate of territories that EIA also publishes separately (GUM and others)
+USOH,U.S. Territories,aggregate; components that S01 maps are published separately
+WAK,Wake Island,not in the S01 region map (UMI is unmapped). No 2022 volume in the series used here
+WORL,World,world total used only as a coverage check
+YUG,Former Yugoslavia,historical aggregate
+OECD,OECD,membership aggregate; members are separate series
+WP11,Australia and New Zealand,IEO regional code. Not added to AUS or NZL
+WP12,IEO - Africa,IEO regional aggregate
+WP13,Brazil,IEO code published beside the Brazil country series. Not added to BRA
+WP14,Canada,IEO code published beside the Canada country series. Not added to CAN
+WP15,China,IEO code published beside the China country series. Not added to CHN
+WP16,India,IEO code published beside the India country series. Not added to IND
+WP17,Japan,IEO code published beside the Japan country series. Not added to JPN
+WP18,Mexico,IEO code published beside the Mexico country series. Not added to MEX
+WP19,IEO - Middle East,IEO regional aggregate
+WP21,Western Europe,IEO regional aggregate
+WP22,Other Americas,IEO regional aggregate
+WP23,Other Asia-Pacific,IEO regional aggregate
+WP24,Eastern Europe and Eurasia,IEO regional aggregate
+WP25,Russia,IEO code published beside the Russia country series. Not added to RUS
+WP26,South Korea and other OECD Asia,IEO regional code. Not added to KOR
+WP27,United States,IEO code. 2022 crude equals the USA series (12026.5 kb/d) and must not be added again

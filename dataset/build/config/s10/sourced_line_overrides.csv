@@ -1,0 +1,2 @@
+iso,hs6,rate_pct,switch,how,source,note
+PAK,271111,5,tariff_pak_lng_concession,pak_lng_concession,pending: FBR Customs Tariff 2022-23 Fifth Schedule (concessionary rate for LNG imports by PSO/PLL),"beta v5 K. TRAINS gives the 11% MFN on every partner; the trace (betav5 tax_tariff item 5) puts the LNG concession at 5% from memory, unverified. Booked PAK duty 5.85 bn against 5.26 bn collected. In v4 the gas cells book 0.50 bn; at 5% that is about 0.23 bn (-0.27 bn). Switch stays off until the source row is replaced."

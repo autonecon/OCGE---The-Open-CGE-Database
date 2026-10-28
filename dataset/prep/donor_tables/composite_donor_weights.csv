@@ -1,0 +1,71 @@
+composite,member,kind,how,donor,donor_name,gdp_usd,gdp_year,weight,left_out_of_weights
+XCB,HTI,member,donor,ARG,Argentina,2.0113e+10,2022,0.109617,no
+XCB,JAM,member,donor,BRA,Brazil,1.88135e+10,2022,0.102535,no
+XCB,SXM,member,donor,CRI,Costa Rica,1.59256e+09,2022,0.00867958,no
+XCB,ATG,member,donor,CRI,Costa Rica,1.85711e+09,2022,0.0101214,no
+XCB,BHS,member,donor,CRI,Costa Rica,1.38968e+10,2022,0.0757385,no
+XCB,BRB,member,donor,CRI,Costa Rica,6.88664e+09,2022,0.0375327,no
+XCB,BLZ,member,donor,CRI,Costa Rica,2.8466e+09,2022,0.0155142,no
+XCB,CUB,member,donor,BRA,Brazil,9.68506e+10,2017,0.527843,no
+XCB,AIA,member,donor,,,,,,yes
+XCB,MSR,member,donor,,,,,,yes
+XCB,VGB,member,donor,,,,,,yes
+XCB,TCA,member,donor,CRI,Costa Rica,1.43412e+09,2022,0.00781605,no
+XCB,KNA,member,donor,CHL,Chile,9.8143e+08,2022,0.00534886,no
+XCB,DMA,member,donor,COL,Colombia,6.23063e+08,2022,0.00339574,no
+XCB,CYM,member,donor,CRI,Costa Rica,6.65352e+09,2022,0.0362621,no
+XCB,VCT,member,donor,CRI,Costa Rica,9.89189e+08,2022,0.00539115,no
+XCB,GRD,member,donor,BRA,Brazil,1.22401e+09,2022,0.00667092,no
+XCB,LCA,member,donor,CRI,Costa Rica,2.31989e+09,2022,0.0126436,no
+XCB,ABW,member,donor,CRI,Costa Rica,3.32667e+09,2022,0.0181306,no
+XCB,CUW,member,donor,CRI,Costa Rica,3.07518e+09,2022,0.0167599,no
+XCB,BES,territory,territory,,,,,,territory_not_in_gtap_step
+XCB,BLM,territory,territory,,,,,,territory_not_in_gtap_step
+XEF,COM,member,donor,CIV,Cote d'Ivoire,1.27954e+09,2022,0.0367543,no
+XEF,SSD,member,donor,,,,,,yes
+XEF,BDI,member,donor,SEN,Senegal,4.02074e+09,2022,0.115494,no
+XEF,DJI,member,donor,STP,Sao Tome and Principe,3.56281e+09,2022,0.10234,no
+XEF,ERI,member,donor,,,,,,yes
+XEF,RWA,member,donor,CMR,Cameroon,1.37474e+10,2022,0.394888,no
+XEF,SOM,member,donor,SEN,Senegal,1.0203e+10,2022,0.293077,no
+XEF,SYC,member,donor,ZAF,South Africa,1.99989e+09,2022,0.057446,no
+XEF,EAZ,member,donor,,,,,,yes
+XNF,SDN,member,donor,CIV,Cote d'Ivoire,5.16669e+10,2022,1,no
+XSM,BOL,member,donor,PER,Peru,5.09591e+10,2022,0.243901,no
+XSM,ECU,member,donor,COL,Colombia,1.16133e+11,2022,0.555838,no
+XSM,PRY,member,donor,PER,Peru,4.18412e+10,2022,0.200261,no
+XSM,FLK,territory,territory,,,,,,territory_not_in_gtap_step
+XWE,LIE,member,donor,CHE,Switzerland,7.42686e+09,2022,0.14673,no
+XWE,SMR,member,donor,MLT,Malta,1.8317e+09,2022,0.0361883,no
+XWE,AND,member,donor,MLT,Malta,3.38061e+09,2022,0.0667896,no
+XWE,MCO,member,donor,LUX,Luxembourg,8.80043e+09,2022,0.173867,no
+XWE,ISL,member,own_icio_table,ISL,Iceland,2.91762e+10,2022,0.576425,no
+XWE,GIB,territory,territory,,,,,,territory_not_in_gtap_step
+XWE,FRO,territory,territory,ISL,Iceland,3.61524e+09,2022,,territory_not_in_gtap_step
+XWB,MNE,member,donor,BGR,Bulgaria,6.25972e+09,2022,0.400562,no
+XWB,KSV,member,donor,PRT,Portugal,9.36763e+09,2022,0.599438,no
+XOC,WSM,member,donor,NZL,New Zealand,8.89555e+08,2022,0.0490938,no
+XOC,TUV,member,donor,NZL,New Zealand,5.41041e+07,2022,0.00298596,no
+XOC,NRU,member,donor,NZL,New Zealand,1.80671e+08,2022,0.0099711,no
+XOC,PLW,member,donor,NZL,New Zealand,2.47471e+08,2022,0.0136577,no
+XOC,COK,member,donor,,,,,,yes
+XOC,MHL,member,donor,NZL,New Zealand,2.58724e+08,2022,0.0142787,no
+XOC,TON,member,donor,NZL,New Zealand,5.56515e+08,2022,0.0307136,no
+XOC,FSM,member,donor,NZL,New Zealand,4.15233e+08,2022,0.0229164,no
+XOC,KIR,member,donor,NZL,New Zealand,2.71214e+08,2022,0.0149681,no
+XOC,PYF,member,donor,NZL,New Zealand,5.62269e+09,2022,0.310312,no
+XOC,NCL,member,donor,NZL,New Zealand,9.62332e+09,2022,0.531103,no
+XOC,GUM,territory,territory,NZL,New Zealand,6.91e+09,2022,,territory_not_in_gtap_step
+XOC,ASM,territory,territory,NZL,New Zealand,8.71e+08,2022,,territory_not_in_gtap_step
+XOC,MNP,territory,territory,NZL,New Zealand,1.096e+09,2022,,territory_not_in_gtap_step
+XOC,TKL,territory,territory,,,,,,territory_not_in_gtap_step
+XOC,NIU,territory,territory,,,,,,territory_not_in_gtap_step
+XOC,WLF,territory,territory,,,,,,territory_not_in_gtap_step
+XOC,PCN,territory,territory,,,,,,territory_not_in_gtap_step
+XOC,CXR,territory,territory,,,,,,territory_not_in_gtap_step
+XOC,NFK,territory,territory,,,,,,territory_not_in_gtap_step
+XOC,CCK,territory,territory,,,,,,territory_not_in_gtap_step
+XOC,IOT,territory,territory,,,,,,territory_not_in_gtap_step
+XNA,GRL,member,donor,CAN,Canada,3.15233e+09,2022,0.28867,no
+XNA,BMU,member,donor,USA,United States,7.76788e+09,2022,0.71133,no
+XNA,SPM,territory,territory,,,,,,territory_not_in_gtap_step

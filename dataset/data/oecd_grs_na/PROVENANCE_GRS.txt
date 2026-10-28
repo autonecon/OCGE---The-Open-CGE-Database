@@ -1,0 +1,17 @@
+source: OECD Global Revenue Statistics Database, Comparative tax revenues
+license: OECD Terms and Conditions. OECD data may be extracted, copied, adapted and redistributed for any purpose, including commercial use, with attribution. OECD's default data licence since 1 July 2024 is CC BY 4.0. The Global Revenue Statistics Database is published for open reuse and states no additional restriction.
+license_url: https://www.oecd.org/en/about/terms-conditions.html
+dataset_url: https://www.oecd.org/en/data/datasets/global-revenue-statistics-database.html
+api: https://sdmx.oecd.org/public/rest/data/OECD.CTP.TPS,DSD_REV_COMP_GLOBAL@DF_RSGLOBAL,2.1/
+accessed: 2026-10-16
+attribution: OECD (2026), Global Revenue Statistics Database, comparative tax revenues. https://www.oecd.org/en/data/datasets/global-revenue-statistics-database.html (accessed 2026-10-16). OECD Terms and Conditions, commercial reuse with attribution.
+query:
+  dimensions MEASURE=TAX_REV, SECTOR=S13 (general government, all levels), UNIT_MEASURE=PT_B1GQ (percentage of GDP), FREQ=A, years 2017 and 2022.
+  STANDARD_REVENUE codes extracted:
+    T_1000  Taxes on income, profits and capital gains of individuals and corporations  -> grs_income_pct_gdp
+    T_2000  Social security contributions (total)                                        -> grs_ssc_pct_gdp
+    T_2200  Social security contributions by employers                                   -> grs_emp_ssc_pct_gdp
+file: oecd_grs_revenue.csv
+contents: one row per country and year (2017 and 2022). Columns countrycode, year, grs_income_pct_gdp, grs_ssc_pct_gdp, grs_emp_ssc_pct_gdp. Values are percentages of GDP for the general-government sector (S13). Only ISO3 country codes are kept; OECD aggregate and footnote codes are dropped. Empty cells are unpublished for that country-year.
+coverage: income tax (T_1000) 141 countries; employer SSC (T_2200) 73 countries; total SSC (T_2000) 125 countries. Counts over the two extracted years.
+use: income tax is the general-government T_1000 share of GDP times the member's WDI GDP, giving the income-tax wedge between evfb and evos; it covers all levels of government and so includes sub-national income taxes that the WDI central-government series misses. Where T_1000 has no observation the build falls back to the WDI central-government pair. Employer social contributions (T_2200) divided by the PWT labour share extend the employer-social-contribution rate (evfp to evfb wedge) to countries the OECD generation account (Table 6, D1 and D11) does not cover. The total-SSC series (T_2000) is kept for provenance and comparison; it is not used as a factor-tax rate because it mixes employer, employee and self-employed contributions.

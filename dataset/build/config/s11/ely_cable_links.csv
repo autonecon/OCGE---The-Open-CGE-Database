@@ -1,0 +1,26 @@
+country_a,country_b,link,in_service_by_2022,decided_by,decided_at,basis
+GBR,FRA,IFA / IFA2 / ElecLink,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (National Grid / RTE)
+GBR,NLD,BritNed,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (2011)
+GBR,BEL,Nemo Link,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (2019)
+GBR,NOR,North Sea Link,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (2021)
+NOR,DNK,Skagerrak 1-4,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector
+NOR,NLD,NorNed,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (2008)
+NOR,DEU,NordLink,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (2021)
+SWE,DNK,Oresund cables / Konti-Skan,yes,Claude (beta v4 dry-run fixes),2026-10-26,AC and HVDC submarine links
+SWE,DEU,Baltic Cable,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (1994)
+SWE,POL,SwePol,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (2000)
+SWE,LTU,NordBalt,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (2016)
+FIN,EST,Estlink 1-2,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector
+DNK,NLD,COBRAcable,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (2019)
+DNK,DEU,Kontek / Kriegers Flak,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine links (also a land border)
+POL,LTU,LitPol Link,yes,Claude (beta v4 dry-run fixes),2026-10-26,Land link (border in the country list too)
+ITA,GRC,GRITA,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (2002)
+ITA,MLT,Malta-Sicily interconnector,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine AC interconnector (2015)
+ITA,MNE,MONITA,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnector (2019)
+ESP,MAR,Spain-Morocco interconnector,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine AC interconnector (1997 and 2006)
+IRL,GBR,EWIC / Moyle,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine HVDC interconnectors (Moyle links Northern Ireland)
+SAU,BHR,GCCIA,yes,Claude (beta v4 dry-run fixes),2026-10-26,GCC Interconnection Authority grid (2009); Bahrain by submarine cable
+QAT,BHR,GCCIA,yes,Claude (beta v4 dry-run fixes),2026-10-26,GCC Interconnection Authority grid
+EGY,JOR,Aqaba-Taba cable,yes,Claude (beta v4 dry-run fixes),2026-10-26,Submarine interconnector (1998)
+SGP,MYS,Singapore-Peninsular Malaysia link,yes,Claude (beta v4 dry-run fixes),2026-10-26,Cross-strait interconnector (1985)
+EST,LVA,Baltic grid,yes,Claude (beta v4 dry-run fixes),2026-10-26,Land link (border in the country list too)

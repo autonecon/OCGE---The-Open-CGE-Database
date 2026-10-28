@@ -1,0 +1,11 @@
+source: World Bank World Development Indicators
+page: https://databank.worldbank.org/source/world-development-indicators
+api: https://api.worldbank.org/v2/country/all/indicator/TM.TAX.TCOM.WM.AR.ZS
+series:
+  TM.TAX.TCOM.WM.AR.ZS  Tariff rate, applied, weighted mean, primary products (%)
+  TM.TAX.MANF.WM.AR.ZS  Tariff rate, applied, weighted mean, manufactured products (%)
+  TM.TAX.MRCH.WM.AR.ZS  Tariff rate, applied, weighted mean, all products (%)
+updated: 2026-10-08
+license: CC BY 4.0
+https://datacatalog.worldbank.org/public-licenses
+note: These are the World Bank's published averages, redistributed by the World Bank under CC BY 4.0. The World Bank indicator metadata names UNCTAD TRAINS and the WTO Integrated Database / Consolidated Tariff Schedules as the source organizations. The HS6 schedules from UNCTAD TRAINS and the WTO Tariff and Trade Data platform were not downloaded. Both of those bulk files restrict commercial use and redistribution. Credit the World Bank as the distributor and TRAINS/WTO as the upstream compilers named in the metadata.

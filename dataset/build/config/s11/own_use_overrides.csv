@@ -1,0 +1,2 @@
+region,commodity,own_use_share,switch,source,decided_by,decided_at,basis
+CHN,ely,,chn_ely_own_use_cec,"pending: CEC (China Electricity Council) 2022 statistical bulletin, power plant own-use rate",Claude (beta v5 S10-S11 thread; David 2026-10-27 08:39 UTC package approval),2026-10-27,Beta v5 E8. Off until the CEC 2022 own-use rate is transcribed here; the code refuses the switch on with a blank share or a pending source.

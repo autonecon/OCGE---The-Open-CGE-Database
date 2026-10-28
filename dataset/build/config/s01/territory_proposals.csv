@@ -1,0 +1,26 @@
+code,sovereign,option_a_composite,option_b_sovereign,recommended,note
+GIB,GBR,XWE,GBR,XWE,"Table 9.10: SEUR. XWE already holds AND, SMR, MCO (SEUR micro-states). Largest item: fuel bunkering and re-exports"
+GUM,USA,XOC,USA,XOC,"Table 9.10: OCEN. GTAP keeps Guam in its Oceania composite. Option B follows the inherited PRI -> USA precedent"
+ASM,USA,XOC,USA,XOC,Table 9.10: OCEN
+MNP,USA,XOC,USA,XOC,Table 9.10: OCEN
+BES,NLD,XCB,NLD,XCB,"Table 9.10 CARB (via former ANT); XCB already holds CUW, SXM, ABW"
+BLM,FRA,XCB,FRA,XCB,Table 9.10: CARB
+FLK,GBR,XSM,GBR,XSM,Table 9.10: SAMR
+TKL,NZL,XOC,NZL,XOC,Table 9.10: OCEN
+NIU,NZL,XOC,NZL,XOC,"Table 9.10: OCEN. XOC already holds COK (also NZ-associated)"
+WLF,FRA,XOC,FRA,XOC,"Table 9.10: OCEN. XOC already holds PYF and NCL"
+PCN,GBR,XOC,GBR,XOC,Table 9.10: OCEN
+CXR,AUS,XOC,AUS,XOC,Table 9.10: OCEN
+NFK,AUS,XOC,AUS,XOC,Table 9.10: OCEN
+CCK,AUS,XOC,AUS,XOC,Table 9.10: OCEN
+IOT,GBR,XOC,GBR,XOC,"Table 9.10 lists it under OCEN; GTAP 12 itself puts it in XTW (remote territories, ch.9D p.3)"
+SPM,FRA,XNA,FRA,XNA,"Table 9.10: NAMR. XNA holds GRL, BMU"
+ATF,FRA,XWE,FRA,FRA,"Table 9.10 lists it under WEUR; GTAP 12 puts it in XTW. No sensible composite here, so sovereign recommended"
+SHN,GBR,(none: no West Africa composite),GBR,GBR,"Table 9.10: WAFR. We have no West Africa composite; Option C = a new composite (would make 168 regions)"
+FRO,DNK,XWE,DNK,XWE,"BaTIS and TiSMoS only (no BACI row). Table 9.10: NEUR. XWE already holds ISL"
+CHI,GBR,,GBR,GBR,"Grok review S01-M5: inside UK customs territory; BACI reports their trade with GBR; PRI->USA, SHN->GBR precedent"
+GGY,GBR,,GBR,GBR,as CHI
+JEY,GBR,,GBR,GBR,as CHI
+IMN,GBR,,GBR,GBR,as CHI
+VIR,USA,XCB,USA,USA,Grok review S01-M5: PRI->USA precedent
+MAF,FRA,XCB,FRA,XCB,Grok review S01-M5: BLM->XCB precedent

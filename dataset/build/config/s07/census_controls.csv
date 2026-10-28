@@ -1,0 +1,7 @@
+item,value,decided_by,decided_at,basis
+PR_exports,20590.2,Timmy (implementing E37),2026-10-21,"API TOTAL FOR ALL COUNTRIES on exports/statehs, STATE=PR, time=2022-12, COMM_LVL=HS6, field ALL_VAL_YR. The raw total is 20590166862 USD, recorded here as 20590.2 USD million."
+PR_imports,26914.9,Timmy (implementing E37),2026-10-21,"API TOTAL FOR ALL COUNTRIES on imports/statehs, STATE=PR, time=2022-12, COMM_LVL=HS6, field GEN_VAL_YR. The raw total is 26914870236 USD, recorded here as 26914.9 USD million."
+VI_exports,2100.4,Timmy (implementing E37),2026-10-21,"API TOTAL FOR ALL COUNTRIES on exports/statehs, STATE=VI, time=2022-12, COMM_LVL=HS6, field ALL_VAL_YR. The raw total is 2100364047 USD, recorded here as 2100.4 USD million."
+VI_imports,822.8,Timmy (implementing E37),2026-10-21,"API TOTAL FOR ALL COUNTRIES on imports/statehs, STATE=VI, time=2022-12, COMM_LVL=HS6, field GEN_VAL_YR. The raw total is 822792291 USD, recorded here as 822.8 USD million."
+excluded_sectors,unmapped wat pub art ely,Timmy (implementing E37),2026-10-21,"Chapter 98 has no S01 sector and is stored as unmapped. wat, pub, art and ely are not S07 goods. They stay in the Census file and are dropped by the carve."
+excluded_limit,650,Timmy (implementing E37),2026-10-21,The addendum caps the excluded value at 0.65 USD billion (650 USD million).

@@ -1,0 +1,7 @@
+choice,value,decided_by,decided_at,basis
+fao_series,"FAOSTAT QV element 57 (current thousand USD), item 2051 ""Agriculture"", divided by 1000 to USD million",Timmy,2026-10-21T04:55+07:00,"ch.9A p.2 Table 9.1: the 12 APT sectors are all crops and livestock, our crp. The FAO aggregate avoids double counting items."
+fao_year,"2022, else the latest earlier year (year rule). No row <=2022, or latest = 1998, is F5 (no target, flag APT-F5-NO-TARGET). Any other year < 2022 is flagged FAO-YEAR-<y>.",Timmy,2026-10-21T04:55+07:00,"READINESS F5 (approved): ""1998 only ... (treat as missing: too old)""; year rule."
+export_target,the table's own dom_crp X,Timmy,2026-10-21T04:55+07:00,"ch.9A p.3: APT ""uses the same macroeconomic and protection data as those used in the final ... construction""; PLAN §3(c) method 1."
+gdp_scale,"s = S02 GDP / table GDP (table GDP as S05-H7, including TLS on stock change), used for the test and the target only. The table is not scaled.",Timmy,2026-10-21T04:55+07:00,"ch.9A p.3 ""before testing ... we scale the I-O tables to match the GDP target""; table scaling is S13 (ch.7 §7.2 p.3)."
+domestic_absorption,"DA = OUT - X (domestic product sold at home), GDP-scaled. The alternative OUT - X + M is reported beside it.",Timmy,2026-10-21T04:55+07:00,"Not defined in GTAP text (inferred). ch.9A p.3 ""very little domestic product available to the domestic market""; Tables 9.3/9.4 fit."
+soft_fraction,0.25,Timmy,2026-10-21T04:55+07:00,"ch.9A p.3 ""one quarter of the initial level of domestic absorption""."

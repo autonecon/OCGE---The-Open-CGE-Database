@@ -1,0 +1,7 @@
+source: USDA Economic Research Service, International Agricultural Productivity
+license: US government work, public domain
+url: https://www.ers.usda.gov/data-products/international-agricultural-productivity/
+file: AgTFPInternational2023.xlsx, Cost Shares sheet, accessed 2026-10-15
+attribution: Fuglie, K., and others, USDA ERS International Agricultural Productivity. Input cost shares are the land, labour, and capital weights described in Fuglie (2015), Accounting for Growth in Global Agriculture, Bio-based and Applied Economics 4(3).
+
+use: land's share of agricultural primary-factor cost. The 2011-2020 share is stored as 2017 and the 2021-2030 share as 2022. Crop land rent is that share, divided by the sum of the land, labour, and capital shares, times the crop sector's own value added (not World Bank total-agriculture value added, which also covers livestock, forestry and fishing). The rent is booked only in crops. Forest rent is a natural resource in forestry, not land (World Bank forest rent, NY.GDP.FRST.RT.ZS). A country with no measured crop land share receives the smallest positive share in that year, and the source is recorded as a floor.

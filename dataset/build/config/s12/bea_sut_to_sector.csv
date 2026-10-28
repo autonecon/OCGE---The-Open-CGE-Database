@@ -1,0 +1,72 @@
+industry_code,sectors,note
+111CA,crp,NAICS 111-112 farms (our crp holds crops and livestock)
+113FF,for fsh,NAICS 113-115
+211,oil gas,NAICS 211
+212,coa ore min,NAICS 212
+213,msp,NAICS 213 support activities for mining (ISIC 09)
+22,ely wat,NAICS 22 utilities (electricity and gas distribution ISIC 35; water and sewerage ISIC 36-37)
+23,con,NAICS 23
+321,wod,NAICS 321
+327,nmm,NAICS 327
+331,stl nfm,NAICS 331
+332,fmp,NAICS 332
+333,mac,NAICS 333
+334,elc,NAICS 334
+335,eeq,NAICS 335
+3361MV,mvh,NAICS 3361-3363
+3364OT,shp tre,NAICS 3364-3369
+337,omf,NAICS 337 furniture (ISIC 31)
+339,omf,NAICS 339 (ISIC 32)
+311FT,fbt,NAICS 311-312
+313TT,tal,NAICS 313-314
+315AL,tal,NAICS 315-316
+322,pap,NAICS 322
+323,pap,NAICS 323 printing (ISIC 18)
+324,pet,NAICS 324
+325,chm pha,NAICS 325
+326,rpl,NAICS 326
+42,trd,NAICS 42
+441,trd,NAICS 441
+445,trd,NAICS 445
+452,trd,NAICS 452
+4A0,trd,other retail
+481,air,NAICS 481
+482,rdt,NAICS 482
+483,sea,NAICS 483
+484,rdt,NAICS 484
+485,rdt,NAICS 485
+486,rdt,NAICS 486 pipelines (ISIC 49.3)
+487OS,whs pst,NAICS 487-488 and 492 couriers (ISIC 52 and 53.2)
+493,whs,NAICS 493
+511,pub its,NAICS 511 publishing including software publishers (ISIC 58)
+512,pub,NAICS 512 (ISIC 59)
+513,pub tel,NAICS 515 and 517 broadcasting and telecommunications (ISIC 60 and 61)
+514,its,NAICS 518-519 data processing and other information services (ISIC 63)
+521CI,fin,NAICS 521-522
+523,fin,NAICS 523
+524,fin,NAICS 524
+525,fin,NAICS 525
+HS,rle,housing (owner-occupied and tenant)
+ORE,rle,other real estate
+532RL,adm,NAICS 532-533 rental and leasing (ISIC 77)
+5411,pro,NAICS 5411
+5415,its,NAICS 5415 (ISIC 62)
+5412OP,pro,NAICS 5412-5414 5416-5419
+55,pro,NAICS 55 (ISIC 70)
+561,adm,NAICS 561
+562,wat,NAICS 562 waste (ISIC 38-39)
+61,edu,NAICS 61 private education
+621,hea,NAICS 621
+622,hea,NAICS 622
+623,hea,NAICS 623
+624,hea,NAICS 624
+711AS,art,NAICS 711-712
+713,art,NAICS 713
+721,hos,NAICS 721
+722,hos,NAICS 722
+81,ots hhe,NAICS 81 including private households (ISIC 94-98)
+GFGD,none,general government: BEA records no other taxes or subsidies on production
+GFGN,none,general government: BEA records no other taxes or subsidies on production
+GFE,none,federal government enterprises: BEA records none (their subsidies are in the current surplus)
+GSLG,none,general government: BEA records no other taxes or subsidies on production
+GSLE,none,state and local government enterprises: BEA records none

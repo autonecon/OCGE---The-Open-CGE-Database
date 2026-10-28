@@ -1,0 +1,90 @@
+stage,rule,kind,note
+S01_sets_registry,P8 decision by David 2026-10-20 19:03,method,
+S01_sets_registry,P8 decision by David 2026-10-20 19:40,method,
+S02_macro,F1,method,
+S02_macro,F2,method,
+S02_macro,K0,method,
+S02_macro,K1,method,
+S02_macro,K2,method,
+S02_macro,decision,method,
+S03_io_cleaning,proportional RAS of intermediate and final cells to published output,method,
+S03_io_cleaning,remove stock change,method,
+S04_disagg_gov,GTAP8-8E-p3,method,
+S05_composite,GTAP12-9D-D3-p3,method,
+S06_apt,GTAP12-9A-A2-p3-report,method,
+S07_trade,BACI-ALL-PAIRS,method,
+S07_trade,REEXPORT-HUB-HKG,method,
+S07_trade,REEXPORT-HUB-NLD,method,
+S07_trade,REEXPORT-HUB-SGP,method,
+S07_trade,RETAINED-IMPORTS-HKG,method,
+S07_trade,RETAINED-IMPORTS-SGP,method,
+S08_margins,F8 fill capped at the region's own I-O exports of the mode (floor 0.01 USD m),method,
+S08_margins,F8 geographic freight ratio on BaTIS,method,
+S08_margins,dominant fallback level on summed VXSB,method,
+S08_margins,report only; no cap,method,
+S09_services,F8 geographic-region TiSMoS shares,method,
+S09_services,drop the TiSMoS freight leaf; do not net against VST,method,
+S10_tariffs_taxes,MONEVA budgetary A2-E; MPS PN PM excluded; all to crp,method,
+S10_tariffs_taxes,WTO notified outlay over 2022 exports of the notified product,method,
+S10_tariffs_taxes,"effective duty rate times imported use, capped at the import share of TLS",method,
+S10_tariffs_taxes,"inherited IO subsidy, not an S10 plug",method,
+S11_energy,ninety_pct_rule,method,
+S12_factors,negative_va,method,
+S13_fit,dpabr_to_households,method,
+S13_fit,"energy smear: 31/32 own row, 1/32 world I-O structure of the good",method,
+S13_fit,energy_import_shares,method,
+S13_fit,energy_use_caps,method,
+S13_fit,from domestic purchases,method,
+S13_fit,from imported purchases,method,
+S13_fit,fuel_subsidies,method,
+S13_fit,gov_inv_energy_removed,method,
+S13_fit,households (no buyer in the prior),method,
+S13_fit,io12_column_imbalance,absorbed,io_s12 column imbalance absorbed by the FIT (eq. 17.22)
+S13_fit,io12_row_imbalance,absorbed,io_s12 row imbalance absorbed by the FIT (eq. 17.28)
+S13_fit,own_use_cap,method,
+S13_fit,pet (no buyer in the prior; crude only to refining),method,
+S13_fit,prior_without_va,method,
+S13_fit,product_tax_source,method,
+S13_fit,product_tax_totals,method,
+S13_fit,pse_input_items,method,
+S13_fit,removed_absorbed_by_fit,absorbed,stock-change and G-revision gaps absorbed by the FIT (ch.17A item 3; E40)
+S13_fit,rep_column_tls_in_va,method,
+S13_fit,shut_column,method,
+S13_fit,target_all_exported_no_domestic_sales,method,
+S13_fit,within_s11_output_less_exports_excess_dropped_ledgered,method,
+S13_fit,zero_imports,method,
+S13_fit,zero_output_column_prior,method,
+S13_fit,zero_output_no_domestic_sales,method,
+S14_final_assembly,A13 seed cost structure carved from the supplying columns,method,fix list A13: the supplying activities hand the matching share of their column to the seeded activity (every total unchanged)
+S14_final_assembly,A13 land and natural resources in a seeded column paid as capital,method,"fix round S16 (Fable QA C-07): land and natural resources a seeded column took over in the carve are paid as capital where it used neither before (GTAP 12 ch.14A, ch.12A); column VA, factor taxes and income unchanged"
+S14_final_assembly,A13 seed domestic supply in a one-sided pair,method,fix list A13: domestic purchases of 1e-4 of imports in each commodity a region bought only from imports
+S14_final_assembly,A13 seed imports in a domestic-only pair (swap with a partner exporter),method,fix list A13 (the other side): imports of 1e-4 of domestic purchases in each commodity a region bought only from domestic producers; a tax-free and margin-free swap with a partner exporter keeps every total
+S14_final_assembly,B14 trade cells below USD 1 set to zero,method,fix list B14: VXSB routes and VTWR cells below 1e-6 USD million set to zero before the re-balancing (our choice)
+S14_final_assembly,B16 natural resources at the ch.12.A target on the S14 data,method,"fix list B16 (S12-17): the GTAP 7 ch.12.A natural-resource share set again at the S14 theta_VA, labour and capital pro rata (GTAP 12 ch.17B: at global assembly, after the FIT); every column total unchanged"
+S07_trade,FLAG-REGISTRY-SHIPS,method,Fable QA D-01: open-registry ship imports dropped
+S07_trade,HKG-REEXPORT-MARGIN,method,Fable QA D-01: HKG re-export margins booked as services
+S07_trade,RETAINED-IMPORTS-NLD,method,Fable QA hub fix: NLD retained imports
+S08_margins,BaTIS freight share from batis_freight_F8 (no own TiSMoS split) or own-carrier part only,method,Fable QA F-09 sea margins
+S08_margins,BaTIS freight share from own_carrier (no own TiSMoS split) or own-carrier part only,method,Fable QA F-09 sea margins
+S13_fit,vat_final_demand,method,Fable QA C-09: GCC VAT on final demand
+S08_margins,energy_sea_rate,method,beta v3 round: sea part of crude and petroleum margins at the exporter US Census rate (GTAP 7 ch.9A p.3; our choice on non-US routes)
+S12_factors,gollin_addition_returned_to_capital_until_capital_evos_at_least_1_25_vdep,method,beta v3 round: capital income floor on VDEP after the Gollin labour step (our choice; GNQ and TLS)
+S02_macro,gfcf_wdi_outlier,method,beta v4 G16a: LBN and VEN GFCF from the UN AMA share x WDI GDP (David 2026-10-26 08:26 UTC)
+S07_trade,ABSENT-PAIR-FILL,method,beta v4 P13: pairs absent from BACI 2022 filled from BACI 2021 (fix register P13)
+S07_trade,CURRENCY-HS490700,method,beta v4 P22: HS 490700 banknote shipments out of goods trade
+S07_trade,GOLD-REEXPORT,method,beta v4 P39: UGA gold exports above recorded imports plus own mining (S07 gold_reexport)
+S07_trade,REEXPORT-RX-TIER1,method,"beta v4 P26: re-exports removed from Comtrade RX, tier 1 (S07 reexport_rx)"
+S07_trade,TRANSIT-IMPORT-CAP,method,beta v4 P18: transit imports capped (S07 transit cap)
+S08_margins,BaTIS freight share from no_seaport_zero (no own TiSMoS split) or own-carrier part only,method,beta v4 P21/P27: BaTIS freight share for no-seaport regions
+S12_factors,gollin_addition_returned_to_capital_until_labour_at_most_ilo_sdg_10_4_1_share_of_gdp_d1_floor,method,beta v4 G2/P40: Gollin addition returned to capital down to the ILO SDG 10.4.1 share (S12 gollin_ilo_cap)
+S13_fit,ely_output_value floor,method,beta v4 P1: ely output held at the 90 percent floor where above the prior column (S11 ely_output_value floor_ninety)
+S13_fit,target_below_10_musd_and_2pct_of_output_plus_imports_or_below_1_musd_exports_at_most_1k_usd_target_falls_to_exports,method,"beta v4 P38: tiny energy activities, target cut to exports (S13 tiny_energy_activity)"
+S14_final_assembly,"capital floor: capital at least USD 1 (at most half of VA) in an activity with value added",method,"beta v4 (S16 alone_bfa; S14 capital_floor): capital taken from labour pro rata up to min(1e-6 USD million, half of VA); column VA, factor taxes and income unchanged"
+S02_macro,gdp_imputed_ama_to_weo,method,"beta v5 Y: AMA-imputed or below-250-USD-per-head GDP replaced by IMF WEO GDP; C, G, GFCF keep AMA shares (David 2026-10-27 08:39 UTC, package v2)"
+S02_macro,gdp_lcu_official_rate,method,"beta v5 Cuba: GDP in local currency at the official rate (ONEI at 24 CUP/USD; David 2026-10-27 08:39 UTC, package v2)"
+S07_trade,HKG-DOMESTIC-EXPORT-CAP,method,beta v5 T1: HKG goods exports capped at C&SD domestic exports (Aguiar et al. 2025 p.12)
+S07_trade,IMPORTER-FLOOR,method,"beta v5 B: importer floor at own customs imports, strict partner cap (David 2026-10-27 13:33 UTC)"
+S07_trade,METAL-REEXPORT-DROP,method,beta v5 G: gold re-exports dropped (labelled departure)
+S07_trade,METAL-REEXPORT-REROUTE,method,beta v5 G: gold re-exports rerouted to the origin (labelled departure)
+S07_trade,REEXPORT-IMPORT-SURPLUS,method,beta v5 T1: import-surplus re-exports moved to the origin (Aguiar et al. 2025 p.12)
+S13_fit,oil (no buyer in the prior; crude only to refining),method,same rule as the pet row; beta v5 ledger names the crude commodity oil

@@ -1,0 +1,12 @@
+isco08_major,description,group5,group2,reference
+1,Managers,off_mgr_pros,skilled,"GTAP 12 ch.14B Table 14.18 (p.3); Weingarden-Tsigas 2010 p.16"
+2,Professionals,off_mgr_pros,skilled,"GTAP 12 ch.14B Table 14.18 (p.3)"
+3,Technicians and associate professionals,tech_aspros,skilled,"GTAP 12 ch.14B Table 14.18 (p.3)"
+4,Clerical support workers,clerks,unskilled,"GTAP 12 ch.14B Table 14.18 (p.3)"
+5,Service and sales workers,service_shop,unskilled,"GTAP 12 ch.14B Table 14.18 (p.3)"
+6,Skilled agricultural forestry and fishery workers,ag_othlowsk,unskilled,"GTAP 12 ch.14B Table 14.18 (p.3)"
+7,Craft and related trades workers,ag_othlowsk,unskilled,"GTAP 12 ch.14B Table 14.18 (p.3)"
+8,Plant and machine operators and assemblers,ag_othlowsk,unskilled,"GTAP 12 ch.14B Table 14.18 (p.3)"
+9,Elementary occupations,ag_othlowsk,unskilled,"GTAP 12 ch.14B Table 14.18 (p.3)"
+0,Armed forces occupations,EXCLUDED,EXCLUDED,"Not in Table 14.18; ch.14B p.5 uses nine major groups and removes 'Total' and 'X' before eq.14.1. Shares are taken over ISCO 1-9."
+X,Not elsewhere classified,EXCLUDED,EXCLUDED,"GTAP 12 ch.14B p.5: category 'X' removed before eq.14.1"

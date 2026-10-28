@@ -1,0 +1,9 @@
+source: OECD annual national accounts, Table 6, consumption of fixed capital
+license: OECD terms of use. The default data licence is CC BY 4.0.
+license_url: https://www.oecd.org/en/about/terms-conditions.html
+accessed: 2026-10-15
+attribution: OECD, Annual national accounts, Table 6. Transaction P51C, total economy S1, total activity, current prices, national currency. Dataflow OECD.SDD.NAD,DSD_NAMAIN10@DF_TABLE6, table T0301.
+
+use: P51C divided by gross value added (B1G in oecd_generation.csv) is a ceiling on depreciation as a share of value added. The Penn productive-capital depreciation is left in place when it is below that ceiling. Where it is above, it is cut back to the OECD ratio. The ceiling includes dwellings, so it only binds when the productive estimate exceeds the national-accounts total.
+
+not a target: GTAP's 4 percent depreciation rate is not used.

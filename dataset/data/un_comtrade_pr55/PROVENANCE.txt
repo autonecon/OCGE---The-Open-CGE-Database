@@ -1,0 +1,18 @@
+Merchandise partner file for the 2022 internal master.
+
+Source: CEPII BACI, HS 2022, year 2022, version v202601. BACI reconciles UN Comtrade reporter and mirror flows (Gaulier and Zignago, CEPII Working Paper 2010-23).
+Download page: https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37
+The HS6 file stays in the private tree and is not committed. This CSV is the sector aggregate.
+
+Columns: exporter, importer, sector, usd_million, source.
+Units: million USD. sector is an ICIO industry code, or oil, or gas.
+oil is HS 2709, plus the residual of HS 2711 that is not natural gas (271112, 271113, 271119, 271129).
+gas is natural gas only: HS 271111 (LNG) and HS 271121 (pipeline). LPG is not gas.
+C19 is HS 2710.
+Other goods use the modal ICIO sector of the HS6 concordance in the private tree (US Census path, public domain).
+
+Russia did not report 2022 to UN Comtrade. The Federal Customs Service bilateral file for 2022 was not obtainable here. Russian crude, gas and refined rows in this file are the partner-reported mirror.
+
+russia_energy_2022.csv is the same mirror, restricted to Russian exports of oil, gas and C19. The build reads goods_sector_2022.csv, not that extract.
+
+Regional-group members' GDP is not filled from this file. David declined that fill. The groups stay as they are.

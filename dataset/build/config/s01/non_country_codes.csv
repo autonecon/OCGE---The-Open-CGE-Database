@@ -1,0 +1,68 @@
+source,code,meaning,treatment,reference
+BaTIS,WXD,Rest of the world (residual aggregate),excluded: not a country,"BaTIS structure.xml codelist: WXD 'Rest of the world'"
+ICIO,ROW,Rest of the world (residual aggregate),opened later with BACI/BaTIS shares (S04-S07),"OECD ICIO 2025 country list"
+BaTIS,EU27_2020,European Union (27) aggregate,excluded: not a country,BaTIS structure.xml codelist
+BaTIS,OECD,OECD members aggregate,excluded: not a country,BaTIS structure.xml codelist
+BaTIS,W,World,excluded: not a country,BaTIS structure.xml codelist
+BaTIS,WXEU27_2020,World excluding EU27,excluded: not a country,BaTIS structure.xml codelist
+BaTIS,WXOECD,World excluding OECD,excluded: not a country,BaTIS structure.xml codelist
+TiSMoS,TiSMoS:AFR,Africa,excluded: not a country,TiSMoS reporter names
+TiSMoS,TiSMoS:ASI,Asia,excluded: not a country,TiSMoS reporter names
+TiSMoS,TiSMoS:CIS,Commonwealth of Independent States,excluded: not a country,TiSMoS reporter names
+TiSMoS,TiSMoS:CSC,South and Central America and the Caribbean,excluded: not a country,TiSMoS reporter names
+TiSMoS,TiSMoS:EU,European Union,excluded: not a country,TiSMoS reporter names
+TiSMoS,TiSMoS:EUR,Europe,excluded: not a country,TiSMoS reporter names
+TiSMoS,TiSMoS:LDC,Least-developed countries,excluded: not a country,TiSMoS reporter names
+TiSMoS,TiSMoS:MEA,Middle East,excluded: not a country,TiSMoS reporter names
+TiSMoS,TiSMoS:NAX,North America,excluded: not a country,TiSMoS reporter names
+TiSMoS,TiSMoS:WL,World,excluded: not a country,TiSMoS reporter names
+TiSMoS,TiSMoS:YU,Serbia and Montenegro (former; all 2022 values zero; RS and ME report separately),excluded: historical code,TiSMoS reporter names
+WDI,AFE,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,AFW,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,ARB,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,CEB,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,CSS,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,EAP,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,EAR,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,EAS,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,ECA,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,ECS,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,EMU,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,EUU,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,FCV,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,HPC,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,IBD,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,IBT,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,IDA,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,IDB,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,IDX,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,LAC,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,LCN,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,LDC,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,LMY,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,LTE,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,MEA,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,MIC,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,MNA,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,NAC,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,OED,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,OSS,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,PRE,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,PSS,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,PST,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,SAS,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,SSA,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,SSF,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,SST,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,TEA,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,TEC,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,TLA,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,TMN,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,TSA,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,TSS,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,WLD,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,HIC,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,LIC,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,LMC,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,UMC,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)
+WDI,INX,World Bank regional/income/lending aggregate,excluded: not a country,WDI country metadata (aggregate groups)

@@ -1,0 +1,5 @@
+code,name,why
+VIR,U.S. Virgin Islands,S01 leaves VIR with a blank region (status "not in any scanned source"). E32 said VIR folds into USA. This prep does not override that map.
+ESH,Western Sahara,S01 status is UNMAPPED (in sources; needs David). Not assigned to a region.
+ATA,Antarctica,S01 status is UNMAPPED (in sources; needs David). Not assigned to a region.
+UMI,United States Minor Outlying Islands,S01 status is UNMAPPED (in sources; needs David). No 2022 volume in the series used here.

@@ -1,0 +1,2 @@
+check,region,decided_by,decided_at,basis
+PREP-H10,TKM,David,2026-10-20T21:24+07:00,"Turkmenistan gas stays on EIA, flagged: EIA vs EI 9.5% against the E6 8% gate. ISSUES_AND_DECISIONS 2026-10-20 S11 row (David); PR #72 build.log 2026-10-20 21:13:20. Row tkm_gas_prep_h10 in config/s11/s11_choices.csv."

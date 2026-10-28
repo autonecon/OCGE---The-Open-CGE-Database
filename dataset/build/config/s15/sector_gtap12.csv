@@ -1,0 +1,52 @@
+sector,gtap12_members,cde_category,note
+crp,pdr wht gro vf osd cb pfb ocr ctl oap rmk wol,GrainCrops,"ICIO A01 is crops and livestock; CDE category by majority of members (7 of 12 GrainCrops in Table 16.4)"
+for,frs,Mnfcs,
+fsh,fsh,MeatDairy,
+coa,coa,HousUtils,
+oil,oil,GrainCrops,"Table 16.4 prints oil under GrainCrops (GTAP 7 Table 14.3 had TransComm); transcribed as printed"
+gas,gas,HousUtils,
+ore,oxt,Mnfcs,"ICIO B07 metal ores; GTAP 12 oxt (other extraction)"
+min,oxt,Mnfcs,"ICIO B08 other mining; GTAP 12 oxt"
+msp,oxt,Mnfcs,"ICIO B09 mining support; GTAP 12 Table 2.11 gives oil and gas part of ISIC 091 and oxt the rest; kept on oxt as the mining sector, as with GTAP 7"
+fbt,cmt omt vol mil pcr sgr ofd bt,OthFoodBev,"CDE category by majority of members (4 of 8 OthFoodBev)"
+tal,tex wap lea,TextAppar,
+wod,lum,Mnfcs,
+pap,ppp,Mnfcs,"ICIO C17_18 (ISIC 17-18); publishing (ISIC 58) is in GTAP 12 cmn"
+pet,pc,Mnfcs,"Table 16.4 puts pc in Mnfcs (GTAP 7 Table 14.3 had TransComm)"
+chm,chm,Mnfcs,
+pha,bph,Mnfcs,
+rpl,rpp,Mnfcs,
+nmm,nmm,Mnfcs,
+stl,is,Mnfcs,
+nfm,nfm,Mnfcs,
+fmp,fmp,Mnfcs,
+elc,ele,Mnfcs,
+eeq,eeq,Mnfcs,
+mac,ome,Mnfcs,
+mvh,mvh,Mnfcs,
+shp,otn,TransComm,
+tre,otn,TransComm,
+omf,omf,Mnfcs,
+ely,ely gdt,HousUtils,"ICIO D is ISIC 35: GTAP 12 ely (351, 353) and gdt (352), which carry the same values"
+wat,wtr,HousUtils,
+con,cns,HousUtils,
+trd,trd,WRTrade,
+rdt,otp,TransComm,
+sea,wtp,TransComm,
+air,atp,TransComm,
+whs,whs,TransComm,
+pst,cmn,TransComm,"GTAP 12 Table 2.12: cmn is ISIC 53 and 58-63"
+hos,afs,WRTrade,
+pub,cmn,TransComm,"GTAP 12 Table 2.12: cmn is ISIC 53 and 58-63"
+tel,cmn,TransComm,
+its,cmn,TransComm,"ICIO J62_63; GTAP 12 Table 2.12 puts ISIC 62-63 in cmn (GTAP 7 had computer services in obs)"
+fin,ofi ins,FinService,"Members split FinService (ofi) and HousUtils (ins); ofi taken as the larger, as with GTAP 7"
+rle,rsa dwe,HousOthServ,"Real estate: rsa (ISIC 68) and imputed rent dwe; dwellings dominate household purchases, so HousOthServ (Table 16.4 puts rsa in FinService)"
+pro,obs,FinService,
+adm,obs,FinService,
+gov,osg,HousOthServ,
+edu,edu,HousOthServ,
+hea,hht,HousOthServ,
+art,ros,HousOthServ,
+ots,ros,HousOthServ,
+hhe,ros,HousOthServ,"Households as employers (ISIC 97); GTAP 12 Table 2.12 puts R, S and T in ros"

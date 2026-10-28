@@ -1,0 +1,50 @@
+map,kind,regions,schemes,tariff_shock,purpose
+smoke_11x7,fixed,SAU ARE QAT KWT IRQ OMN BHR IRN USA CHN,s7_smoke,mfr:row:usa,"S15 smoke map (PLAN §4 item 1), with the S15 tariff shock"
+default_5,fixed,USA CHN JPN IND,s4,mfr:chn:usa,"closure test default map (main closure_test_2022.jl); beta v5 TC: +10% tariff shock on manufactures (qxs falls, Walras gap <= 1e-6)"
+small_countries,fixed,CHE SGP BEL USA,s4,,closure test small open economies
+aggregation_A,fixed,USA CHN JPN IND DEU BRA CHE SGP BEL XCB XEF XSM XWE XNF XWB XOC XNA,s6,,"closure test A: large economies, small open economies and every rest-of composite"
+aggregation_B,saving_tails,,s6,,closure test B: both tails of the saving distribution (CARRY-SAVE regions stay pooled)
+aggregation_C,smallest,CHE SGP BEL XCB,s4,,closure test C: the twenty smallest regions by income (CARRY-SAVE regions stay pooled)
+usa_plus_xcb,fixed,USA XCB,s4,,closure test: rest-of composite XCB alone
+usa_plus_xef,fixed,USA XEF,s4,,closure test: rest-of composite XEF alone
+usa_plus_xnf,fixed,USA XNF,s4,,closure test: rest-of composite XNF alone
+usa_plus_xsm,fixed,USA XSM,s4,,closure test: rest-of composite XSM alone
+usa_plus_xwe,fixed,USA XWE,s4,,closure test: rest-of composite XWE alone
+usa_plus_xwb,fixed,USA XWB,s4,,closure test: rest-of composite XWB alone
+usa_plus_xoc,fixed,USA XOC,s4,,closure test: rest-of composite XOC alone
+usa_plus_xna,fixed,USA XNA,s4,,closure test: rest-of composite XNA alone
+energy_trade,fixed,GCC=SAU+ARE+QAT+KWT+OMN+BHR IRN IRQ KOR JPN CHN USA IND RUS GBR,s7_smoke,mfr:chn:usa,"closure test energy-trade map (the GCC pooled as one region; Iran, Iraq and the large importers named); beta v5 TC: +10% tariff shock on manufactures (qxs falls, Walras gap <= 1e-6)"
+energy_trade_11x7,fixed,SAU ARE QAT IRN IRQ,s7_smoke,,closure test energy-trade map with five Gulf exporters named
+alone_sau,fixed,SAU,s7_smoke,mfr:row:sau,"PLAN §4 item 2: SAU isolated (Gulf, Korea); beta v5 TC: +10% tariff shock on manufactures (qxs falls, Walras gap <= 1e-6)"
+alone_are,fixed,ARE,s7_smoke,,"PLAN §4 item 2: ARE isolated (Gulf, Korea)"
+alone_qat,fixed,QAT,s7_smoke,,"PLAN §4 item 2: QAT isolated (Gulf, Korea)"
+alone_kwt,fixed,KWT,s7_smoke,,"PLAN §4 item 2: KWT isolated (Gulf, Korea)"
+alone_omn,fixed,OMN,s7_smoke,,"PLAN §4 item 2: OMN isolated (Gulf, Korea)"
+alone_bhr,fixed,BHR,s7_smoke,,"PLAN §4 item 2: BHR isolated (Gulf, Korea)"
+alone_irn,fixed,IRN,s7_smoke,,"PLAN §4 item 2: IRN isolated (Gulf, Korea)"
+alone_irq,fixed,IRQ,s7_smoke,,"PLAN §4 item 2: IRQ isolated (Gulf, Korea)"
+alone_kor,fixed,KOR,s7_smoke,mfr:row:kor,"PLAN §4 item 2: KOR isolated (Gulf, Korea); beta v5 TC: +10% tariff shock on manufactures (qxs falls, Walras gap <= 1e-6)"
+alone_ago,fixed,AGO,s7_smoke,,"PLAN §4 item 2: priority oil exporter AGO isolated (OPEC 2022 or OPEC+ partner, S01 priority)"
+alone_cog,fixed,COG,s7_smoke,,"PLAN §4 item 2: priority oil exporter COG isolated (OPEC 2022 or OPEC+ partner, S01 priority)"
+alone_dza,fixed,DZA,s7_smoke,,"PLAN §4 item 2: priority oil exporter DZA isolated (OPEC 2022 or OPEC+ partner, S01 priority)"
+alone_gab,fixed,GAB,s7_smoke,,"PLAN §4 item 2: priority oil exporter GAB isolated (OPEC 2022 or OPEC+ partner, S01 priority)"
+alone_gnq,fixed,GNQ,s6,,"PLAN §4 item 2: priority oil exporter GNQ isolated (OPEC 2022 or OPEC+ partner, S01 priority); energy pooled (s6): GNQ has no refinery and S11 exports all its crude, so no agent buys crude there and the Julia CDE needs every household purchase positive"
+alone_lby,fixed,LBY,s7_smoke,,"PLAN §4 item 2: priority oil exporter LBY isolated (OPEC 2022 or OPEC+ partner, S01 priority)"
+alone_nga,fixed,NGA,s7_smoke,,"PLAN §4 item 2: priority oil exporter NGA isolated (OPEC 2022 or OPEC+ partner, S01 priority)"
+alone_ven,fixed,VEN USA,s7_smoke,,"PLAN §4 item 2: priority oil exporter VEN isolated (OPEC 2022 or OPEC+ partner, S01 priority); USA named too (final round 2026-10-25): VEN net saving is negative (-1.6 bn), so on a VEN-and-rest map the rest holds 100.01% of world saving and fails the E50 gate"
+alone_aze,fixed,AZE,s7_smoke,,"PLAN §4 item 2: priority oil exporter AZE isolated (OPEC 2022 or OPEC+ partner, S01 priority)"
+alone_brn,fixed,BRN,s7_smoke,,"PLAN §4 item 2: priority oil exporter BRN isolated (OPEC 2022 or OPEC+ partner, S01 priority)"
+alone_kaz,fixed,KAZ,s7_smoke,,"PLAN §4 item 2: priority oil exporter KAZ isolated (OPEC 2022 or OPEC+ partner, S01 priority)"
+alone_mex,fixed,MEX,s7_smoke,mfr:row:mex,"PLAN §4 item 2: priority oil exporter MEX isolated (OPEC 2022 or OPEC+ partner, S01 priority); beta v5 TC: +10% tariff shock on manufactures (qxs falls, Walras gap <= 1e-6)"
+alone_mys,fixed,MYS,s7_smoke,,"PLAN §4 item 2: priority oil exporter MYS isolated (OPEC 2022 or OPEC+ partner, S01 priority)"
+alone_rus,fixed,RUS,s7_smoke,mfr:row:rus,"PLAN §4 item 2: priority oil exporter RUS isolated (OPEC 2022 or OPEC+ partner, S01 priority); beta v5 TC: +10% tariff shock on manufactures (qxs falls, Walras gap <= 1e-6)"
+large_20a,fixed,USA CHN JPN DEU IND GBR FRA RUS CAN ITA,s6,mfr:chn:usa,"the ten largest economies by S02 GDP, each named (David: accuracy in large economies first; the 20 split in two to fit memory); beta v5 TC: +10% tariff shock on manufactures (qxs falls, Walras gap <= 1e-6)"
+large_20b,fixed,BRA KOR AUS MEX ESP IDN SAU NLD TUR CHE,s6,mfr:row:bra,"the 11th to 20th largest economies by S02 GDP, each named (David: accuracy in large economies first; the 20 split in two to fit memory); beta v5 TC: +10% tariff shock on manufactures (qxs falls, Walras gap <= 1e-6)"
+alone_ken,fixed,KEN,s7_nocrude,,"Beta v4 P33 (S16 donor audit): KEN isolated, single-region calibration on the donor map; KEN alone failed calibration on betav2 (STP donor, 208x scale); checks the donor_blend or donor_size_guard result for degenerate cells. Beta v4 S16 2026-10-27: scheme s7_nocrude (crude merged with pet); the region has no crude supply, so crude alone gives a zero household purchase and the CDE utility step fails on log(0)"
+alone_bfa,fixed,BFA,s7_nocrude,,"Beta v4 P33/P34 (S16 donor audit): BFA isolated (donor COD), single-region calibration; BFA failed on betav2 (P34 ely subsidy trace). Beta v4 S16 2026-10-27: scheme s7_nocrude (crude merged with pet); the region has no crude supply, so crude alone gives a zero household purchase and the CDE utility step fails on log(0)"
+alone_esp,fixed,ESP,s7_smoke,mfr:row:esp,"Beta v4 P15 (refinery VA collapse in beta v3: BRA, ESP, MYS, AZE): ESP isolated, single-region calibration with the pet own-use cap and pool split; beta v5 TC: +10% tariff shock on manufactures (qxs falls, Walras gap <= 1e-6)"
+alone_gha_24,fixed,GHA,s24,machinery:row:gha,"Beta v5 TC (M3 trace, gha_kaz.md): GHA isolated on the 24 groups of GTAP-modules/qa/sector_groups_24.jl, where v4 failed calibration (ely purchaser/basic 0.16, the double-counted power subsidy that P fixes)"
+alone_kaz_24,fixed,KAZ,s24,machinery:row:kaz,"Beta v5 TC (M3 trace, gha_kaz.md): KAZ isolated on the 24 groups, where v4 failed calibration (ely purchaser/basic 0.155); alone_kaz keeps the 7 groups"
+alone_tkm,fixed,TKM,s7_smoke,mfr:row:tkm,"Beta v5 TC (tax_tariff.md item 7): TKM isolated, a data-poor region (gas at export parity, IEA subsidy 28% of GDP, thin macro data)"
+alone_afg,fixed,AFG,s7_nocrude,mfr:row:afg,"Beta v5 TC: AFG isolated (NEG-SAVE -5.6 bn; it calibrates with negative saving, so negative saving is not by itself a model limit; no crude supply, so crude merged with pet)"
+alone_hkg,fixed,HKG,s7_nocrude,mfr:row:hkg,"Beta v5 TC: HKG isolated, a re-export hub with no crude or refinery (crude merged with pet)"

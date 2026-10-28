@@ -1,0 +1,13 @@
+source: EXIOBASE 3rx version 1.0
+record: https://zenodo.org/records/2654460
+doi: 10.5281/zenodo.2654460
+file: EXIOBASE_3rx_aggLandUseExtensions_2015_pxp.mat
+year: 2015
+license: CC BY-SA 4.0
+license_url: https://creativecommons.org/licenses/by-sa/4.0/
+attribution: Bjelle, Stadler and Wood (2019), EXIOBASE 3rx version 1.0, Zenodo 2654460. Underlying EXIOBASE 3: Stadler et al. (2018).
+share_alike: any derived data we publish that adapts this file is CC BY-SA 4.0 and must carry this attribution. Cleared for use by David on 2026-10-19. An earlier CC BY 4.0 label in this note is withdrawn.
+expected_bytes: 65490157
+expected_md5: 037799bc765f9fc5f89f360306c11f44
+verified_md5: 037799bc765f9fc5f89f360306c11f44
+header: MATLAB 5.0 MAT-file

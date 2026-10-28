@@ -1,0 +1,14 @@
+World Bank energy rents for 2021, used as a one-year lag in the 2022 build.
+
+license: CC BY 4.0
+url: https://datacatalog.worldbank.org/public-licenses
+attribution: World Bank, World Development Indicators, CC BY 4.0. Series NY.GDP.PETR.RT.ZS (oil rents, % of GDP), NY.GDP.NGAS.RT.ZS (natural gas rents, % of GDP), NY.GDP.COAL.RT.ZS (coal rents, % of GDP). API download 2026-10-17. The indicator metadata lastupdated field was 2026-10-08.
+api: https://api.worldbank.org/v2/country/all/indicator/{series}?date=2021&format=json&per_page=500
+
+contents: one row per economy that appears in sources/wdi/wdi_accounts.csv and has at least one non-null 2021 observation on these three series. A blank cell is unpublished, not zero. A stored zero is a published zero and is used as zero; it is not replaced by the 2017 observation.
+
+use: build/open_accounts.jl _rent_percent. For a 2022 build, each energy series uses the 2022 observation when the accounts file has one. It does not. The build then uses this 2021 value, unscaled, and flags the country as a one-year lag. A series that is blank here falls back to the 2017 observation, as before. Mineral rents (NY.GDP.MINR.RT.ZS) and forest rents (NY.GDP.FRST.RT.ZS) are not in this file and still use 2017 in the 2022 build. The 2017 build does not read this file.
+
+2022 values were still null on 2026-10-17 for the oil exporters checked (SAU, KWT, RUS, NOR, QAT, IRQ, IRN, DZA, ARE, AZE, KAZ, NGA, OMN, BHR; same API, date=2020:2022). When the World Bank publishes 2022 rents, this lag should be dropped and the 2022 values used directly.
+
+Kuwait has no 2021 observation on any of the three series (2021 oil, gas and coal are null; 2020 oil is published, at 27.58 percent of GDP, and is not used). Kuwait's 2022 energy rents stay at the 2017 shares.

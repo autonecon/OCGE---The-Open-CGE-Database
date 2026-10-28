@@ -1,0 +1,7 @@
+source: United Nations National Accounts Main Aggregates Database
+license: United Nations data terms; the database is the official national-accounts main aggregates published by the UN Statistics Division
+dataset_url: https://unstats.un.org/unsd/snaama/downloads
+accessed: 2026-10-19
+files_downloaded: GDP and its breakdown at current prices in US dollars; shares of that breakdown in percent
+citation: United Nations, National Accounts Main Aggregates Database, current US dollars. Accessed 2026-10-19.
+contents: na_fill_lie_ssd.csv holds only Liechtenstein and South Sudan, 2017 and 2022. World Bank WDI has no NE.CON.PRVT.ZS, NE.CON.GOVT.ZS or NE.GDI.TOTL.ZS for either country. Liechtenstein's UN GDP matches WDI NY.GDP.MKTP.CD. South Sudan has no WDI GDP; the UN GDP is recorded here and is not used to rescale the model block. Household shares are the UN indicator "Household consumption expenditure (including Non-profit institutions serving households)". The full world workbook is not committed.

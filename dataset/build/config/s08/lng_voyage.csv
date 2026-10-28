@@ -1,0 +1,12 @@
+parameter,value,unit,basis,source,decided_by,decided_at
+charter_usd_day,85000,USD per day,"2022 blend of long-term charters (about 70-80k) and about a fifth of voyages at 2022 spot; low 65k, high 130k",Spark30S via LNG Prime https://lngprime.com/americas/spark-atlantic-lng-freight-rate-hits-374000-per-day/63423/ ; TradeWinds one-year charters,Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26
+speed_knots,17,knots,standard laden and ballast speed,industry standard figure,Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26
+cargo_mmbtu,3750000,MMBtu delivered,"174,000 m3 carrier",industry standard figure,Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26
+port_days,3,days per round trip,loading and discharge,industry standard figure,Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26
+port_fees_usd,300000,USD per voyage,port and agency fees,industry standard figure,Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26
+boiloff_laden_per_day,0.001,share of cargo per laden sea day,boil-off valued at the cargo price,industry standard figure,Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26
+fuel_ballast_per_day,0.0006,share of cargo per ballast sea day,heel and fuel on the ballast leg valued at the cargo price,industry standard figure,Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26
+insurance_share,0.001,share of cargo value,cargo insurance,industry standard figure,Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26
+canal_days,2,days per round trip,canal transit and waiting,industry standard figure,Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26
+toll_suez_usd,800000,USD per round trip,"laden and ballast transit, about 2022",Suez Canal Authority tariff (approximate),Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26
+toll_panama_usd,750000,USD per round trip,"laden and ballast transit, about 2022",Panama Canal Authority tariff (approximate),Claude (beta v4 fix register P7; LNG margins research 26 Oct),2026-10-26

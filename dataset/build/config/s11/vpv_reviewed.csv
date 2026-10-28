@@ -1,0 +1,2 @@
+region,commodity,decided_by,decided_at,basis
+MYS,oil,"Claude (beta v4 dry run 3, S16 2026-10-26)",2026-10-26,"S11-Hvpv: MYS crude export price 113.7 USD/bbl (BACI 2022 route values over the S11 export volume) is 2.01 x the BACI 2022 unit value of all MYS HS 270900 exports (about 57 USD/bbl), just over the 2.0 bound. No crude traded near 57 USD/bbl in 2022 (EI Brent 101.3, Tapis traded at a premium), so the BACI MYS tonnage is taken as overstated; the S11 price stands. Reported in the check detail, not failed."

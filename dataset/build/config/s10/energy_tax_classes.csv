@@ -1,0 +1,7 @@
+neer_sector,io_columns,basis,decided_by,decided_at
+AGRIFISH,crp;for;fsh,"OECD NEERS sector Agriculture and fishing; S01 A01, A02, A03",w3-taxes for David (fix list A1),2026-10-24
+INDUSTRY,coa;B06;ore;min;msp;fbt;tal;wod;pap;pet;chm;pha;rpl;nmm;stl;nfm;fmp;elc;eeq;mac;mvh;shp;tre;omf;wat,"OECD NEERS sector Industry (manufacturing, mining, own use of energy industries except power); the goods and water columns",w3-taxes for David (fix list A1),2026-10-24
+ELEC,ely,"OECD NEERS sector Electricity: fuel inputs to power and heat. Its electricity excise (ELETAX) is a tax on power sales and goes to every buyer of the ely row (energy_tax.ALL_BUYERS)",w3-taxes for David (fix list A1),2026-10-24
+OFFROAD,rdt;sea;air,"OECD NEERS sector Off-road transport (rail, pipelines, domestic aviation and navigation); S01 H49 (rdt holds rail and pipelines), H50, H51",w3-taxes for David (fix list A1),2026-10-24
+ROAD,p;rdt;con;trd;whs;pst;hos;pub;tel;its;fin;rle;pro;adm;gov;edu;hea;art;ots;hhe,"OECD NEERS sector Road transport: households (p) and the road users among firms (road freight, construction, services); not the goods columns, so petroleum feedstock in chm and pet is not taxed at road rates",w3-taxes for David (fix list A1),2026-10-24
+RESCOM,p;trd;whs;pst;hos;pub;tel;its;fin;rle;pro;adm;gov;edu;hea;art;ots;hhe,"OECD NEERS sector Residential and commercial: households and the service columns",w3-taxes for David (fix list A1),2026-10-24

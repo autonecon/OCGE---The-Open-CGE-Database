@@ -1,0 +1,23 @@
+region,marker,decided_by,decided_at,basis
+SAU,dubai,Claude (S11 thread),2026-10-23,Gulf crude sold on Dubai/Oman pricing (EI note: Dubai dated)
+ARE,dubai,Claude (S11 thread),2026-10-23,Gulf crude on Dubai/Oman pricing
+KWT,dubai,Claude (S11 thread),2026-10-23,Gulf crude on Dubai/Oman pricing
+QAT,dubai,Claude (S11 thread),2026-10-23,Gulf crude on Dubai/Oman pricing
+OMN,dubai,Claude (S11 thread),2026-10-23,Gulf crude on Dubai/Oman pricing
+BHR,dubai,Claude (S11 thread),2026-10-23,Gulf crude on Dubai/Oman pricing
+IRQ,dubai,Claude (S11 thread),2026-10-23,Gulf crude on Dubai/Oman pricing
+IRN,dubai,Claude (S11 thread),2026-10-23,Gulf crude on Dubai/Oman pricing
+YEM,dubai,Claude (S11 thread),2026-10-23,Middle East crude on Dubai/Oman pricing
+SYR,dubai,Claude (S11 thread),2026-10-23,Middle East crude on Dubai/Oman pricing
+USA,wti,Claude (S11 thread),2026-10-23,US crude on WTI (Cushing)
+CAN,wti,Claude (S11 thread),2026-10-23,Canadian crude is priced off WTI
+NGA,forcados,Claude (S11 thread),2026-10-23,EI Nigerian Forcados FOB is the West African marker
+AGO,forcados,Claude (S11 thread),2026-10-23,West African crude; EI Forcados marker
+GNQ,forcados,Claude (S11 thread),2026-10-23,West African crude; EI Forcados marker
+GAB,forcados,Claude (S11 thread),2026-10-23,West African crude; EI Forcados marker
+COG,forcados,Claude (S11 thread),2026-10-23,West African crude; EI Forcados marker
+CMR,forcados,Claude (S11 thread),2026-10-23,West African crude; EI Forcados marker
+GHA,forcados,Claude (S11 thread),2026-10-23,West African crude; EI Forcados marker
+CIV,forcados,Claude (S11 thread),2026-10-23,West African crude; EI Forcados marker
+TCD,forcados,Claude (S11 thread),2026-10-23,West African pipeline export (Kribi); EI Forcados marker
+*,brent,Claude (S11 thread),2026-10-23,Every other exporter: EI Brent dated (Atlantic basin and the rest)

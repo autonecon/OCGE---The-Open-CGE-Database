@@ -1,0 +1,6 @@
+# Python packages the S11 build reads its inputs with (versions used for the stamp).
+# xlrd reads the EIA .xls spot-price file; openpyxl the EI, IEA and EIA .xlsx files.
+numpy==2.5.3
+pandas==3.0.5
+openpyxl==3.1.5
+xlrd==2.0.2

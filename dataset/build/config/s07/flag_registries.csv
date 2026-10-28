@@ -1,0 +1,11 @@
+iso3,name,source,decided_by,decided_at,basis
+PAN,Panama,"ITF Flags of Convenience list; UNCTAD Review of Maritime Transport 2023 Table 2.4 (largest open registries by tonnage)",Claude (Fable QA fix round D-01; David approved all fixes),2026-10-25 13:22 UTC,"Fable QA D-01 / C-06: ship imports PAN 6.7 bn; GTAP 12 ch.10B treatment of ships"
+LBR,Liberia,"ITF Flags of Convenience list; UNCTAD Review of Maritime Transport 2023 Table 2.4",Claude (Fable QA fix round D-01; David approved all fixes),2026-10-25 13:22 UTC,"Fable QA C-06: ship imports LBR 13.3 bn, 333 percent of GDP"
+MHL,Marshall Islands,"ITF Flags of Convenience list; UNCTAD Review of Maritime Transport 2023 Table 2.4",Claude (Fable QA fix round D-01; David approved all fixes),2026-10-25 13:22 UTC,"Fable QA C-06: XOC ship imports 8.1 bn (households 4.5)"
+MLT,Malta,"ITF Flags of Convenience list; UNCTAD Review of Maritime Transport 2023 Table 2.4",Claude (Fable QA fix round D-01; David approved all fixes),2026-10-25 13:22 UTC,"Fable QA C-06: ship imports MLT 4.5 bn"
+BHS,Bahamas,"ITF Flags of Convenience list; UNCTAD Review of Maritime Transport 2023 Table 2.4",Claude (Fable QA fix round D-01; David approved all fixes),2026-10-25 13:22 UTC,"open registry in XCB"
+CYP,Cyprus,"ITF Flags of Convenience list; UNCTAD Review of Maritime Transport 2023 Table 2.4",Claude (Fable QA fix round D-01; David approved all fixes),2026-10-25 13:22 UTC,"Fable QA C-06: ship imports CYP 2.1 bn"
+ATG,Antigua and Barbuda,ITF Flags of Convenience list,Claude (Fable QA fix round D-01; David approved all fixes),2026-10-25 13:22 UTC,open registry in XCB
+VCT,Saint Vincent and the Grenadines,ITF Flags of Convenience list,Claude (Fable QA fix round D-01; David approved all fixes),2026-10-25 13:22 UTC,open registry in XCB
+VUT,Vanuatu,ITF Flags of Convenience list,Claude (Fable QA fix round D-01; David approved all fixes),2026-10-25 13:22 UTC,open registry
+BLZ,Belize,ITF Flags of Convenience list,Claude (Fable QA fix round D-01; David approved all fixes),2026-10-25 13:22 UTC,open registry in XCB

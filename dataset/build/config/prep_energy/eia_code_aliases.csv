@@ -1,0 +1,3 @@
+eia_code,maps_to,note
+XKS,KSV,"EIA series name is Kosovo (INTL.26-1-XKS-BCM.A and others). S01 country code is KSV; XKX is an alias of KSV. Not an aggregate."
+NLDA,ANT,"EIA geography Netherlands Antilles. This bulk file has no CUW/SXM/BES electricity series and a 2022 NLDA net-generation figure. S01 folds ANT into XCB. Aruba (ABW) is a separate EIA series and is not inside NLDA."

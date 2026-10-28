@@ -1,0 +1,3 @@
+equation,const,log_gdp_pc,log_arable_pc,unit,source,decided_by,decided_at
+capital,5.398,2.903,3.330,percent of agricultural value added,"GTAP 12 ch.14A Table 14.16 column (2) w. Land pc, pooled SUR (N 43); regressors log GDP per capita and log arable land per capita (WDI)",w13-support-factors (fix round; David 2026-10-24 stick to GTAP),2026-10-24
+labour,54.83,-0.853,1.395,percent of agricultural value added,"GTAP 12 ch.14A Table 14.16 column (2) w. Land pc, pooled SUR (N 43); regressors log GDP per capita and log arable land per capita (WDI)",w13-support-factors (fix round; David 2026-10-24 stick to GTAP),2026-10-24

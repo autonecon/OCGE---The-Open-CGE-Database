@@ -1,0 +1,14 @@
+source: Penn World Table version 11.0, capital detail
+license: CC BY 4.0
+license_url: https://creativecommons.org/licenses/by/4.0/
+dataset_url: https://doi.org/10.34894/FABVLR
+dataverse_file_id: 554029
+dataverse_file: pwt110_capital_detail.xlsx
+dataverse_sha1: c0644b8f49a7dc2da5a2a78f9f1579acbcda1d69
+sha256: 37c7449ff30a91e4597c2a06fa947c5a4b40376fc6b89d86bc93b1f8ebcbcf2c
+accessed: 2026-10-15
+attribution: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), "The Next Generation of the Penn World Table", American Economic Review, 105(10), 3150-3182. Data: Penn World Table version 11.0 capital detail, Groningen Growth and Development Centre, DOI 10.34894/FABVLR, CC BY 4.0.
+file: pwt110_assets.csv
+sha256_extract: 40609c1a6e8bfa0c461d8461ce280ce9d2f689fffa1d68eced9961b7c42cfbfa
+contents: countrycode, year, and current-cost net stocks (Nc_*) and capital consumption (Dc_*) for structures, machinery, transport equipment, and other assets, for 2017 and 2022. Structures are residential and non-residential together. This file does not split dwellings out of structures.
+use: depreciation of the stock that remains after dwellings are removed. Dwellings themselves come from the OECD fixed-asset table, not from this file.

@@ -1,0 +1,2 @@
+union,members,decided_by,decided_at,basis
+EAEU,ARM;BLR;KAZ;KGZ;RUS,David,2026-10-25,"Fable QA C-03 (David 2026-10-25: do all fixes). Export duties of EAEU members are not applied to exports to other members (Treaty on the Eurasian Economic Union Art. 25(1); WTO TPR WT/TPR/S/416 Russian Federation paras 3.54-3.55 and 4.98: crude and pipeline-gas duties not applied to the EAEU; WTO TPR WT/TPR/S/459 Kazakhstan Table 3.12: duties to third countries). Armenia is a member since 2015 (config/s10/customs_unions.csv lists it apart only for the tariff screen)."

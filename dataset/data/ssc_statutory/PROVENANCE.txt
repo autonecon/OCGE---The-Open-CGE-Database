@@ -1,0 +1,163 @@
+Employer share of total social contributions, used only where OECD does not
+already report the employer component.
+
+licence: the shares below are ratios of statutory rates or of two published OECD
+Taxing Wages percentages. No ISSA or SSA "Social Security Programs Throughout
+the World" table is stored or redistributed. OECD data terms permit reuse with
+attribution; the OECD default data licence is CC BY 4.0 from 1 July 2024.
+Statutes are cited, not reproduced.
+
+read by: build/open_accounts.jl, only when employers' social contributions
+(OECD generation-account (D1-D11)/D1, else GRS category 2200) are missing or
+zero while a social-contribution total above 0.5 percent of GDP is reported.
+An OECD generation-account employer rate is never overwritten. Countries and
+years absent from this file keep GRS_EMP_SHARE_OF_TOTAL = 0.575.
+
+AZE 2017 and 2022, 0.88 = 22/25.
+Law of the Republic of Azerbaijan "On Social Insurance", Article 14.3: the
+policyholder pays 22 percent of the payroll and the insured pays 3 percent.
+English text read 2026-10-17:
+https://uploads.cbar.az/assets/Law%20of%20the%20Republic%20of%20Azerbaijan%20On%20Social%20Insurance.pdf
+and https://dost.gov.az/en/page/mecburi-dovlet-sosial-sigorta-haqqi-nedir
+Article 14.4, in force from 1 January 2019 for seven years, lowers the
+employer rate on non-oil, non-state wages above 200 manat (44 manat plus 15
+percent of the excess, against an employee 6 manat plus 10 percent). That
+schedule is not a single national rate. Oil-and-gas and state employment stay
+on Article 14.3, and 2017 is entirely before Article 14.4, so both database
+years use 22/25.
+
+CHN 2022, 0.6666666666666666 = 16/24.
+State Council, Guo Fa [2005] No. 38 (3 December 2005): from 1 January 2006 the
+individual pension account is 8 percent of the contribution wage and is formed
+entirely by the individual's contribution.
+https://www.gov.cn/gongbao/content/2006/content_169950.htm
+General Office of the State Council, Guo Ban Fa [2019] No. 13 (1 April 2019,
+effective 1 May 2019): a provincial urban basic-pension employer rate above
+16 percent may be reduced to 16 percent.
+https://www.gov.cn/zhengce/zhengceku/2019-04/04/content_5379629.htm
+Anhui Provincial Tax Service, 16 May 2019, states the employer rate under that
+scheme is 16 percent and the individual rate remains 8 percent.
+https://anhui.chinatax.gov.cn/art/2019/5/16/art_8843_551447.html
+The 16/8 ratio is the national basic-pension split. It is applied to the
+measured all-branch social-contribution total. Medical, unemployment and
+injury rates are set locally and are not in these two notices. A province
+whose employer pension rate stayed below 16 percent is not separately
+identified. 2017 is not in this file: before 1 May 2019 the employer pension
+rate was provincial, and Guo Ban Fa [2019] No. 13 does not state one national
+2017 rate. 2017 China keeps the 0.575 fallback.
+
+COL 2017 and 2022, 0.7192982456140351 = 20.5/28.5.
+Law 100 of 1993, Article 20, as amended by Law 797 of 2003, Article 7:
+employers pay 75 percent of the pension contribution and workers 25 percent.
+The contribution in force for both database years is 16 percent (employer 12,
+worker 4), as stated by the government employer portal:
+https://www.vue.gov.co/tramites-y-consultas/orientacion-empleadores-liquidacion-aportes-al-sps
+Law 100 of 1993, Article 204: from 1 January 2007 the health contribution is
+12.5 percent, of which the employer pays 8.5 percent and the employee 4
+percent. Consolidated text:
+https://normas.cra.gov.co/gestor/docs/ley_0100_1993.htm
+Employer 12+8.5, employee 4+4. The labour-risk contribution is employer-only
+and depends on the risk class, so it is not in the ratio. Colombia's build
+uses the OECD generation-account employer rate wherever that rate is present;
+this share is the fallback for an unallocated total, not a replacement of
+Table 6.
+
+EGY 2022, 0.6302521008403361 = 18.75/29.75.
+Law No. 148 of 2019, in force 1 January 2020. Rates read from the statute's
+articles in the English translation consulted on 2026-10-17 (Andersen).
+Private-sector employees (Article 2, First, item 3):
+  Article 19 old-age, disability and death: employer 12 percent, insured 9.
+  Article 36 end-of-service gratuity: employer 1, insured 1.
+  Article 46 work injury: employer 1 percent (medical) plus 0.5 percent
+    (financial obligations; the financial rate may rise to 1 percent by risk,
+    and the base 0.5 percent is used).
+  Article 70 sickness, items (3), (4) and (5): employer 3.25, insured 1.
+  Articles 85 and 86 unemployment, which cover item (3): employer 1, insured 0.
+Employer 18.75, insured 11. The one-point increase every seven years is not
+yet in force in 2022. 2017 is not in this file. It falls under Law No. 79 of
+1975, and the official PDF's contribution percentages do not read cleanly, so
+2017 Egypt keeps the 0.575 fallback rather than a rate taken from a secondary
+write-up.
+
+KAZ 2017 and 2022, 1.
+Law No. 286-VI of 26 December 2019 "On compulsory social insurance", Article
+14(1): social contributions are payable by the payer at 3.5 percent of the
+calculation object (5 percent from 1 January 2025). The payer is the employer.
+English text: https://adilet.zan.kz/eng/docs/Z1900000286
+The employee mandatory pension contribution is a different payment. Law No.
+105-V of 21 June 2013 "On pension provision", Article 25(1): 10 percent of the
+employee's monthly income, payable to the Unified Accumulative Pension Fund.
+https://adilet.zan.kz/rus/docs/Z1300000105
+The GRS social-contribution total is the quantity being split. For Kazakhstan
+in 2022 that total is 1.05 percent of GDP, in line with a capped 3.5 percent
+of payroll and far below a 10 percent pension contribution. The 0.575 factor
+assigns part of an employer-paid contribution to the employee. The employer
+share of the recorded total is 1. The same payer rule covers 2017, which is
+still the employer-paid contribution to the State Social Insurance Fund (the
+2003 law, repealed from 1 January 2020 by Law 286-VI).
+
+Update (2026-10-18, QA4-19). The shares in the CSV are unchanged.
+
+Azerbaijan stays 0.88. Article 14.4 is still not a single national rate, for
+the reason already given. Two further schemes are not in the 22/25 ratio.
+Law of the Republic of Azerbaijan on unemployment insurance, Article 9
+(in force 1 January 2018): the insurer pays 0.5 percent of the accrued wage
+fund and the insured pays 0.5 percent of the wage. English text of the NATLEX
+copy of Law 765-VQ, read 2026-10-18:
+https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106749/AZE-106749.pdf
+2017 is before that date. The State Agency for Compulsory Medical Insurance
+states that the employer and the employee each pay 2 percent of the monthly
+wage up to 8,000 manat and 0.5 percent of the part above 8,000 manat
+(https://its.gov.az/page/kalkulyator, read 2026-10-18). That schedule is not
+Article 14. Whether the OECD social-contribution total already includes
+unemployment insurance and medical insurance, and what share of the wage bill
+is oil, state, or above the threshold, is not in the extract. A replacement
+share in the range 0.69 to 0.82 is not computed and is not shipped.
+
+Kazakhstan stays 1. The statutory employer rate is 3.5 percent in both
+database years. The GRS social-contribution total in
+sources/oecd/oecd_grs_revenue.csv is 0.547 percent of GDP in 2017 and 1.050
+percent of GDP in 2022. The sentence above, that 1.05 percent of GDP is in
+line with a capped 3.5 percent of payroll, describes 2022 only. It does not
+explain the doubling. The extract does not separate a health-insurance
+component, so an employer share of 0.76 is not computed from it and is not
+shipped. The payer of the social contribution remains the employer.
+
+China 2017 stays 0.575. Ministry of Human Resources and Social Security and
+Ministry of Finance, Ren She Bu Fa [2016] No. 36 (14 April 2016, published
+21 April 2016): from 1 May 2016 a provincial employer pension rate above 20
+percent is reduced to 20 percent, and a province already at 20 percent whose
+end-2015 reserves cover more than 9 months may reduce the rate to 19 percent
+for two years. The province sets the scheme.
+https://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/201604/t20160421_1959347.htm
+That is the same kind of ceiling as Guo Ban Fa [2019] No. 13, which says a
+provincial rate above 16 percent may be reduced to 16 percent. The 2022 row
+uses 16/24. The 2017 row does not use 20/28 or 19/27. Applying the ceiling in
+one year and not in the other is inconsistent, and it is left inconsistent:
+neither notice states one national rate, and 2017 is not given a rate the
+notice does not set. A share of 0.70 is not shipped. The labour-tax rates in
+the database are not a pure share effect. 0.667/0.575 is about 16 percent,
+which is not the change in the labour-tax rate between the two years.
+
+MEX 2017, 0.896551724137931 = 10.4/(10.4+1.2).
+MEX 2022, 0.8956521739130435 = 10.3/(10.3+1.2).
+OECD, Taxing Wages 2018, Table 1.2 (2017) and Taxing Wages 2023, Table 1.2
+(2022). Single worker at the average wage, social security contributions as a
+percent of labour costs: employee 1.2 in both years; employer 10.4 in 2017 and
+10.3 in 2022. The employer column includes payroll taxes where applicable
+(table note). Both percentages are shares of the same labour-cost base, so
+their ratio is the employer share of employee-plus-employer contributions at
+the average wage. OECD (2018), Taxing Wages 2018; OECD (2023), Taxing Wages
+2023.
+
+RUS 2017 and 2022, 1.
+Tax Code of the Russian Federation, Article 425, paragraph 2, rates through
+31 December 2022: pension insurance 22 percent within the cap, social
+insurance 2.9 percent within the cap, medical insurance 5.1 percent.
+https://www.consultant.ru/document/cons_doc_LAW_28165/a3f603ffd57b1431ed51e1693ba710093347235d/
+Federal Tax Service, Moscow office: those are the tariffs for the main
+category of payers through 31 December 2022.
+https://www.nalog.gov.ru/rn77/taxation/insprem/
+Article 425 states no employee tariff. The employer share of the contribution
+is 1. Russia's total is the WDI social-contribution share of GDP, because
+Russia is not in the OECD Global Revenue Statistics extract.

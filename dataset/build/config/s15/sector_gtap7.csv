@@ -1,0 +1,52 @@
+sector,gtap7_members,cde_category,note
+crp,pdr wht gro v_f osd c_b pfb ocr ctl oap rmk wol,GrainCrops,"ICIO A01 is crops and livestock; CDE category by majority of members (7 of 12 GrainCrops)"
+for,frs,Mnfcs,
+fsh,fsh,MeatDairy,
+coa,coa,HousUtils,"Table 14.3 lists coal as col"
+oil,oil,TransComm,
+gas,gas,HousUtils,"Table 14.3 prints HouseUtils"
+ore,omn,Mnfcs,"ICIO B07 metal ores; GTAP 7 omn"
+min,omn,Mnfcs,"ICIO B08 other mining; GTAP 7 omn"
+msp,omn,Mnfcs,"ICIO B09 mining support; no GTAP 7 sector of its own, mapped to omn as the mining sector"
+fbt,cmt omt vol mil pcr sgr ofd b_t,OthFoodBev,"CDE category by majority of members (4 of 8 OthFoodBev)"
+tal,tex wap lea,TextAppar,
+wod,lum,Mnfcs,
+pap,ppp,Mnfcs,
+pet,p_c,TransComm,
+chm,crp,Mnfcs,"GTAP 7 crp covers chemicals, rubber and plastics"
+pha,crp,Mnfcs,"GTAP 7 crp covers pharmaceuticals"
+rpl,crp,Mnfcs,
+nmm,nmm,Mnfcs,
+stl,i_s,Mnfcs,
+nfm,nfm,Mnfcs,
+fmp,fmp,Mnfcs,
+elc,ele,Mnfcs,
+eeq,ele ome,Mnfcs,"Electrical equipment has no GTAP 7 sector; mean of ele and ome (as in the public build)"
+mac,ome,Mnfcs,
+mvh,mvh,Mnfcs,
+shp,otn,TransComm,
+tre,otn,TransComm,
+omf,omf,Mnfcs,
+ely,ely,HousUtils,
+wat,wtr,HousUtils,
+con,cns,HousUtils,
+trd,trd,WRTrade,
+rdt,otp,TransComm,
+sea,wtp,TransComm,
+air,atp,TransComm,
+whs,otp,TransComm,"Warehousing is part of GTAP 7 otp"
+pst,cmn,TransComm,
+hos,trd,WRTrade,"Hotels and restaurants are part of GTAP 7 trd"
+pub,cmn,TransComm,
+tel,cmn,TransComm,
+its,obs,FinService,"Computer services are part of GTAP 7 obs"
+fin,ofi isr,FinService,"Members split FinService (ofi) and HousUtils (isr); ofi taken as the larger"
+rle,obs dwe,HousOthServ,"Real estate: business part in obs, imputed rent in dwe; dwellings dominate household purchases, so HousOthServ"
+pro,obs,FinService,
+adm,obs,FinService,
+gov,osg,HousOthServ,
+edu,osg,HousOthServ,
+hea,osg,HousOthServ,
+art,ros,HousOthServ,
+ots,ros,HousOthServ,
+hhe,ros,HousOthServ,"Households as employers; GTAP 7 has no separate sector, mapped to ros"

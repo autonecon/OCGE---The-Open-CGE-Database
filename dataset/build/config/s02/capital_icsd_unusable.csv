@@ -1,0 +1,4 @@
+iso3,reason,evidence,approved_by,approved_date_utc7
+VEN,ICSD capital unusable (hyperinflation-era national-currency data),"ICSD K/GDP 2.45 (2012) -> 34.74 (2019), rolled to 40.4 in 2022; VDEP 1.62 x GDP; GTAP 12 Table 7.1 VEN capital 0 (regional fill)",David,2026-10-20 22:31
+SYR,ICSD latest year 2011 is too old to roll (war),"ICSD 2011 K/GDP 2.26 rolled 11 years to 3.99 (deflator x60, no war destruction); GTAP 12 Table 7.1 SYR capital 0",David,2026-10-20 22:31
+LBY,ICSD latest year 2009 is too old to roll,"ICSD 2009 K/GDP 6.79 rolled 13 years to 8.17 (2021 devaluation, oil-driven deflator)",David,2026-10-20 22:31

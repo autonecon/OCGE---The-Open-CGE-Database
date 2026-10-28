@@ -1,0 +1,5 @@
+exporter,importer,commodity,census_cty,hs_lines,decided_by,decided_at,basis
+TTO,USA,gas,2740,271111;271121,Claude (beta v5 S10-S11 thread; David 2026-10-27 08:39 UTC package approval),2026-10-27,"Beta v5 E2. US imports for consumption from Trinidad and Tobago, US Census IMDB 2022 (data/census_imdb_2022/hs6_cty_rp_2022.csv, con_val, customs value): 1,019.9 USD m, against 2,581.8 after the v4 RAS. The route volume is the Census value over the route price; the rest of TTO's exports go to its other routes."
+NGA,USA,gas,7530,271111;271121,Claude (beta v5 S10-S11 thread; David 2026-10-27 08:39 UTC package approval),2026-10-27,Beta v5 E2. As TTO: Census 2022 86.5 USD m (v4 RAS 229.9).
+OMN,USA,gas,5230,271111;271121,Claude (beta v5 S10-S11 thread; David 2026-10-27 08:39 UTC package approval),2026-10-27,Beta v5 E2. As TTO: Census 2022 96.6 USD m (v4 RAS 270.6).
+RUS,USA,gas,4621,271111;271121,Claude (beta v5 S10-S11 thread; David 2026-10-27 08:39 UTC package approval),2026-10-27,Beta v5 E2. As TTO: Census 2022 29.3 USD m (v4 RAS 81.5).

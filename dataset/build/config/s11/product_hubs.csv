@@ -1,0 +1,23 @@
+gtap_geo,crude_marker,margin_hub,decided_by,decided_at,basis
+NAMR,wti,usgc,Claude (S11 thread),2026-10-23,Americas: WTI + EI USGC medium sour coking margin
+CAMR,wti,usgc,Claude (S11 thread),2026-10-23,Americas
+CARB,wti,usgc,Claude (S11 thread),2026-10-23,Americas
+CAMR+CARB,wti,usgc,Claude (S11 thread),2026-10-23,Americas
+SAMR,wti,usgc,Claude (S11 thread),2026-10-23,Americas
+NEUR,brent,nwe,Claude (S11 thread),2026-10-23,Europe: Brent + EI NWE light sweet cracking margin
+WEUR,brent,nwe,Claude (S11 thread),2026-10-23,Europe
+SEUR,brent,nwe,Claude (S11 thread),2026-10-23,Europe
+EEUR,brent,nwe,Claude (S11 thread),2026-10-23,Europe and Russia
+EEUR+SEUR,brent,nwe,Claude (S11 thread),2026-10-23,Europe
+NEUR+SEUR+WEUR,brent,nwe,Claude (S11 thread),2026-10-23,Europe
+CEAS,brent,nwe,Claude (S11 thread),2026-10-23,Central Asia trades west (CPC blend on Brent)
+NAFR,brent,nwe,Claude (S11 thread),2026-10-23,Africa: Atlantic/Mediterranean basin
+WAFR,brent,nwe,Claude (S11 thread),2026-10-23,Africa
+CAFR,brent,nwe,Claude (S11 thread),2026-10-23,Africa
+EAFR,brent,nwe,Claude (S11 thread),2026-10-23,Africa
+SAFR,brent,nwe,Claude (S11 thread),2026-10-23,Africa
+WEAS,dubai,singapore,Claude (S11 thread),2026-10-23,Middle East: Dubai + EI Singapore medium sour hydrocracking margin
+STAS,dubai,singapore,Claude (S11 thread),2026-10-23,Asia
+SEAS,dubai,singapore,Claude (S11 thread),2026-10-23,Asia
+EAAS,dubai,singapore,Claude (S11 thread),2026-10-23,Asia
+OCEN,dubai,singapore,Claude (S11 thread),2026-10-23,Asia-Pacific

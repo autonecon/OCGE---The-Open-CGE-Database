@@ -1,0 +1,21 @@
+source: OECD national accounts, annual tables, via the OECD Data Explorer API
+license: OECD terms of use for data. Commercial reuse is permitted with attribution. OECD's default data licence from 1 July 2024 is CC BY 4.0. These tables do not state an extra restriction.
+license_url: https://www.oecd.org/en/about/terms-conditions.html
+accessed: 2026-10-15
+attribution: OECD, Annual national accounts. Table 6, value added and its components; Table 9A, fixed assets by activity and by asset; Table 9B, balance sheets for non-financial assets. https://data-explorer.oecd.org/ (accessed 2026-10-15).
+
+files:
+- oecd_generation.csv, sha256 4096d7f1b0a215282af31c2d642545bdcd4530be60af70de286fdf54952a8f07
+  Dataflow OECD.SDD.NAD,DSD_NAMAIN10@DF_TABLE6. Total economy (S1), total activity (_T), current prices, national currency.
+  Transactions: B1G gross value added, D1 compensation of employees, D11 wages and salaries, D29X39 other taxes less subsidies on production.
+  Years 2017-2022. Aggregate areas (EA20, EU27_2020) are not in the extract.
+- oecd_fixed_assets.csv, sha256 77c46a04ba5a6e106f27e3441d2cf6390d0cb30528d821fb0aa1cc17ba562556
+  Dataflow OECD.SDD.NAD,DSD_NAMAIN10@DF_TABLE9A. Transaction LE, current prices, national currency, total activity.
+  Assets: N111N dwellings, net, and N11N total fixed assets, net.
+- oecd_gov_capital.csv, sha256 c78f529e2f0037d24dc9296f42c8a0a2a48a082238208787073d3889d8f992c3
+  Dataflow OECD.SDD.NAD,DSD_NASEC10@DF_TABLE9B. Current prices, national currency.
+  Sectors S1 (total economy) and S13 (general government). Assets N11N, N111N, and N112N (other buildings and structures), net.
+
+use: dwellings share of the net fixed-asset stock; net taxes on production as a share of gross value added; employers' social contributions as (D1-D11)/D1. The general-government stock is recorded so the share can be reported. It is not subtracted from the productive stock.
+
+not used: UN Statistics Division detailed national-accounts extracts. The National Accounts Official Country Data database is priced, and the price is multiplied if the extract is redistributed. That is not a commercial licence we can use. Income taxes are not taken from any source.

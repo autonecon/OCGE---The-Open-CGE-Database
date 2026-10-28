@@ -1,0 +1,9 @@
+source: OECD Inter-Country Input-Output tables, 2025 edition, regular ICIO
+page: https://www.oecd.org/en/data/datasets/inter-country-input-output-tables.html
+file_url: https://webfs-sti.oecd.org/files/STI-PIE/ICIO/2025/2016-2022_SML.zip
+years: 2016-2022
+contents: 2016_SML.csv through 2022_SML.csv
+bytes: 166241019
+sha256: 46DB55C45747E26DDE5C1716D072B2AA74ACE362A4424491AC646D2AB175BEFB
+zip_header: PK
+git: the zip is not in the repository because GitHub rejects files over 100 MB. 2017_SML.csv and 2022_SML.csv are the tables the builders read.

@@ -1,0 +1,8 @@
+group,members,steel_months_on,aluminium_months_on,note
+eu27,AUT;BEL;BGR;HRV;CYP;CZE;DNK;EST;FIN;FRA;DEU;GRC;HUN;IRL;ITA;LVA;LTU;LUX;MLT;NLD;POL;PRT;ROU;SVK;SVN;ESP;SWE,0,0,"EU steel and aluminium additional duty is 0 for all of 2022. The tariff-rate quota from 1 January 2022 is treated as replacing the tariff. HTS 2022 revision 12 headings 9903.80.01 and 9903.85.01."
+exempt_both,CAN;MEX;AUS;ARG,0,0,"Canada, Mexico and Australia: no additional duty on steel or aluminium. Argentina: the heading excepts Argentina; the quota is treated as replacing the tariff."
+steel_exempt,BRA;KOR,0,12,"Brazil and Korea: no additional steel duty (heading 9903.80.01 excepts them). They are not excepted from the aluminium duty, which stays at 10 percent."
+japan,JPN,3,12,"Japan steel: 1 April 2022 start, so 3 months at 25 percent and 9 months at 0. Japan is not excepted from aluminium."
+united_kingdom,GBR,5,5,"United Kingdom steel and aluminium: 1 June 2022 start (Proclamation 10406), so 5 months at the tariff and 7 months at 0."
+ukraine,UKR,5,12,"Ukraine steel: Proclamation 10403 suspends the steel duty from 1 June 2022, so 5 months at 25 percent. Ukraine is not excepted from aluminium."
+default,*,12,12,"Every other partner: the 25 percent steel duty and the 10 percent aluminium duty apply for the whole year."
